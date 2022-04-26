@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="keystone/s-fs-release"/>
+  <project dest-branch="refs/heads/uefi.lnx.1.9.c4" name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="858bb09e36839f90e83cc4ddfc73e8759d2db1b7" upstream="refs/heads/uefi.lnx.1.9.c4"/>
+  <project dest-branch="refs/heads/qcom-devices.lnx.7.8.9.c3" name="device/qcom/common" revision="6400482d4516adc87fe0f87189001c35bfb442c9" upstream="refs/heads/qcom-devices.lnx.7.8.9.c3">
+    <copyfile dest="build.sh" src="build.sh"/>
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
+  </project>
+  <project dest-branch="refs/heads/sepolicy.lnx.7.8.9.c3" name="device/qcom/sepolicy" revision="2e065cecc132ba5398cb2f85d0bc2d3f0f7199d3" upstream="refs/heads/sepolicy.lnx.7.8.9.c3"/>
+  <project dest-branch="refs/heads/msm-4.9.c5" name="kernel/msm-4.9" revision="96f73cbf1b7ff9063c9a218436baa05b11dce89b" upstream="refs/heads/msm-4.9.c5"/>
+  <project dest-branch="refs/heads/ant-sysintf.lnx.1.0" name="platform/external/ant-wireless/hidl" path="external/ant-wireless/hidl" revision="a27fc25350403ce1506d8f53d51bb7e997d78aea" upstream="refs/heads/ant-sysintf.lnx.1.0"/>
+  <project dest-branch="refs/heads/android-blast.lnx.4.0.c1" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="c94d11a34ecb2da9ea9916288e105a0dcb4d1acf" upstream="refs/heads/android-blast.lnx.4.0.c1"/>
+  <project dest-branch="refs/heads/display.lnx.4.9" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="ae45d15128fae2cbb3bf769999b69afd1d12acca" upstream="refs/heads/display.lnx.4.9"/>
+  <project dest-branch="refs/heads/location.lnx.7.3.9" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="ff7d63da5be29b3c0c286f252f6f4b5441930429" upstream="refs/heads/location.lnx.7.3.9"/>
+  <project dest-branch="refs/heads/video-userspace.lnx.7.8.9.c1" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="ad4c185b37b48c75c15e9753ce0fe40866006899" upstream="refs/heads/video-userspace.lnx.7.8.9.c1"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0.c9" name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" revision="f9dc8afcdf4c17305157de464b5c51967268f2c5" upstream="refs/heads/core-technologies.lnx.2.0.c9"/>
+  <project dest-branch="refs/heads/qvr.lnx.5.0" name="platform/hardware/qcom/vr" path="hardware/qcom/vr" revision="59864a2cd0cddb89dd5fc4933db11b69fbab61ae" upstream="refs/heads/qvr.lnx.5.0"/>
+  <project dest-branch="refs/heads/wlan-aosp.lnx.7.0.c1" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="dc3aab468ce8824f4ee39b8cd73205bcc40d4041" upstream="refs/heads/wlan-aosp.lnx.7.0.c1"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.6.0.c2" name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="1b6053c5cdca6ef02fc970a17f47db8ad7007f32" upstream="refs/heads/wlan-service.lnx.6.0.c2"/>
+  <project dest-branch="refs/heads/atel-prop.lnx.4.9" name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" revision="660bc58660871ef9819a30fbda72a7581b95edb7" upstream="refs/heads/atel-prop.lnx.4.9"/>
+  <project dest-branch="refs/heads/audio-drivers.lnx.1.0" name="platform/vendor/opensource/audio-kernel" path="kernel/msm-4.9/techpack/audio" revision="19a593814946bc1d471e248c0531edc4702f1dc5" upstream="refs/heads/audio-drivers.lnx.1.0"/>
+  <project dest-branch="refs/heads/btcommon.lnx.6.0.c4" name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" revision="bd2e1fd0043920a345cf30f2b1e4afff53acf573" upstream="refs/heads/btcommon.lnx.6.0.c4">
+    <linkfile dest="vendor/qcom/defs/board-defs/legacy/bt-commonsys-intf-legacy-aosp-board.mk" src="bt-commonsys-intf-legacy-aosp-board.mk"/>
+    <linkfile dest="vendor/qcom/defs/product-defs/legacy/bt-system-opensource-product.mk" src="bt-system-opensource-product.mk"/>
+  </project>
+  <project dest-branch="refs/heads/data.lnx.4.9.1" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="d9aa38ed8d5db53f2531f8d9f96c5625a0c02642" upstream="refs/heads/data.lnx.4.9.1"/>
+  <project dest-branch="refs/heads/data.lnx.4.9.1" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="ebdd9863ab48d74b3e39afc37907feaf63c0600b" upstream="refs/heads/data.lnx.4.9.1"/>
+  <project dest-branch="refs/heads/android-vendor-hals.lnx.1.1" name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" revision="e0d7009aadcf15ef070d3397f2b01c470b7fe4e0" upstream="refs/heads/android-vendor-hals.lnx.1.1"/>
+  <project dest-branch="refs/heads/location.lnx.7.3.9" name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="b4b72835c49a6d816952df8e2e47229a935d1815" upstream="refs/heads/location.lnx.7.3.9"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0.c9" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="77f0a68daf84377e2c6b6e3a8bd970028e20dc26" upstream="refs/heads/core-technologies.lnx.2.0.c9"/>
+  <project dest-branch="refs/heads/core-technologies.lnx.2.0.c9" name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" revision="5b8d6188fe0267fc957eb7928011d7164be4ca05" upstream="refs/heads/core-technologies.lnx.2.0.c9"/>
+  <project dest-branch="refs/heads/wlan-api.lnx.7.3.9" name="platform/vendor/qcom-opensource/wlan/fw-api" path="vendor/qcom/opensource/wlan/fw-api" revision="03ebb2b5bae41b81a56e637a358f803dfb7ef453" upstream="refs/heads/wlan-api.lnx.7.3.9"/>
+  <project dest-branch="refs/heads/wlan-cmn.driver.lnx.7.3.9" name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="vendor/qcom/opensource/wlan/qca-wifi-host-cmn" revision="813257bd41324035fd7af8afe99715f88af03e3f" upstream="refs/heads/wlan-cmn.driver.lnx.7.3.9"/>
+  <project dest-branch="refs/heads/wlan-cld3.driver.lnx.7.3.9" name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" path="vendor/qcom/opensource/wlan/qcacld-3.0" revision="d3183b89604131980e4c527cd21153e817980476" upstream="refs/heads/wlan-cld3.driver.lnx.7.3.9"/>
+  <project dest-branch="refs/heads/wlan-service.lnx.6.0.c2" name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="72a78d04fa8899c1e21988346c85f0ed5c574b91" upstream="refs/heads/wlan-service.lnx.6.0.c2"/>
+  <project dest-branch="refs/heads/qcom-devices.lnx.7.8.9.c3" name="platform/vendor/qcom/peafowl" path="device/qcom/sdm710" revision="71cc1abbb3375685d50d76c0d4ba1440cb94dc3e" upstream="refs/heads/qcom-devices.lnx.7.8.9.c3"/>
+  <project dest-branch="refs/heads/qcom-devices.lnx.7.8.9.c3" name="platform/vendor/qcom/skunk" path="device/qcom/sdm845" revision="91a1a663284ac1d4d5bdd64d8e1e1ab6f36042df" upstream="refs/heads/qcom-devices.lnx.7.8.9.c3"/>
+</manifest>
