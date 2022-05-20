@@ -89,7 +89,6 @@
   <project remote="generated" name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" revision="214ece874ced71fcbeb2fbc0a218b0824be60c34" upstream="refs/heads/data.lnx.6.0.r34-rel"/>
   <project remote="generated" name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" revision="3254395841b3d4dec4b309494dac256fe2c68aa4" upstream="refs/heads/android-core.lnx.7.0.r5-rel"/>
   <project remote="generated" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="4392352f2d649266057459dca6a3944a750f7aee" upstream="refs/heads/core-technologies.lnx.3.0.r44-rel"/>
-  <project remote="generated" name="platform/vendor/qcom-opensource/tools" path="vendor/qcom/opensource/tools" revision="0d1221baf4f69458aa89a1963976c1b948e2f51b" upstream="refs/heads/opensource-tools.lnx.1.0.r141-rel"/>
   <project remote="generated" name="platform/vendor/qcom-opensource/usb" path="vendor/qcom/opensource/usb" revision="0c5b5426c5f1ee4cdcc71ed3a9e07403ecea341b" upstream="refs/heads/core-technologies.lnx.3.0.r44-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
