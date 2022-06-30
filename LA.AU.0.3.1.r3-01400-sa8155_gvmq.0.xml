@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
-  <default revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="21d9f6fe3d47220ee26b5be69fbded404698ac87" upstream="refs/heads/auto-uefi.lnx.2.1.r1-rel"/>
   <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="26bca72386885bae2f6978076fac2a78dadf16b5" upstream="refs/heads/qcom-devices.lnx.6.0.r31-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
@@ -18,9 +18,6 @@
   <project remote="clo-la" name="platform/external/can-utils" path="external/can-utils" revision="de6b200b2e142992e634f85fde3afa1101748706" upstream="refs/heads/can-utils-external-platform.lnx.1.0.r20-rel"/>
   <project remote="clo-la" name="platform/hardware/qcom/audio" path="vendor/qcom/opensource/audio-hal/primary-hal" revision="8a7392e8425db23b9499714cee3f0e8543c51af7" upstream="refs/heads/audio-hal.lnx.8.0.r40-rel">
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_vendor_product.mk" src="configs/audio_vendor_product.mk"/>
-  </project>
-  <project remote="clo-la" name="platform/hardware/qcom/audio-ar" path="vendor/qcom/opensource/audio-hal-ar/primary-hal" revision="2221fd05628dc01074a9b6026b45b64bba878db1" upstream="refs/heads/audio-android-hal.lnx.1.0.r12-rel">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/audio_ar_vendor_product.mk" src="configs/audio_ar_vendor_product.mk"/>
   </project>
   <project remote="clo-la" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="c391e2e608762199aada8b753e75c979f189097e" upstream="refs/heads/android-core.lnx.7.0.r5-rel"/>
   <project remote="clo-la" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="82a5c5ec8afd9e7c527d4613303c718b9ab9082d" upstream="refs/heads/display.lnx.5.2.1.r6-rel">
@@ -47,7 +44,6 @@
     <linkfile dest="vendor/qcom/defs/product-defs/system/audio_system_product.mk" src="configs/qssi/audio_system_product.mk"/>
   </project>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="a53f31abf70356f19abf141b81e66a5c909a59a4" upstream="refs/heads/audio-hal.lnx.8.0.r40-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/audio-hal/st-hal-ar" path="vendor/qcom/opensource/audio-hal-ar/st-hal" revision="83f4f288e1c9a22aa5aec2b945de18ab87d213d1" upstream="refs/heads/audio-android-hal.lnx.1.0.r12-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/bluetooth" revision="2cc5bd268d089b26de6b9a0de78cf03624f6b839" upstream="refs/heads/btcommon.lnx.6.0.r22-rel">
     <linkfile dest="vendor/qcom/defs/board-defs/system/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
     <linkfile dest="vendor/qcom/defs/board-defs/vendor/bt-commonsys-intf-board.mk" src="bt-commonsys-intf-board.mk"/>
@@ -103,8 +99,6 @@
   <project remote="clo-la" name="platform/vendor/qcom/msmnileau" path="device/qcom/msmnile_au" revision="2a11229c56ad334af27cb59aff298d2889880da4" upstream="refs/heads/qcom-devices-auto.lnx.4.1.r3-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom/msmnileau_gvmq" path="device/qcom/msmnile_gvmq" revision="052184cec98b847dbfdfc143c02d8e1f1c42a0b8" upstream="refs/heads/qcom-devices-auto.lnx.4.1.r3-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom/msmnileau_tb" path="device/qcom/msmnile_tb" revision="2b7e6da90b621794e4148d498a60cbbd66373207" upstream="refs/heads/qcom-devices-auto.lnx.4.1.r3-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom/opensource/agm" path="vendor/qcom/opensource/agm" revision="a2a85e0a5f2896f4273adb9e032343e8a4af6a2c" upstream="refs/heads/audio-platform-arintf.lnx.1.0.r13-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom/opensource/arpal-lx" path="vendor/qcom/opensource/pal" revision="d04a5077cf19d990512529bb4608d60b0e901177" upstream="refs/heads/audio-platform-arintf.lnx.1.0.r13-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom/opensource/tinyalsa" path="vendor/qcom/opensource/tinyalsa" revision="63848507931f3f4fd951c225d218775d8ae2e936" upstream="refs/heads/audio-tinylibs.lnx.1.0.r15-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom/opensource/tinycompress" path="vendor/qcom/opensource/tinycompress" revision="e2355592a6e545ad8eec8380b9779c0234e90d66" upstream="refs/heads/audio-tinylibs.lnx.1.0.r15-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom/sdmshrikeau" path="device/qcom/sdmshrike_au" revision="8b6e49743b2c8ff040699dfcd022b4cb562b0328" upstream="refs/heads/qcom-devices-auto.lnx.4.1.r3-rel"/>
