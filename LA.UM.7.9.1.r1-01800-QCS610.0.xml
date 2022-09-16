@@ -2,6 +2,57 @@
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
+  <project remote="clo-la" name="platform/external/junit" path="external/junit" revision="9018952fa732cd622284cebdaec3122b2f7bd2e7" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/junit-params" path="external/junit-params" revision="4f0b0c84c6d6b1f462849fe7a10fb56309e1f9aa" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/kernel-headers" path="external/kernel-headers" revision="1f2bbe4c0f9e6cdc581f291c55e09a1dc39350b2" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/kmod" path="external/kmod" revision="d9a1fb142988334a139175131e167b6c190026eb" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="70601bb183b3d50cc54b2e6d01b07bea613e19ff" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel">
+    <copyfile dest="build.sh" src="build.sh"/>
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/build_repo" path="build/make" revision="af887913f915788c0f3da501be1973f16850af19" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
+    <linkfile dest="build/core" src="core"/>
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
+    <linkfile dest="build/target" src="target"/>
+    <linkfile dest="build/tools" src="tools"/>
+  </project>
+  <project remote="clo-la" name="platform/build/soong" path="build/soong" revision="b7665a821f9aa73c48ec133b9608774bca924b98" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk,tradefed">
+    <linkfile dest="Android.bp" src="root.bp"/>
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
+  </project>
+  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="2c1111a18f5b52db54d910f85b080746b1489ff0" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel">
+    <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
+  </project>
+  <project remote="clo-la" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="fa5e1bc827f2afea8b2fa63e4da8683d3fb74178" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/libmojo" path="external/libmojo" revision="b0b1944d9464d1092e1410f56f981069e6b7cfad" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/libmpeg2" path="external/libmpeg2" revision="ea7b79597b502c5ed2e3e51f99ea509676c19e5c" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/libmtp" path="external/libmtp" revision="ab31b17c72d1ee81f6961cf15deb50448cc61a34" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="7d547dc585795dc2263b00bdbbb3ff4b4432d312" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/libnfnetlink" path="external/libnfnetlink" revision="f637d31fb9a58e8e694cace77c3719e759425e54" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/adt-infra" path="external/adt-infra" revision="1eb0cb14f675d3d3cc5b4c4ec9be409c13f0da64" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="adt-infra,mirror-aosp-pie-platform-release,notdefault,pdk-fs"/>
+  <project remote="clo-la" name="platform/external/android-clat" path="external/android-clat" revision="01892c357c3abdce958cbbb3ef6e45036f9919ed" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/androidplot" path="external/androidplot" revision="355d0ec81d2a50e5334bdf6ba9dc4635baa13706" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/annotation-tools" path="external/annotation-tools" revision="9966c7aa3ccd2fd0cfc76598c2bfe6d77016b2ad" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/ant-glob" path="external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" revision="2878c9fe49b63906c755e45a63103cd5c62c6eab" upstream="refs/heads/ant.lnx.2.9.1.r87-rel"/>
+  <project remote="clo-la" name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" revision="200fcc9565814288bd2cfe7c81620b6dea3a75d7" upstream="refs/heads/ant.lnx.2.9.1.r87-rel"/>
+  <project remote="clo-la" name="platform/external/antlr" path="external/antlr" revision="2d2bc6f9c2959f787364826de5c40743aad3d586" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/apache-commons-math" path="external/apache-commons-math" revision="5b92751071356eef97c50dbeccc3874b51847afb" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/apache-harmony" path="external/apache-harmony" revision="22534a36875e8c3785ee2e376a719123db895cd9" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/apache-http" path="external/apache-http" revision="fb0edf2fefe460c13566f4b4e547c076a1546b55" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/apache-xml" path="external/apache-xml" revision="259517ca97039fbf3162ee1fde395ac04c9fce4e" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/archive-patcher" path="external/archive-patcher" revision="39952ff4eb9f7d2ea719b05ca55f0e07137daaa0" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" revision="cfa02caa721e765913cefbeb96221a88fe8f567f" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="qcom-LA.UM.7.3-incoming"/>
+  <project remote="clo-la" name="platform/external/autotest" path="external/autotest" revision="953464c540241ea8ab0a27ada8d717d67b2c783a" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk-fs"/>
+  <project remote="clo-la" name="platform/external/avb" path="external/avb" revision="4a9cc824892a0c77403646c6a20939976e8d2507" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/bart" path="external/bart" revision="33469ab89c301657d93ce94e77fb76edac2ee4c1" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
+  <project remote="clo-la" name="platform/external/boringssl" path="external/boringssl" revision="8c20a0ba9ba8f7632bf3de3cde1ab8dd8a6b4abe" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="6aa08bd8e53f54f8839d705f2e296804690c6737" upstream="refs/heads/uefi.lnx.1.9.r51-rel"/>
   <project remote="clo-la" name="camera-samples" path="vendor/qcom/opensource/camera-samples" revision="b175573a20c728811339bba1ba4ce78668d5ae68" upstream="refs/heads/iot-concam-apk.lnx.3.0.r1-rel"/>
   <project remote="clo-la" name="device/common" path="device/common" revision="77e9a83d659da1e0ded9da9d3ed8b4c27ae2ff62" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk,pdk-cw-fs"/>
@@ -27,12 +78,6 @@
   <project remote="clo-la" name="device/google/taimen" path="device/google/taimen" revision="93083f89154753a1a0b3c204112de01f4618003d" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="device,mirror-aosp-pie-platform-release,pdk,taimen"/>
   <project remote="clo-la" name="device/google/vrservices" path="device/google/vrservices" revision="5a724230386bd7a2176ddae612f79dd3caefc6ce" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="device/google/wahoo" path="device/google/wahoo" revision="c39dda1989d85f1da3be73a4f79e78c3bccdef47" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="device,mirror-aosp-pie-platform-release,pdk,wahoo"/>
-  <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="70601bb183b3d50cc54b2e6d01b07bea613e19ff" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel">
-    <copyfile dest="build.sh" src="build.sh"/>
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
-    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
-  </project>
   <project remote="clo-la" name="device/qcom/qssi" path="device/qcom/qssi" revision="6897b9090d207df4e2681c9e2de7737bb5e0367e" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel"/>
   <project remote="clo-la" name="device/qcom/sepolicy" path="device/qcom/sepolicy" revision="febcf6933f7156079b0015f035305520b79a9748" upstream="refs/heads/sepolicy.lnx.4.0.r23-rel"/>
   <project remote="clo-la" name="device/sample" path="device/sample" revision="f94c561894573aa03e3e9155c406a13de03671a4" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
@@ -41,21 +86,8 @@
   <project remote="clo-la" name="platform/art" path="art" revision="b0bb77bc6fcb3af5d96f9a6cbfb15b2025654bf2" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/bionic" path="bionic" revision="7e6a209b9fa3e2624b734a63434905efd76c60b1" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/bootable/recovery" path="bootable/recovery" revision="53556f2e5d69e014fb36199e47a1e3179672c835" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/build_repo" path="build/make" revision="af887913f915788c0f3da501be1973f16850af19" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk">
-    <copyfile dest="Makefile" src="core/root.mk"/>
-    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
-    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
-    <linkfile dest="build/core" src="core"/>
-    <linkfile dest="build/envsetup.sh" src="envsetup.sh"/>
-    <linkfile dest="build/target" src="target"/>
-    <linkfile dest="build/tools" src="tools"/>
-  </project>
   <project remote="clo-la" name="platform/build/blueprint" path="build/blueprint" revision="e4156108ee0bb558147742e590a95944e26dbad2" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk,tradefed"/>
   <project remote="clo-la" name="platform/build/kati" path="build/kati" revision="f02153690a8615741ca53a9dac57c0b15d1bc81c" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk,tradefed"/>
-  <project remote="clo-la" name="platform/build/soong" path="build/soong" revision="b7665a821f9aa73c48ec133b9608774bca924b98" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk,tradefed">
-    <linkfile dest="Android.bp" src="root.bp"/>
-    <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
-  </project>
   <project remote="clo-la" name="platform/compatibility/cdd" path="compatibility/cdd" revision="e4e916060b260045cbfdb070199a1cd3cfbfd53d" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/cts" path="cts" revision="b18db33a7b658dff2e6bf47baeec71ef0e41781b" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs"/>
   <project remote="clo-la" name="platform/dalvik" path="dalvik" revision="cd2179aa2b915f6f4d99d116a8e0f292aed5a494" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs"/>
@@ -67,25 +99,6 @@
   <project remote="clo-la" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" revision="aaf26f78ca48460d17c89b2611907eb73f8779e9" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/abi-dumper" path="external/abi-dumper" revision="a09d92824e65d7abe68882e613a859b425d8940c" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/adhd" path="external/adhd" revision="a18b818c04f9c0fa82997be86c5ad7d3356a7577" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/adt-infra" path="external/adt-infra" revision="1eb0cb14f675d3d3cc5b4c4ec9be409c13f0da64" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="adt-infra,mirror-aosp-pie-platform-release,notdefault,pdk-fs"/>
-  <project remote="clo-la" name="platform/external/android-clat" path="external/android-clat" revision="01892c357c3abdce958cbbb3ef6e45036f9919ed" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/androidplot" path="external/androidplot" revision="355d0ec81d2a50e5334bdf6ba9dc4635baa13706" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/annotation-tools" path="external/annotation-tools" revision="9966c7aa3ccd2fd0cfc76598c2bfe6d77016b2ad" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/ant-glob" path="external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" revision="2878c9fe49b63906c755e45a63103cd5c62c6eab" upstream="refs/heads/ant.lnx.2.9.1.r87-rel"/>
-  <project remote="clo-la" name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" revision="200fcc9565814288bd2cfe7c81620b6dea3a75d7" upstream="refs/heads/ant.lnx.2.9.1.r87-rel"/>
-  <project remote="clo-la" name="platform/external/antlr" path="external/antlr" revision="2d2bc6f9c2959f787364826de5c40743aad3d586" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/apache-commons-math" path="external/apache-commons-math" revision="5b92751071356eef97c50dbeccc3874b51847afb" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/apache-harmony" path="external/apache-harmony" revision="22534a36875e8c3785ee2e376a719123db895cd9" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/apache-http" path="external/apache-http" revision="fb0edf2fefe460c13566f4b4e547c076a1546b55" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/apache-xml" path="external/apache-xml" revision="259517ca97039fbf3162ee1fde395ac04c9fce4e" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/archive-patcher" path="external/archive-patcher" revision="39952ff4eb9f7d2ea719b05ca55f0e07137daaa0" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" revision="cfa02caa721e765913cefbeb96221a88fe8f567f" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="qcom-LA.UM.7.3-incoming"/>
-  <project remote="clo-la" name="platform/external/autotest" path="external/autotest" revision="953464c540241ea8ab0a27ada8d717d67b2c783a" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk-fs"/>
-  <project remote="clo-la" name="platform/external/avb" path="external/avb" revision="4a9cc824892a0c77403646c6a20939976e8d2507" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/bart" path="external/bart" revision="33469ab89c301657d93ce94e77fb76edac2ee4c1" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/blktrace" path="external/blktrace" revision="d345431f16b8f76f30a58193ff2b26d5853e1109" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/boringssl" path="external/boringssl" revision="8c20a0ba9ba8f7632bf3de3cde1ab8dd8a6b4abe" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/bouncycastle" path="external/bouncycastle" revision="f0f23c6a0412afc0c71b33af1bb1cca4dc8e5425" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/brotli" path="external/brotli" revision="7c6f32759e28e863757a1d360b1260a1125881d8" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/bsdiff" path="external/bsdiff" revision="6a9549abe889dd94562175680f179474d1848983" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
@@ -185,10 +198,6 @@
   <project remote="clo-la" name="platform/external/jsoncpp" path="external/jsoncpp" revision="1d665bb05acfc7810a05fceb55a8b23ef602ac54" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/jsr305" path="external/jsr305" revision="da800f6cfda5f8ccb277cd5136ad3584c4100e48" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/jsr330" path="external/jsr330" revision="ef3a2d74af63d90085bb3cbb2898ad3586dcac6c" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/junit" path="external/junit" revision="9018952fa732cd622284cebdaec3122b2f7bd2e7" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/junit-params" path="external/junit-params" revision="4f0b0c84c6d6b1f462849fe7a10fb56309e1f9aa" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/kernel-headers" path="external/kernel-headers" revision="1f2bbe4c0f9e6cdc581f291c55e09a1dc39350b2" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/kmod" path="external/kmod" revision="d9a1fb142988334a139175131e167b6c190026eb" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/kotlinc" path="external/kotlinc" revision="50a289de68973663958a8d02ffcfae8554765c25" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/ksoap2" path="external/ksoap2" revision="9fdc4a6bb2b882bd1d6c822d2ad0c66585d66ba9" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/libavc" path="external/libavc" revision="ad3a4a95c537459ccc65382527f09461d543bced" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
@@ -214,12 +223,6 @@
   <project remote="clo-la" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" revision="c38f5540f265f279992956434f00dd8781379103" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/libldac" path="external/libldac" revision="83f41c73bb55ffaa0e278fef6664583a4c07d200" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/liblzf" path="external/liblzf" revision="0fdf3f9a85f564f48f6ce72aed9a2642391f2afa" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="qcom-LA.UM.7.3-incoming,vendor"/>
-  <project remote="clo-la" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" revision="fa5e1bc827f2afea8b2fa63e4da8683d3fb74178" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/libmojo" path="external/libmojo" revision="b0b1944d9464d1092e1410f56f981069e6b7cfad" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/libmpeg2" path="external/libmpeg2" revision="ea7b79597b502c5ed2e3e51f99ea509676c19e5c" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/libmtp" path="external/libmtp" revision="ab31b17c72d1ee81f6961cf15deb50448cc61a34" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" revision="7d547dc585795dc2263b00bdbbb3ff4b4432d312" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
-  <project remote="clo-la" name="platform/external/libnfnetlink" path="external/libnfnetlink" revision="f637d31fb9a58e8e694cace77c3719e759425e54" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/libnl" path="external/libnl" revision="305652174681b382088f8d7be83328613840d772" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/libogg" path="external/libogg" revision="2f6fe5555198104e904e2bbf283dbc3b0d71cadb" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
   <project remote="clo-la" name="platform/external/libopus" path="external/libopus" revision="10ce6fe7ba7f89997ad9277907d763b9a5445a35" upstream="refs/heads/ks-aosp.lnx.1.0.r20-rel" groups="mirror-aosp-pie-platform-release,pdk"/>
@@ -654,9 +657,6 @@
   <project remote="clo-la" name="platform/vendor/qcom-opensource/audio-hal/st-hal" path="vendor/qcom/opensource/audio-hal/st-hal" revision="19c2762f6c0058173860bf593f23b6e6c0c3b4cf" upstream="refs/heads/audio-hal.lnx.6.0.r37-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/commonsys/bluetooth" revision="6ec7b0de1ddec2be82a820850e94a663d67296e5" upstream="refs/heads/bt-qc.lnx.4.0.r23-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="b4cde6ef40b896d30bfd56a6fa3c5cbb2c9fc136" upstream="refs/heads/bt.lnx.4.0.r24-rel"/>
-  <project remote="clo-la" name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="2c1111a18f5b52db54d910f85b080746b1489ff0" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel">
-    <linkfile dest="vendor/qcom/build/tasks/QSSI_violators.mk" src="build/QSSI_violators.mk"/>
-  </project>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" revision="684bb8d924b4cf54544060f8a3eebce301dbc120" upstream="refs/heads/qcom-devices.lnx.4.0.r28-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="526049c97e6e664ac52fe2a905babf915f4cda0a" upstream="refs/heads/data.lnx.4.0.r24-rel"/>
   <project remote="clo-la" name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="0002ba9f17f6866d44090984912e9fe95878afa8" upstream="refs/heads/data.lnx.4.0.r24-rel"/>
