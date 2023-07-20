@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/automotive" name="clo-automotive" review="codelinaro.org"/>
   <default remote="clo" revision="refs/tags/android-12.1.0_r11"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="fe1f60a1c250a6a6b20f37538d2f6cabd4aa84b2" upstream="refs/heads/auto-uefi.lnx.2.1.r16-rel"/>
   <project groups="aosp" name="device/amlogic/yukawa" revision="f7547cd6c8852cd5cc934ccc9b7703986d4771e3" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
@@ -98,7 +99,7 @@
   <project groups="aosp" name="platform/external/FP16" path="external/FP16" revision="bea6512c6f1dbab79c9cfa898e677ec832bcf7f6" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
   <project groups="aosp" name="platform/external/FXdiv" path="external/FXdiv" revision="908fa57b9943d8c70dab270ec7f1ec970a42dff0" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
   <project groups="aosp" name="platform/external/ImageMagick" path="external/ImageMagick" revision="346cf7f5b84b846bd3ed13bcc6a31a23d608cfa2" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
-  <project name="clo/automotive/platform/external/Open-AVB" path="external/open-avb" revision="f976b58138112a7051425deda2286b68f4e11df9" upstream="refs/heads/vnw-open-avb.lnx.1.1.r47-rel"/>
+  <project name="platform/external/Open-AVB" path="external/open-avb" revision="f976b58138112a7051425deda2286b68f4e11df9" remote="clo-automotive" upstream="refs/heads/vnw-open-avb.lnx.1.1.r47-rel"/>
   <project groups="aosp" name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS" revision="8c79c498686952c108943422bd01c1924f4f8346" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
   <project groups="aosp" name="platform/external/OpenCSD" path="external/OpenCSD" revision="f61ef1151ed648047dbf8ba0a5feb887c2e54ba7" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
   <project groups="aosp" name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp" revision="5f4c3264fe797590114da4338e67590bddfb9179" upstream="refs/heads/aosp.lnx.12.1.r8-rel"/>
