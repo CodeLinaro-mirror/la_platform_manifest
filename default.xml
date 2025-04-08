@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="ebbbd607961d72859992d373e5e0092fd86e8c85" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="6e2a9435c1634258cf8972859e780a08110cd4f1" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="42d73a8881340b22886abde5470d55bd9753b5b0" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="d07d1ebc67cde8dff32417aadb9936b81b66bcbc" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1332,7 +1332,7 @@
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" revision="0c6e83d2f3cf9068f718531658e746b1e878d7a0" upstream="android15-tests-release" />
   <project path="test/cts-root" name="platform/test/cts-root" revision="2d86934ff8ec537364cc881dfc86a73dfe716963" upstream="android15-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="a9be441bc2c5012316e32c0bc6eed8373c27c9b3" upstream="android15-tests-release" />
-  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="646600f8d62f22e47d1ec254a9e642326b3f8dca" upstream="android15-tests-release" />
+  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="6a638ae7f116277e91c4567bae600494fe434d79" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="22d57f6bb519e25bd42054480ef1d75868ba7d40" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="android15-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="e12ca00ddd8ff2b56dcb8cdbd70c4822a3b5637a" upstream="android15-tests-release" />
