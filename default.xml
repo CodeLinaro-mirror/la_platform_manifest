@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="1832e738492ab0b94ed56a096297ec81ad6b1e14" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="744fd0091a5a13deb75944a74d1f6b43e0ab3cfe" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="22865bf2a33b5a98f5636458566e6cd231e928bb" groups="pdk" upstream="android13-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d0ab6ef7da71a0da47bee0b408dc8c1cf625b283" upstream="android13-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="c89ecef9d9c6a8fe370a3b17e0456a156ff9b9c1" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="cts" name="platform/cts" revision="fc5e47c0bae67aaa5fadd7f1523fc7bbdd792d2c" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+  <project path="cts" name="platform/cts" revision="61b8fea4cebad95d25e1871248bd5a5f0b4eb771" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="63a409550581d053b55cb4ad2e9caba456ad5030" upstream="android13-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="9b775d9249f019055622bfa5549d12de8cac8f5c" upstream="android13-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android13-tests-release" />
@@ -967,7 +967,7 @@
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" revision="0e30af19fe3c62f1dbb5f248e4da92082c1cc7fd" groups="pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="packages/modules/SEPolicy" name="platform/packages/modules/SEPolicy" groups="pdk-cw-fs,pdk-fs" revision="4fcb996641dc2762076e5a33098f0acabfa08648" upstream="android13-tests-release" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" revision="d0c7aef62b8898e85bb3735ad91829f844cf6949" groups="pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
-  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" revision="c304833772796c7d6420a7fdef401038e35aefc9" groups="pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" revision="65e67dad805e1a2acdffaf81ac1f6e8c6f0706a3" groups="pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="packages/modules/TestModule" name="platform/packages/modules/TestModule" revision="3523a2f0f9b12d4e60374af63aae14f75a2b4c10" upstream="android13-tests-release" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" revision="8aa37b4f43b8528190f1e19b8824adcbcac52f34" groups="pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="3aea61db80747110402f7cdd8de26ca23e40f8c1" upstream="android13-tests-release" />
@@ -1117,7 +1117,7 @@
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" revision="dc2a7f3d014ef2199f9de6f33b05afa7fde595d7" upstream="android13-tests-release" />
   <project path="test/cts-root" name="platform/test/cts-root" revision="5205b50feb4d1727a88e07791b6cfb16921c54e0" upstream="android13-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="90b4edf0dc7956102f5962fc697ea01055f4d5e9" upstream="android13-tests-release" />
-  <project path="test/vts" name="platform/test/vts" revision="13f139fd4dd38b5c99d3fde6e3ee5b91ad4e11a8" groups="vts,pdk" upstream="android13-tests-release" />
+  <project path="test/vts" name="platform/test/vts" revision="90fbeef9dff98c9a3f78c8a3cadae209d7862a99" groups="vts,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" revision="05a84acaa3841cd1ce9652cb7388f0f489a4b24b" groups="vts,projectarch,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="65d11eb6e0712f660dc1820c020f7778688d2462" groups="vts,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android13-tests-release" />
@@ -1140,7 +1140,7 @@
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" revision="ecb47cae25c58c298245fa88a15d30c6f736a528" upstream="android13-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="c4ee67211ed1f6b2b51bcaccf82803c80cdc75f1" upstream="android13-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="1abe324d972f12e458193c16f54a878b20e04db8" upstream="android13-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="201263be492d4e027471b10606b7e28c51f328ee" groups="pdk,tools" upstream="android13-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="4e7c2bdbb28b25b831ad20873d14c08d24a6723e" groups="pdk,tools" upstream="android13-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" revision="656fa2e5ccf2784165b9b6102248338853d0bf21" upstream="android13-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="e0f3c3d2f3a70617542552f63f4de90742a5fc5b" upstream="android13-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="fcc933927c7509bdd4d49887c4cc6fbe1d0b4b38" upstream="android13-tests-release" />
@@ -1159,7 +1159,7 @@
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" revision="9cc30085448aae580f22fbf667b92c26d1d6c1e9" upstream="android13-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="6e63c5f44a5bf539fbe8541e6173612cc3d93900" upstream="android13-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="c6561c031e84f98d0937203393ac8e0c320625ed" upstream="android13-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="f8e473bfa00636f36298c6bd06c8b67ba5ac1e01" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="386729d7a808250d20b23bb93d4e351c3865ac8c" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="435b6c5d3d5b713a9fd54ce83d0415aafc147998" upstream="android13-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" revision="6facfdc3ab993fdae0c973e93794ac2e9850cf0c" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   
