@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="6e2a9435c1634258cf8972859e780a08110cd4f1" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="d18021b3f6a9696f086fecfbf43d7f3deaaab908" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="d07d1ebc67cde8dff32417aadb9936b81b66bcbc" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="b24efbdfed427402a2261b4f7ac793e0e7eec19c" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1048,7 +1048,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" revision="d4195a0bdfe35a6201cf1b5e222eb532a92cff2a" upstream="android15-tests-release" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" revision="1d85202d8e653854c766a8d6f4a9f6590037cb00" upstream="android15-tests-release" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" revision="051ca1565ae8fb7e8e23f0dbcd94460f5a9ad522" upstream="android15-tests-release" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="e1bb46b75c3e66fac11535cec8c6710d7b31917d" upstream="android15-tests-release" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="e4b39a09f4a34b8f0bc2ad46faaf75725c9862ae" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="3d04f9561d986267e1e8f944828b3f9f6ea4495d" upstream="android15-tests-release" />
@@ -1173,7 +1173,7 @@
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs" revision="8f1bc4e3284d27525c41c1064019473574d8378a" upstream="android15-tests-release" />
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" revision="bae2b4ee03cdfe81d0a09a96cd7ee9c21103a492" upstream="android15-tests-release" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" revision="7674843e45aef3fbc153d85e24e583e8882fd9db" upstream="android15-tests-release" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="fa762eef6befdbe118c877a7a86c3b7810ed2994" upstream="android15-tests-release" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="f13e8776e6a222d68c29ac96f43bfa2891f63b1d" upstream="android15-tests-release" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" revision="766b26d7f85de5722c4bc5cfa9d3fb9000559dd0" upstream="android15-tests-release" />
   <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="6289d971b6b18d80f0991d82ad6dc514f20e93e8" upstream="android15-tests-release" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" revision="0702d4c670a94e23ea207fda3ca35b5849ce1116" upstream="android15-tests-release" />
@@ -1368,7 +1368,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="050b47820173185eba555d2edf09a17334e375a9" upstream="android15-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="cd87a9cf11be58c4fc17af8d0ab14281c46c14ed" upstream="android15-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="1b5ad3e9ba5b82967bb9bfd2e63efc075ef3df75" upstream="android15-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="a697995866a9a874cb2048417ab250f3547760cd" upstream="android15-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="b442e4de5b054c891ae5a8de60a28d02a1da8734" upstream="android15-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="d15b469cdcbd79b625066924477fe9d314f1f349" upstream="android15-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="android15-tests-release" />
   <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" revision="f49beacbb089828255d293f34d7a0f64fa7623a5" upstream="android15-tests-release" />
