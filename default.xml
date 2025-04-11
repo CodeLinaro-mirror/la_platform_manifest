@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="cbf7e8a7e6df8f1bcf6f19f2f3a8e345570fb192" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="237fa33bdd3a093ff5190ec2390f370d70faaf36" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="13f7de739dadcc652b02dd262ef37d145fe400f1" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="55eb26ecd287693bc5e9bffda76a05504e3d7e69" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
@@ -1048,7 +1048,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" revision="d4195a0bdfe35a6201cf1b5e222eb532a92cff2a" upstream="android15-tests-release" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" revision="1d85202d8e653854c766a8d6f4a9f6590037cb00" upstream="android15-tests-release" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" revision="051ca1565ae8fb7e8e23f0dbcd94460f5a9ad522" upstream="android15-tests-release" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="ee2e56f5bf695e012842506aef67fc7339e2319c" upstream="android15-tests-release" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="c82c21292aa710d73c9d7d87b3475f2e82b42bf0" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="3d04f9561d986267e1e8f944828b3f9f6ea4495d" upstream="android15-tests-release" />
