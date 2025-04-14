@@ -17,17 +17,17 @@
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="presubmit" revision="907059dfed550925a45217e1ed9a7bc42ff8d770" upstream="ndk-r28-release" />
   <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools" groups="presubmit" revision="12f5c853ee9e06ba6565006d8d36ee261a140d91" upstream="ndk-r28-release" />
   <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="presubmit" revision="7a74420cdea49fb136bbc79b36451137b87b2ded" upstream="ndk-r28-release" />
-  <project path="ndk" name="platform/ndk" groups="presubmit" revision="30143a99833e983ad4db73a9262f1b888136ca4b" upstream="ndk-r28-release" />
+  <project path="ndk" name="platform/ndk" groups="presubmit" revision="f1c87f4ca16e672587f64fe186efc9b8224370ec" upstream="ndk-r28-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" revision="1b196ecda57a196a5c788c6a03d9a196a5cbd18d" upstream="ndk-r28-release" />
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" revision="1ebb6edd19dc330c492e01e2d850a528791960e2" upstream="ndk-r28-release" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="presubmit" revision="866b00f239c959dc9d67c007dcd4cfd0af968a6b" upstream="ndk-r28-release" />
-  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" revision="0c1a2dc7e222acebd09462550b9c5c95a135f4dc" upstream="ndk-r28-release" />
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" revision="dbb7cd4d7d560a6183e0d3a2845c9437996c7dbd" upstream="ndk-r28-release" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="presubmit" revision="1296fb3a8c2fe2122c372bd997f06816d84f0183" upstream="ndk-r28-release" />
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" revision="e53aab4bf935eabd630ca0f4f5db17526bcb7edf" upstream="ndk-r28-release" />
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" upstream="ndk-r28-release" />
   <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" groups="presubmit" revision="e57c88d59d7d8408a32b16425158fd2aa64e2b3e" upstream="ndk-r28-release" />
   <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" revision="f6283abb0a655968016437be07d04370fd815e6c" upstream="ndk-r28-release" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="presubmit" revision="59dcd1d7f770fd9485d9f2d132b8bfa04c824439" upstream="ndk-r28-release" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="presubmit" revision="97914b44bb197db77d851df67a29868665b4b578" upstream="ndk-r28-release" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="presubmit" revision="3f8299ada6384cd10d63a64e5988650aefd5b94d" upstream="ndk-r28-release" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="presubmit" revision="35fbbcd449f03cbb515538d0572d564e9984ef13" upstream="ndk-r28-release" />
   <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" upstream="ndk-r28-release" />
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="presubmit" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" upstream="ndk-r28-release" />
   <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" revision="4d526002f0158a5d103bb6e54d43943c0e1c2778" upstream="ndk-r28-release" />
