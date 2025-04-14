@@ -10,6 +10,19 @@
 
   <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
 
+  <notice><![CDATA[
+============================== [ NOTICE ] ==============================
+Starting March 27, 2025, the latest release branch will always be
+referenced by the new android-latest-release manifest, which can
+be used directly with Repo.
+
+We recommend platform developers use android-latest-release instead
+of aosp-main to build and contribute to Android Open Source Project
+(source.android.com).
+========================================================================
+]]>
+  </notice>
+
   <superproject name="platform/superproject/main" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
   <!-- BEGIN open-source projects -->
