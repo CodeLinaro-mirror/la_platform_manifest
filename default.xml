@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-room-release" remote="aosp" />
+  <default revision="sparse-13355681-L30800030011244552" remote="aosp" />
   <project path="build/make" name="platform/build" revision="bb0a37686e26552f49c62ef39b8b256c12a20450" upstream="androidx-room-release" />
 
   
@@ -18,13 +18,13 @@
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="b0584fe7f98d8a2b85efa5817a6f129da88ff569" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-room-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="d499da033400936c937de502a13cf50b0305efc4" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="b277cb3c92d5fa051b587b96b7a7ab024f4c6438" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1b89686097e9c498ad7af9316ff7cd8a7d5b56e9" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="2cba2c45950db2fbf41da1bee3cbb16e452e354f" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="c87bca1c04ccc97281df484ef354226b4ede1469" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a9df284b2865e25a1f9e189056f9ce4fa5f25cf4" upstream="androidx-room-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="38c54b792f9ee70b0de197eec4382e9c68174543" upstream="androidx-room-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="3478b9817a5eac54f15b6d922509e8affbe0ebbb" upstream="androidx-room-release" />
   <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="e6a07bdb64065a8234690d92d0da4c279ee7f3ba" upstream="androidx-room-release" />
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="bb9a51d882d66af6df79a4dcbb425a285b3e6b07" upstream="androidx-room-release" />
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="0d28ab291ff3088e591db64ff8dbb0bda5e4ee39" upstream="androidx-room-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="108988c4885eee1ad9f96a6c3d061fd83b3200b6" upstream="androidx-room-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
