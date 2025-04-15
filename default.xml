@@ -1,14 +1,14 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="33de009149f03b46f5587333710b03e752e721ea" upstream="androidx-navigation-release" />
+  <project path="build/make" name="platform/build" revision="81926189fd84e5280007b7989c03cb46f588650a" upstream="androidx-navigation-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="2675fb25328cf5fe66b4cc1a6332f1fefe64baea" upstream="androidx-navigation-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="4637b51cb0a8f433ea66abf906b6c58d54ff81ed" upstream="androidx-navigation-release" />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="a442a69fea10213b19a4103cd1bbf0150ec7a442" upstream="androidx-navigation-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="bf34eeda248ad5846bee5af5f4185b5d9444db75" upstream="androidx-navigation-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="c32f0fdc705d366c21454e3874e5a2bd8a275c1f" upstream="androidx-navigation-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="57134ed0c1c5d11019206a5fb1619ae84cfc472f" upstream="androidx-navigation-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-navigation-release" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="5eb1fe26241ae6f339b163242c56e66f6955e0da" upstream="androidx-navigation-release" />
@@ -27,16 +27,16 @@
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bf541a906e4ea6222993fff61418428320518ef0" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="4631e2ba9d004f0416b6650352e796af885b6f73" upstream="androidx-navigation-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="44aac836847a265b030659677f87acefcb527f97" upstream="androidx-navigation-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="95d9f42f7583525c93822d700abd666143cd0aa8" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="681e4b0ee678d05a28afab9b12e45dba4ab74751" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="9f4171a08b8b82080339309a0a47ea668f54e5b2" upstream="androidx-navigation-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="8b5666f3cc9e7c410ffca8aad0a4177c8c1af7a3" upstream="androidx-navigation-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="d20475136cc21d9fb0996bcef9d8ce822c439cf5" upstream="androidx-navigation-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="c5fc1a0b65e76912a6ef09991574cc64d3857cef" upstream="androidx-navigation-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="ca3610a79295d9eea9cd4169e162c59ecdd5b2b6" upstream="androidx-navigation-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="9a71bef881bd0f7d065760e83cab2037e69a92c2" upstream="androidx-navigation-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="74aab0efca16b9b42dbcfd44f06dd88a337169fa" upstream="androidx-navigation-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-navigation-release" />
@@ -91,12 +91,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="ce11bed530eef9151c6f122b294a075414ee4620" upstream="androidx-navigation-release" />
   
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="0929b6b88c4cc6eba3b9c01ddd16e3115e01369a" upstream="androidx-navigation-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="2630361cb5517c3d8863ce0d7e306fe7b38e1726" upstream="androidx-navigation-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="2ba750c947ddbaefe585061feab2279eb2b61cea" upstream="androidx-navigation-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="8457d8ec6c9d17f1e3f4364453443a45b0ec44a4" upstream="androidx-navigation-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
