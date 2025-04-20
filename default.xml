@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="19b8a02e90b7fe1b6a11bcfc1c287a3e0cade907" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="a31710a2c04334af90dccd07424b55758770a3a0" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="66aa1d929fa0dee18baeec382afc722eff6bbfe5" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="de1d43049a8f5ddb42194e2cf229b99005c234cb" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
@@ -1139,7 +1139,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" revision="80062d0b4c5d2f5807c97126ef1afb26a45aa07c" upstream="android15-tests-release" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" revision="5a913b7a758506f63ae7f1193891ee71d5d6555f" upstream="android15-tests-release" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" revision="a73b2d8c44809f60372e5654849c65e6653fec6f" upstream="android15-tests-release" />
-  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="3c7d7f682886b9e60babd1e45cf58f41ac33147d" upstream="android15-tests-release" />
+  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="8515c3877d1fa447d6698f17b1ec5db817573053" upstream="android15-tests-release" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" revision="2c161e02d58d58736f81ea72c128947f4ff8f390" upstream="android15-tests-release" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" revision="bee62eeff9f366e5887a439b71f17a43d678be81" upstream="android15-tests-release" />
   <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" revision="b9dca9f467f9079d01d3931d38ce1d672b111398" upstream="android15-tests-release" />
@@ -1163,7 +1163,7 @@
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="497e6ce4e8f086820f84b085d2cc5143aad064fc" upstream="android15-tests-release" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" revision="98a45077c133196d9d4686cb558cd75b954097e5" upstream="android15-tests-release" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" revision="29be413cfda32b0dad04b968c5bbc0cdc414997c" upstream="android15-tests-release" />
-  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="daa3541dc263ff723988364780532eadaf653809" upstream="android15-tests-release" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="79a94c1bcddfe769d987cad1730fdc78a8587d09" upstream="android15-tests-release" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" revision="7d016e9bac0c043b410e09cea846ed138ed7e66f" upstream="android15-tests-release" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" revision="17171b0168a1a3f69e69bcb7a5d102a5ed91cf71" upstream="android15-tests-release" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" revision="55346cfdcaf32bc038ae868761446cc3babfc40c" upstream="android15-tests-release" />
