@@ -1,10 +1,10 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android15-tests-release" remote="aosp" sync-j="4" />
+  <default revision="sparse-13386008-L91500030011427152" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="4a539d80607f565c94b6cb70576414e2885d51e5" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="2f89ea41269d5649d706fb80f4479d3aa94a9862" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1173,7 +1173,7 @@
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs" revision="8f1bc4e3284d27525c41c1064019473574d8378a" upstream="android15-tests-release" />
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" revision="bae2b4ee03cdfe81d0a09a96cd7ee9c21103a492" upstream="android15-tests-release" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" revision="7674843e45aef3fbc153d85e24e583e8882fd9db" upstream="android15-tests-release" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="a39ad47389304d29595250fbbc0ebd6218a47d2c" upstream="android15-tests-release" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="3c8c28e58faa54f12d51af9cb853e7eb039364ed" upstream="android15-tests-release" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" revision="766b26d7f85de5722c4bc5cfa9d3fb9000559dd0" upstream="android15-tests-release" />
   <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="6289d971b6b18d80f0991d82ad6dc514f20e93e8" upstream="android15-tests-release" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" revision="0702d4c670a94e23ea207fda3ca35b5849ce1116" upstream="android15-tests-release" />
