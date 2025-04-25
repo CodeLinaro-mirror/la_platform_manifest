@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="92e6722cee51784bf2345d56024d83dc1413f9e9" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="673b5789ec5930a8b9ef7879637776fe7af02bbb" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -164,7 +164,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="bbd7cfe213ffa109e98ea8621f66c85f8ed95949" upstream="android15-tests-release" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-gs-arm" revision="943f039b153b795f15baf0344dfbdff8e134fb26" upstream="android15-tests-release" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" groups="pdk" revision="ac09cd3299ca5d435a116223d305d5333795e89e" upstream="android15-tests-release" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" revision="4360c533a13addd5e6beeb78ea83b506a3841a17" upstream="android15-tests-release" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk" revision="86c49be3508e6451296baeb78cedfba9121cbf75" upstream="android15-tests-release" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" revision="eca53ba6d2e951e174b64682eaf56a36b8204c89" upstream="android15-tests-release" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" revision="8b7f948aaf41abb32f7afb8fd45d6a9edced63e7" upstream="android15-tests-release" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" revision="a164e4c8ceb68d2ed98bfa4453ac24556007d537" upstream="android15-tests-release" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="de1d43049a8f5ddb42194e2cf229b99005c234cb" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="8c9d252e85907cc1e2661e77e298b61193860237" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
