@@ -1,7 +1,7 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android15-tests-release" remote="aosp" sync-j="4" />
+  <default revision="sparse-13319160-L73900030011603546" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
   <project path="build/make" name="platform/build" groups="pdk" revision="8b6609a1792a83deae2a42d7faa48e02b0463300" upstream="android15-tests-release">
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="00bcdefcb85fb82355b08697728f3612c8b81367" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="5c107e0148a4622f89f4b750490c7a855e9332aa" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1139,7 +1139,7 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" revision="80062d0b4c5d2f5807c97126ef1afb26a45aa07c" upstream="android15-tests-release" />
   <project path="packages/inputmethods/LeanbackIME" name="platform/packages/inputmethods/LeanbackIME" groups="pdk-fs" revision="5a913b7a758506f63ae7f1193891ee71d5d6555f" upstream="android15-tests-release" />
   <project path="packages/modules/adb" name="platform/packages/modules/adb" groups="pdk" revision="a73b2d8c44809f60372e5654849c65e6653fec6f" upstream="android15-tests-release" />
-  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="5468e56a3ea25fdf093d9f63e8e724ed6072e626" upstream="android15-tests-release" />
+  <project path="packages/modules/AdServices" name="platform/packages/modules/AdServices" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="bddedca63d3d155f813ca69305df8e96aeabf50b" upstream="android15-tests-release" />
   <project path="packages/modules/AppSearch" name="platform/packages/modules/AppSearch" groups="pdk" revision="2c161e02d58d58736f81ea72c128947f4ff8f390" upstream="android15-tests-release" />
   <project path="packages/modules/ArtPrebuilt" name="platform/packages/modules/ArtPrebuilt" groups="pdk" clone-depth="1" revision="bee62eeff9f366e5887a439b71f17a43d678be81" upstream="android15-tests-release" />
   <project path="packages/modules/Bluetooth" name="platform/packages/modules/Bluetooth" groups="pdk" revision="b9dca9f467f9079d01d3931d38ce1d672b111398" upstream="android15-tests-release" />
