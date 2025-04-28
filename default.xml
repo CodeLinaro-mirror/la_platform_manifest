@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-tvprovider-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="136abd6fc33c4febc248a3ac8764019b2b26acd5" upstream="androidx-tvprovider-release" />
+  <project path="build/make" name="platform/build" revision="de1d01a5568929d8a73ac2c0218d08b50c756822" upstream="androidx-tvprovider-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="80627741b8872698f17856de18e4aa3917143979" upstream="androidx-tvprovider-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cc54e3d74495af6183b9e0067e4dbb4806941c17" upstream="androidx-tvprovider-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
