@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-recyclerview-recyclerview-selection-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="5bb2d7bcd18d3db00eb28b3beda6c3732d497e83" upstream="androidx-recyclerview-recyclerview-selection-release" />
+  <project path="build/make" name="platform/build" revision="9cad7d57a52922065cea5c5ed3ec7fe39276bda4" upstream="androidx-recyclerview-recyclerview-selection-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="2d771fbb0d3b9774c2513f1f7244f17b0c96735f" upstream="androidx-recyclerview-recyclerview-selection-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="6a54c887072ebcf6798d5a7e7ef3efed99b04e77" upstream="androidx-recyclerview-recyclerview-selection-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
