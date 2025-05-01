@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-navigation-release" remote="aosp" />
+  <default revision="sparse-13384963-L21000030011740259" remote="aosp" />
   <project path="build/make" name="platform/build" revision="08c9fee30b9f82641166cfcc87c8a817f8882eea" upstream="androidx-navigation-release" />
 
   
@@ -23,7 +23,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="94cbdf95ecf773655e2ed69c8477ca9b94ba20d2" upstream="androidx-navigation-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="899dee7314364194a089bc1c089875d3b87a0f4f" upstream="androidx-navigation-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="ea1877ea532d112aee5fc5f6b4eb77f33c343af8" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bf541a906e4ea6222993fff61418428320518ef0" upstream="androidx-navigation-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="4631e2ba9d004f0416b6650352e796af885b6f73" upstream="androidx-navigation-release" />
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="4eb62506f8e9a7f12ec551b42b5ded5874990416" upstream="androidx-navigation-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="4848f65efb1b1b5cbe62eeb018bd987fb4a6d580" upstream="androidx-navigation-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
