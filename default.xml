@@ -22,7 +22,6 @@
   <project path="external/jetbrains/intellij-kotlin" name="platform/external/jetbrains/intellij-kotlin" revision="studio-main" />
   <project path="external/jetbrains/kotlin" name="platform/external/jetbrains/kotlin" revision="studio-main" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" />
-  <project path="external/perfetto" name="platform/external/perfetto" revision="31155364cd4e79d09c92df884510e149ca67df5e" />
   <project path="external/protobuf" name="platform/external/protobuf" />
   <project path="external/python/absl-py" name="platform/external/python/absl-py" revision="bd7cdd4d3776c9d08bbfea96d711958b24a9fe9c" />
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" clone-depth="1" revision="2489a1ab297b0d1ba1c72e078743922bbbef3070" upstream="sc-layoutlib-native" groups="notdefault,layoutlib" />
