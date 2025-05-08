@@ -4,6 +4,7 @@
   <remote fetch=".." name="aosp" review="https://android-review.googlesource.com/" />
 
   <superproject name="platform/superproject" remote="aosp" />
+
   <project path="build/make" name="platform/build" groups="pdk">
     <copyfile dest="Makefile" src="core/root.mk" />
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
