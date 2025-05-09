@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="b67590f2206646f3cdbb48e1d7aae0cc70202836" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="1a140b2396172bf9d817e1e445e5bd860c9a91ec" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1218,7 +1218,7 @@
   <project path="test/cts-root" name="platform/test/cts-root" revision="7cc9397a8251236f64a4f698eeeab34580000857" upstream="android14-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="0fd8bcf9c7adaa6514d106bfcf3f3b1c481bf734" upstream="android14-tests-release" />
   <project path="test/vts" name="platform/test/vts" revision="e2be25fee698f0cc58e3f027fefbf16d5fb8c5e3" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="148cdd24a48e233847092554fa9c3955ab5ba737" groups="vts,pdk" upstream="android14-tests-release" />
+  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="4cf94915bfa6d6840d46050f6f0e3cdf340a422c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="50f74d581a348e5ed17bf562a4e882241e6228a0" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
