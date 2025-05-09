@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="db910d15f45ce9f4d24d36d0fdbf07473908cb2f" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="face39a51cf0eea72599a6ba0b45b62533bea866" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="0a8351dba45560380628ab42ea63a4c213feaf12" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="3113bec9c60e936b72d4d8f8c9cc47e476150022" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -41,7 +41,7 @@
   <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" revision="71380158d818de918338e34a9cb72316fe3cfa4e" upstream="android15-tests-release" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" revision="12e34a3d718f0dd8a55dbd8f10f2f7fba2535510" upstream="android15-tests-release" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" revision="7e27a409be1f872c4c2c4ce82f6a09c79e1a466b" upstream="android15-tests-release" />
-  <project path="device/generic/car" name="device/generic/car" groups="pdk" revision="bacf62d0938c63b21457986269316fb484b1b7a3" upstream="android15-tests-release" />
+  <project path="device/generic/car" name="device/generic/car" groups="pdk" revision="28cae455eb7648a148e17276f96446323ad8e426" upstream="android15-tests-release" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" revision="2afd4e50444148c4868683ca93a37af969bf550a" upstream="android15-tests-release" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" revision="9f77f50f404dbb9607f80d9f393ca0a3ee66ac2a" upstream="android15-tests-release" />
   <project path="device/generic/goldfish-opengl" name="device/generic/goldfish-opengl" groups="pdk" revision="e19b65554e1213abf273c534942ffa4bca00eaee" upstream="android15-tests-release" />
@@ -169,7 +169,7 @@
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" revision="8b7f948aaf41abb32f7afb8fd45d6a9edced63e7" upstream="android15-tests-release" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" revision="a164e4c8ceb68d2ed98bfa4453ac24556007d537" upstream="android15-tests-release" />
   <project path="external/cronet" name="platform/external/cronet" groups="pdk" revision="2032a1406bf925374f2b0b73f9cd009530cc2391" upstream="android15-tests-release" />
-  <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" revision="e6e738a5726112ac3e8c7b43906654d5b2bfaf44" upstream="android15-tests-release" />
+  <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" revision="b3335415832a6f6fa3b11cbe54ed457fe22d1764" upstream="android15-tests-release" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" revision="4f5c519516c05b0651e20c9969bc9f721b60f9ab" upstream="android15-tests-release" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" revision="114732119e9f077470199bdfa7c701ab3978f74f" upstream="android15-tests-release" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="c98f1b32b0948e5231f3e001523776bb50609f5e" upstream="android15-tests-release" />
