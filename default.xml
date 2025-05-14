@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-mediarouter-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="202402066cd3bcc258bb001034b686602a02af62" upstream="androidx-mediarouter-release" />
+  <project path="build/make" name="platform/build" revision="c961b28c29c997e037cc3335fe120a50786cbdad" upstream="androidx-mediarouter-release" />
 
   
   
@@ -23,18 +23,18 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="e6a1b5a4e007b339bda3d252cf64fcac7c74f8b9" upstream="androidx-mediarouter-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-mediarouter-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="53d8267b73abe62aa0a4170e94d9c9721d8a2ba0" upstream="androidx-mediarouter-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="943e6a51abd90053e42fe0f85543f01d6ba5c423" upstream="androidx-mediarouter-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="3840c5d96fdee62fdf76e372b1aa013f302fcd8c" upstream="androidx-mediarouter-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-mediarouter-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="57bd56d3d85e111a8e76bd757edc6c6a86af4390" upstream="androidx-mediarouter-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="2ca9477bbf9bac83a44bf1a6cde79e42b82d4e52" upstream="androidx-mediarouter-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="bd3f2f27bfc98c6f64c22a1795568bb263d2c18f" upstream="androidx-mediarouter-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e8bb2631dc642469250f8ddf91d4e859359f6281" upstream="androidx-mediarouter-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="3672da820a24cdb73f707240ba3e697a265149a1" upstream="androidx-mediarouter-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="bddc81ddc337a1bdf13ed72cf49fd3e06d37b12b" upstream="androidx-mediarouter-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="becc4863b09e1def01b264913a972413dcbfd470" upstream="androidx-mediarouter-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="fd77f7c22acf0398b3b73c5c594d8fdf91675674" upstream="androidx-mediarouter-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="ccbb10c40cc3e24dbf981aa63f8d520379dcd019" upstream="androidx-mediarouter-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="a1e651bcc6494770197044dc9c68a037bd196e4c" upstream="androidx-mediarouter-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="f6c2e79feb7d9f3b2122b47b45a6adf35ed64631" upstream="androidx-mediarouter-release" />
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="c2e38f4819d950b9b0e3b0ea520c2638380ea1ba" upstream="androidx-mediarouter-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="068e09c26f719be79a26e04bcec353e197730b41" upstream="androidx-mediarouter-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
