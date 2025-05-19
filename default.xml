@@ -22,8 +22,9 @@
 
   <!-- Effcee is needed by tests in spirv-tools (in shader-tools) -->
   <project path="external/effcee" name="platform/external/effcee" revision="mirror-goog-main-external" />
-  <!-- RE2 is needed by Effcee -->
-  <project path="external/regex-re2" name="platform/external/regex-re2" revision="mirror-goog-main-external" />
+  <!-- RE2 is needed by Effcee --><!-- RE2 is needed by Effcee. It's pinned because updating it requires
+       updating shaderc, which we can't do right now. -->
+  <project path="external/regex-re2" name="platform/external/regex-re2" revision="7977ed5eb44b3204e279ce97205582b3e7ac8064" />
   <project path="external/googletest" name="platform/external/googletest" revision="mirror-goog-main-external" groups="presubmit" />
   <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang" revision="mirror-goog-main-ndk" groups="presubmit" />
   <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc" revision="mirror-goog-main-ndk" groups="presubmit" />
