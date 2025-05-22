@@ -10,11 +10,10 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="main"
+  <default revision="mirror-goog-main-llvm-toolchain-source"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="llvm-toolchain"/>
   <contactinfo bugurl="go/repo-bug" />
 
   <!-- Core LLVM toolchain components -->
@@ -64,6 +63,6 @@
   <project path="toolchain/prebuilts/ndk/releases" name="toolchain/prebuilts/ndk/releases" clone-depth="1" />
 
   <!-- Repo hooks -->
-  <project path="tools/repohooks" name="platform/tools/repohooks" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" revision="mirror-goog-main-tools" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
