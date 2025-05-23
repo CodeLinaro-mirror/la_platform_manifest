@@ -1,41 +1,35 @@
 <?xml version="1.0"?>
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="refs/tags/studio-2025.1.1-alpha07" remote="aosp" sync-j="4"/>
-  <superproject name="platform/superproject" remote="aosp" revision="studio-2025.1.1-alpha07"/>
+  <default revision="refs/tags/studio-2025.1.2-alpha01" remote="aosp" sync-j="4"/>
+  <superproject name="platform/superproject" remote="aosp" revision="studio-2025.1.2-alpha01"/>
   <contactinfo bugurl="go/repo-bug"/>
   <project path="build/bazel" name="platform/build/bazel"/>
   <project path="external/android/system/logging" name="platform/system/logging" clone-depth="1"/>
   <project path="external/dexter" name="platform/tools/dexter"/>
   <project path="external/doclava" name="platform/external/doclava"/>
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" clone-depth="1"/>
-  <project path="external/freetype" name="platform/external/freetype"/>
   <project path="external/gflags" name="platform/external/gflags"/>
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/intellij-plugins" name="platform/external/intellij-plugins"/>
   <project path="external/jarjar" name="platform/external/jarjar"/>
+  <project path="external/redhat-developer/lsp4ij" name="platform/external/redhat-developer/lsp4ij"/>
   <project path="external/jetbrains/kotlin" name="platform/external/jetbrains/kotlin"/>
   <project path="external/jetbrains/rust" name="platform/external/jetbrains/intellij-rust"/>
-  <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/nanopb-c" name="platform/external/nanopb-c"/>
-  <project path="external/perfetto" name="platform/external/perfetto"/>
   <project path="external/python/absl-py" name="platform/external/python/absl-py"/>
   <project path="external/gradle-profiler" name="platform/external/gradle-profiler"/>
-  <project path="external/redhat-developer/lsp4ij" name="platform/external/redhat-developer/lsp4ij"/>
-  <project path="external/skia" name="platform/external/skia" clone-depth="1"/>
-  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" groups="notdefault,layoutlib" clone-depth="1"/>
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1"/>
-  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="notdefault,platform-linux" clone-depth="1"/>
-  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" groups="notdefault,platform-windows" clone-depth="1"/>
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" groups="notdefault,platform-linux" clone-depth="1"/>
+  <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" clone-depth="1" groups="notdefault,layoutlib"/>
+  <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"/>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="notdefault,platform-linux"/>
+  <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" groups="notdefault,platform-windows"/>
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="notdefault,platform-linux"/>
   <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1"/>
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1"/>
   <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1"/>
   <project path="prebuilts/r8" name="platform/prebuilts/r8" clone-depth="1"/>
   <project path="prebuilts/studio/jdk" name="platform/prebuilts/studio/jdk" clone-depth="1"/>
   <project path="prebuilts/studio/layoutlib" name="platform/prebuilts/studio/layoutlib" clone-depth="1"/>
-  <project path="prebuilts/studio/sdk/remote" name="platform/tools/google_prebuilts/studio/sdk/remote" clone-depth="1"/>
   <project path="prebuilts/studio/skiaparser" name="platform/prebuilts/studio/skiaparser" clone-depth="1"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1"/>
   <project path="tools/adt/idea" name="platform/tools/adt/idea"/>
@@ -44,24 +38,24 @@
   <project path="tools/apkzlib" name="platform/tools/apkzlib"/>
   <project path="tools/assets" name="assets/android-studio-ux-assets" clone-depth="1"/>
   <project path="tools/base" name="platform/tools/base">
-    <linkfile src="bazel/tools.BUILD.bazel" dest="tools/BUILD.bazel"/>
-    <linkfile src="bazel/toplevel.WORKSPACE" dest="WORKSPACE"/>
-    <linkfile src="bazel/toplevel.MODULE.bazel" dest="MODULE.bazel"/>
-    <linkfile src="bazel/toplevel.MODULE.bazel.lock" dest="MODULE.bazel.lock"/>
-    <linkfile src="bazel/toplevel.bazelignore" dest=".bazelignore"/>
-    <linkfile src="bazel/toplevel.bazelversion" dest=".bazelversion"/>
-    <linkfile src="bazel/toplevel.bazelrc" dest=".bazelrc"/>
-    <linkfile src="bazel/sdk/prebuilts.studio.sdk.BUILD" dest="prebuilts/studio/sdk/BUILD"/>
-    <linkfile src="bazel/sdk/prebuilts.studio.sdk.README.md" dest="prebuilts/studio/sdk/README.md"/>
-    <linkfile src="bazel/toolchains/darwin/wrapped_ar" dest="prebuilts/clang/studio-extra/wrapped_ar.darwin"/>
-    <linkfile src="bazel/bzlmod/vendor/vendor.MODULE.bazel" dest="tools/vendor.MODULE.bazel"/>
+    <linkfile dest="tools/BUILD.bazel" src="bazel/tools.BUILD.bazel"/>
+    <linkfile dest="WORKSPACE" src="bazel/toplevel.WORKSPACE"/>
+    <linkfile dest="MODULE.bazel" src="bazel/toplevel.MODULE.bazel"/>
+    <linkfile dest="MODULE.bazel.lock" src="bazel/toplevel.MODULE.bazel.lock"/>
+    <linkfile dest=".bazelignore" src="bazel/toplevel.bazelignore"/>
+    <linkfile dest=".bazelversion" src="bazel/toplevel.bazelversion"/>
+    <linkfile dest=".bazelrc" src="bazel/toplevel.bazelrc"/>
+    <linkfile dest="prebuilts/studio/sdk/BUILD" src="bazel/sdk/prebuilts.studio.sdk.BUILD"/>
+    <linkfile dest="prebuilts/studio/sdk/README.md" src="bazel/sdk/prebuilts.studio.sdk.README.md"/>
+    <linkfile dest="prebuilts/clang/studio-extra/wrapped_ar.darwin" src="bazel/toolchains/darwin/wrapped_ar"/>
+    <linkfile dest="tools/vendor.MODULE.bazel" src="bazel/bzlmod/vendor/vendor.MODULE.bazel"/>
   </project>
   <project path="tools/buildSrc" name="platform/tools/buildSrc">
-    <linkfile src="base/build.gradle" dest="tools/build.gradle"/>
-    <linkfile src="base/gradle.properties" dest="tools/gradle.properties"/>
-    <copyfile src="base/settings.gradle" dest="tools/settings.gradle"/>
-    <copyfile src="base/gradlew" dest="tools/gradlew"/>
-    <copyfile src="base/gradlew.bat" dest="tools/gradlew.bat"/>
+    <linkfile dest="tools/build.gradle" src="base/build.gradle"/>
+    <linkfile dest="tools/gradle.properties" src="base/gradle.properties"/>
+    <copyfile dest="tools/settings.gradle" src="base/settings.gradle"/>
+    <copyfile dest="tools/gradlew" src="base/gradlew"/>
+    <copyfile dest="tools/gradlew.bat" src="base/gradlew.bat"/>
   </project>
   <project path="tools/data-binding" name="platform/frameworks/data-binding"/>
   <project path="tools/external/bazelbuild-rules-kotlin" name="platform/tools/external/bazelbuild-rules-kotlin"/>
@@ -75,5 +69,9 @@
   <project path="tools/studio/google/cloud/testing" name="platform/tools/studio/google/cloud/testing"/>
   <project path="tools/studio/google/cloud/tools" name="platform/tools/studio/google/cloud/tools"/>
   <project path="tools/swing-testing" name="platform/tools/swing-testing"/>
+  <project path="external/freetype" name="platform/external/freetype"/>
+  <project path="external/libpng" name="platform/external/libpng"/>
+  <project path="external/skia" name="platform/external/skia" clone-depth="1"/>
+  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1"/>
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
