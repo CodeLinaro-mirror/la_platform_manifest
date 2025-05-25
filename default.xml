@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="f9194d112e52db51f9345642d317a3b68e626f69" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="eb9d36c53d0d07e69c18143851b388304d9b868a" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1048,7 +1048,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" revision="d4195a0bdfe35a6201cf1b5e222eb532a92cff2a" upstream="android15-tests-release" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" revision="1d85202d8e653854c766a8d6f4a9f6590037cb00" upstream="android15-tests-release" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" revision="051ca1565ae8fb7e8e23f0dbcd94460f5a9ad522" upstream="android15-tests-release" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="f1bea635f01389384c2a9eca222717665ec12ea2" upstream="android15-tests-release" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="d6a4451476f023a5767878206e1b695cee462b7a" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="3d04f9561d986267e1e8f944828b3f9f6ea4495d" upstream="android15-tests-release" />
@@ -1153,7 +1153,7 @@
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" revision="6b16caf1df921e913f25bfebb23293f21affaa6c" upstream="android15-tests-release" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" revision="7c3c5d94d7e53af91580f00f5b44272cc7f26d94" upstream="android15-tests-release" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" revision="7c062c2c20eabeeb72a64c8d29e6ff8d1a56f2ea" upstream="android15-tests-release" />
-  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" revision="bed30167e7b57aa86650b2f56fcfe38799f624b0" upstream="android15-tests-release" />
+  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" revision="0ed7a66c9641e1b165fd0afe587c61a13ebd903a" upstream="android15-tests-release" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" revision="f6ffe4612d6ca0db7d406afc460cc07c81beb188" upstream="android15-tests-release" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" revision="8d6c627a3cde9a5c2d50928be8c1b0841c9a8f60" upstream="android15-tests-release" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" revision="82c2d22e1a42797c8c18bd3f48c480071c74bcd4" upstream="android15-tests-release" />
