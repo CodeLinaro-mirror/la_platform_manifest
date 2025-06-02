@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="f7def83482a42f05d0abc6306e9609b4c7f98145" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="785afc357a4b00d1c4d271299a29882dfed627ef" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="3c6f79de19ea9a8e2d54149919410c35ed45a003" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="565bfa0d7ed5e24a111024850af4ac7fd37d9fcb" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -1039,7 +1039,7 @@
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" revision="5a172fbaad996e59306f7a9a6e3526d2004a4178" upstream="android14-tests-release" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" revision="fd45fc222bd449d34c2af29c431da503f7f1b0f4" upstream="android14-tests-release" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" revision="21c10bd01fc23170e76754ca7360d55e7a9d72bc" upstream="android14-tests-release" />
-  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" revision="32399230518214776606419dd74dccfae3547323" groups="pdk-fs" upstream="android14-tests-release" />
+  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" revision="b42cad70c8d74ace9a8ac4fb34f4718c6f372e72" groups="pdk-fs" upstream="android14-tests-release" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" revision="6295574caf37e8d37f80ced8a5412d67907f19e1" upstream="android14-tests-release" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk" revision="398f5f236f5165448798a4216c814d03a9b93555" upstream="android14-tests-release" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" revision="68712a356b0f3d0fe0a64ac1a52d9f2a70bbb91f" groups="pdk" upstream="android14-tests-release" />
