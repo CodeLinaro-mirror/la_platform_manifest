@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="f32ffd8b779ebd39bc1295af3b194daab28e2e4a" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="b655e99f08cea4b35973c8ca669c2fe006a37ef2" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="22865bf2a33b5a98f5636458566e6cd231e928bb" groups="pdk" upstream="android13-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d0ab6ef7da71a0da47bee0b408dc8c1cf625b283" upstream="android13-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="c89ecef9d9c6a8fe370a3b17e0456a156ff9b9c1" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="cts" name="platform/cts" revision="0f20b57cddf1b97bedc04635f0c5e2e5de0307ff" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+  <project path="cts" name="platform/cts" revision="7306062ef243fb3aa8fcabe8455b159764942fa5" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="63a409550581d053b55cb4ad2e9caba456ad5030" upstream="android13-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="9b775d9249f019055622bfa5549d12de8cac8f5c" upstream="android13-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android13-tests-release" />
@@ -781,7 +781,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" revision="036ce196a0e3677d413da9cf495962ed850e461b" upstream="android13-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" revision="fb046564db0846f07bfd3a1049c6d9a56608b852" upstream="android13-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="fe28f94991b45eb0595067a56a22b29f090f7977" upstream="android13-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="992d5d658d0ddaad1d8d39b81df1e4eae58b04bd" groups="pdk" upstream="android13-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="a910651a0259b3a2f86aadf064dbcd04681d29e0" groups="pdk" upstream="android13-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="eccdcc83a5d68001ad01cd0e9100cdddae7f6acd" upstream="android13-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="89092e7fd7d37833bb54be3abc5d252ed9eef6b2" upstream="android13-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="bbd07bd2e60752a665ebc9b0915241f3c1636516" upstream="android13-tests-release" />
