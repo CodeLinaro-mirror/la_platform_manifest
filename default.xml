@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="8efffbc3fbcf6e80c5fe43fe2a3c2c77f8b36276" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="f37921871d9b9dfeb7c5e9f702747f9ed4f86420" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="7565dfbdeae435f44906d425e60273ac80f5c788" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="e2a01ffd234ceb90920c9d9e2b25620094c930ff" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -1146,7 +1146,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" groups="pdk" clone-depth="1" revision="73ae8d42dd9d5845d7ff5d48cec1fa2baf64f108" upstream="android14-tests-release" />
   <project path="prebuilts/rust" name="platform/prebuilts/rust" groups="pdk" clone-depth="1" revision="24559829bb148a621c8ffdfbc84d344fba1c93c8" upstream="android14-tests-release" />
   <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" revision="6d09fc2ee55f41929dafad67af9c7ae713f4dbee" upstream="android14-tests-release" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="7d1bb0f7b4d16ffc71179a60f3c1dcc8b0a5824f" clone-depth="1" upstream="android14-tests-release" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" revision="64d22c689a14d58dbc1adc6d3d7000331243febb" clone-depth="1" upstream="android14-tests-release" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" revision="0cf88146d6b9ff59c2f67984eaee8e497a23fd7a" upstream="android14-tests-release" />
   <project path="prebuilts/vndk/v29" name="platform/prebuilts/vndk/v29" groups="pdk" clone-depth="1" revision="e9d9647538fa5e66614917d56db54a397584cf19" upstream="android14-tests-release" />
   <project path="prebuilts/vndk/v30" name="platform/prebuilts/vndk/v30" groups="pdk" clone-depth="1" revision="981aa5282109c68469dadb6cae80a1cf53a58fab" upstream="android14-tests-release" />
