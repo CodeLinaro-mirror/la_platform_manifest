@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-sqlite-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="28d921d4f287902b3e93b3e0dcc0796a47eb46b3" upstream="androidx-sqlite-release" />
+  <project path="build/make" name="platform/build" revision="cab54afe20ebed05d2aa4f9bc08e1786aef4847c" upstream="androidx-sqlite-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5790574ca62203fa6bbdc0028904dc4ca847f968" upstream="androidx-sqlite-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="4dfb0ab4cfef2fe41ce417f4c7eba66a397a631c" upstream="androidx-sqlite-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
