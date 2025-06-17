@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="2ad0f816b27a633ccbbe2c699c6af11403b7a55f" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="f20abec7c64dc7daba98ad582a9f8579c3110624" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -24,7 +24,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="art" name="platform/art" groups="pdk" revision="58dd7b527ebc6bc0f9efcbfe9d647948fd59d4f4" upstream="android15-tests-release" />
+  <project path="art" name="platform/art" groups="pdk" revision="b7af65f11af4e24cc4a17dd57866aaa0734d5f32" upstream="android15-tests-release" />
   <project path="bionic" name="platform/bionic" groups="pdk" revision="dc293704943a2ea201e38ac23dd94335c763e879" upstream="android15-tests-release" />
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="e642c5102fec1b0cab7b7b19b7bc3a3f831ff26b" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="b8e1d1d73c7ba1589a7ee906e99d88bddfbc47b6" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
@@ -1051,14 +1051,14 @@
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="80ae26aaeffabd3031cd544e5e22667a7c306d1e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="3d04f9561d986267e1e8f944828b3f9f6ea4495d" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" revision="640638071215a106da0a1f3da1defb024685d9cd" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="b345030177adac7c2b00c4f0ecf431f8927c6960" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" revision="c6e8d4ed34e5944c720e662b99f6b274f0675129" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk" clone-depth="1" revision="49cdfc22db6be7a55ae951e522d5ecadf6293a90" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk" clone-depth="1" revision="51a4241eb8c63ce034bfcd798d8dff8eaa8325d0" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" revision="dcc5d0ce9c42d232140f9a9d2360d7af68a22c2c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" revision="ed4ef7d1ab5fd8a9bf8667eefb3e6a8b8d4fd823" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" revision="ccef4e12e3f6be4a09ba44bb83adf0b310bdcce6" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" revision="c7d15045439eda97353eae009d72fa4f45dde671" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" revision="2a46cb050192f9035b559d439974d93aa3f7801c" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" revision="0e7a53289414f7ad775834adb918a7ec3af31e48" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="c1b6f17450d64bb1c368b48aae97055563e5043e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="8686f19c255c36095c0dcf087901a5a8f7a00750" upstream="android15-tests-release" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" revision="ac84a5ba54e2e66a6ca0110cf2e20566ca28f72d" upstream="android15-tests-release" />
@@ -1163,7 +1163,7 @@
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="497e6ce4e8f086820f84b085d2cc5143aad064fc" upstream="android15-tests-release" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" revision="98a45077c133196d9d4686cb558cd75b954097e5" upstream="android15-tests-release" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" revision="29be413cfda32b0dad04b968c5bbc0cdc414997c" upstream="android15-tests-release" />
-  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="d513b788ac8a83e1cb3ad5894ce35a5d3c875084" upstream="android15-tests-release" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="2319ea48ff9a752680a4179cb296b4debe8816d7" upstream="android15-tests-release" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" revision="7d016e9bac0c043b410e09cea846ed138ed7e66f" upstream="android15-tests-release" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" revision="17171b0168a1a3f69e69bcb7a5d102a5ed91cf71" upstream="android15-tests-release" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" revision="55346cfdcaf32bc038ae868761446cc3babfc40c" upstream="android15-tests-release" />
@@ -1333,7 +1333,7 @@
   <project path="test/cts-root" name="platform/test/cts-root" revision="2d86934ff8ec537364cc881dfc86a73dfe716963" upstream="android15-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="a9be441bc2c5012316e32c0bc6eed8373c27c9b3" upstream="android15-tests-release" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="6a638ae7f116277e91c4567bae600494fe434d79" upstream="android15-tests-release" />
-  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="8904f8089e355e3fe530943d5fe398e1d930f415" upstream="android15-tests-release" />
+  <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="1e699172d7b32ab0305a1c5f34b91d12c2bfbdad" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="android15-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="78be7a5ff439bf9c6c5993a7c848ec9c0af3a0c9" upstream="android15-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" groups="vts,projectarch,pdk" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" upstream="android15-tests-release" />
