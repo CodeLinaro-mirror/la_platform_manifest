@@ -6,10 +6,10 @@
   <contactinfo bugurl="go/repo-bug" />
 
   
-  <project path="build" name="platform/build" revision="64db2f24760efeb7cc6a9d995a15d1b7fb8345f9" upstream="android-games-sdk-games-frame-pacing-release" />
+  <project path="build" name="platform/build" revision="866f5c61ba4da4b12780c53f67975fde3ac82802" upstream="android-games-sdk-games-frame-pacing-release" />
 
   
-  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="d59cc169a99924b684510acab762c54eab14b735" upstream="android-games-sdk-games-frame-pacing-release" />
+  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="f81f888fe11e9540dd580edf5993232172ed3cbe" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="db0f7fae7a35471f96ae065431a2a549f7ce6da1" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="593fdec2ecb2f660a602463c0f2702f47c7176f7" upstream="android-games-sdk-games-frame-pacing-release" />
   <project path="external/modp_b64" name="platform/external/modp_b64" revision="d7c95f79005f5fd54c36642b38843f854388859a" upstream="android-games-sdk-games-frame-pacing-release" />
