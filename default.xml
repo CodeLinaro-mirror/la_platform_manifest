@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="refs/tags/studio-2025.1.2-alpha03" remote="aosp" sync-j="4"/>
-  <superproject name="platform/superproject" remote="aosp" revision="studio-2025.1.2-alpha03"/>
+  <default revision="refs/tags/studio-2025.1.2-alpha05" remote="aosp" sync-j="4"/>
+  <superproject name="platform/superproject" remote="aosp" revision="studio-2025.1.2-alpha05"/>
   <contactinfo bugurl="go/repo-bug"/>
   <project path="build/bazel" name="platform/build/bazel"/>
   <project path="external/android/system/logging" name="platform/system/logging" clone-depth="1"/>
@@ -13,7 +13,7 @@
   <project path="external/googletest" name="platform/external/googletest"/>
   <project path="external/intellij-plugins" name="platform/external/intellij-plugins"/>
   <project path="external/jarjar" name="platform/external/jarjar"/>
-  <project path="external/redhat-developer/lsp4ij" name="platform/external/redhat-developer/lsp4ij"/>
+  <project path="tools/vendor/redhat-developer/lsp4ij" name="platform/external/redhat-developer/lsp4ij"/>
   <project path="external/jetbrains/kotlin" name="platform/external/jetbrains/kotlin"/>
   <project path="external/jetbrains/rust" name="platform/external/jetbrains/intellij-rust"/>
   <project path="external/nanopb-c" name="platform/external/nanopb-c"/>
@@ -58,6 +58,7 @@
     <copyfile dest="tools/gradlew.bat" src="base/gradlew.bat"/>
   </project>
   <project path="tools/data-binding" name="platform/frameworks/data-binding"/>
+  <project path="tools/emulator" name="platform/tools/emulator"/>
   <project path="tools/external/bazelbuild-rules-kotlin" name="platform/tools/external/bazelbuild-rules-kotlin"/>
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib"/>
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1"/>
