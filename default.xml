@@ -1,43 +1,44 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-appsearch-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="d4cf325412dacfda615cacccf4105baaab6dd7c8" upstream="androidx-appsearch-release" />
+  <project path="build/make" name="platform/build" revision="46870567e0e5a329a7191c759cb8f6f09bf97a45" upstream="androidx-appsearch-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-appsearch-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-appsearch-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="16b6f7a1c9af6b862bcc70b12720fb6d3a61975f" upstream="androidx-appsearch-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="a3194dbc17516e38abed5998188a61de4a1d8690" upstream="androidx-appsearch-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="5144732e129a8bf32da62c238921bc46934d9ceb" upstream="androidx-appsearch-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="625b9fcd7890c5c2eabd36d1553b15903ab7dc44" upstream="androidx-appsearch-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-appsearch-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-appsearch-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="2a702b70aa88f45d659d276bbb42a9e3b8ee25f8" upstream="androidx-appsearch-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="bc934b563d00777c47e9e3b1b206534fad5837a4" upstream="androidx-appsearch-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="12b92eebfdd36cf7a5d8ae6321ec2e2d0d7239a1" upstream="androidx-appsearch-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-appsearch-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="817f5ad876a58caa7deab384d0f885de26b384b3" upstream="androidx-appsearch-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="9628ea2c3f1c4c1e87d6e06e92ab778f51f03ed3" upstream="androidx-appsearch-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="e777ba83c95e103a5be4f2b24511ac84deb74159" upstream="androidx-appsearch-release" />
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="b6c29f04b6b1f2a5225be39c90726f6294b1654f" upstream="androidx-appsearch-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5c56d4ccdd3defed538173a0decb670989263ed6" upstream="androidx-appsearch-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-appsearch-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7e13f9c72815cd74249898a097e56f4c3c3aabdf" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="0c552ab6dac48886410174ebabfe1632b2d02ba6" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="104c27567c1860cbaa0d5f5497e8380585d13003" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="0c1b16ec69d8d9485248e422f305f29e2d46a24d" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="c873d4270732c66f50c17cfd2d9eece53b0a3c28" upstream="androidx-appsearch-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="c87bca1c04ccc97281df484ef354226b4ede1469" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="35e71e32ce930193477c12049af9137e96b8e689" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e385220a50d6c8909820335e3d7993fbba229169" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="1d13dbe15f61abae7147627db7c40c8a7b549b05" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="ea14227bb2ef3219d1ea3ba8733c9cf262b5165b" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="f6477819983c2872791d7bc366971fc34dc43223" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="4fceef3ab7bc0160211b5013185e36b02499c153" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="b55a33248434f1a831d5685466cdf4d0844db37e" upstream="androidx-appsearch-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="7d800b8c4034bb2caaac9ed9e54a3bb69b4e254f" upstream="androidx-appsearch-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="9d99e50bada2e621f96ecf4a6054df17a9519e9c" upstream="androidx-appsearch-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-appsearch-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="dfda9bcf07fbab25efe44fe603f6ebe9ed643ea7" upstream="androidx-appsearch-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="741d638b8414c0611355ca7fc1db177f51946f01" upstream="androidx-appsearch-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="cdc6c6edbaaa7702cbe888f0d4b4e11f8fc730e3" upstream="androidx-appsearch-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="b13e1d7ada957e576cccf7a33474e16679788cf7" upstream="androidx-appsearch-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-appsearch-release" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-appsearch-release" />
@@ -45,10 +46,10 @@
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="a1d59a9a9f6eb7b00a04c183901f3ac788891530" upstream="androidx-appsearch-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="64784eae655115d850ed2a0c4277f300c4f8473c" upstream="androidx-appsearch-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="4f01d0c190594e3806aa55a97bf6ed1a065f6093" upstream="androidx-appsearch-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="5a31b49a07d67fc62a7a86950dc4e4c44c538bcf" upstream="androidx-appsearch-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-appsearch-release">
@@ -56,15 +57,15 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="7540faf0c99f587e09526916f2663bc0342c0724" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="fd1866aad088a90c8d16870788f7d800ea60d8ba" upstream="androidx-appsearch-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="b20a481fa8e4c6886536f090e688bdcd8b51135f" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="cd12680bb7968352d918d522d806f0fc82a305bd" upstream="androidx-appsearch-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-appsearch-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5d7b781b0367b83e6249396cbd4f9fab0a5313f0" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e9a033070463b9dc79dfcb3c07e8477254ad2e9f" upstream="androidx-appsearch-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ba0f1a9419bf13c00c029208e3c728d72dc17862" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ce756f9cbe7212aa106cf42cab2d90e391b4a078" upstream="androidx-appsearch-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-appsearch-release" />
 
 
@@ -87,16 +88,16 @@
   
   
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="f6e0a88cff84fd57741fc671208ba0326f036c8e" upstream="androidx-appsearch-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="74744435645bc33cfbeb3187d1550ded2f61a55f" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="e84d0fa9f0ea28f943f5aa81918cdc50ba04ba27" upstream="androidx-appsearch-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="6b465ef17ad5a660b7bc7379e3b15bb92920258a" upstream="androidx-appsearch-release" />
   
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="aa214c18e79c9e2fe326dcdfd0ab9200d9caea57" upstream="androidx-appsearch-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3a8dee15112359e769e974e43854ee39ce983be3" upstream="androidx-appsearch-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="fa1652237070db17ed3fd3831002d14f4e68fdfb" upstream="androidx-appsearch-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cbe8ef2f2617f42c7c2cf2e5dfd5660180831e15" upstream="androidx-appsearch-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
