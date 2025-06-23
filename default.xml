@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-mediarouter-release" remote="aosp" />
+  <default revision="sparse-13549470-L02800030013385097" remote="aosp" />
   <project path="build/make" name="platform/build" revision="177e8f0a086eacc74ae943681744543093465f21" upstream="androidx-mediarouter-release" />
 
   
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="f7fb264c3718c3816f1cfd173f61c34e261aa51a" upstream="androidx-mediarouter-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="e9b76008759137ac6d3e1e40653a859877fdab69" upstream="androidx-mediarouter-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
