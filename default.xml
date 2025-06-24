@@ -37,6 +37,7 @@
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" />
   <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" />
 
   <!-- Tools dependencies -->
@@ -154,7 +155,7 @@
     clone-depth="1" >
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
-  
+
   <!-- JDK dependencies -->
   <!-- Config: shallow -->
   <project
@@ -165,7 +166,7 @@
     path="prebuilts/jdk/jdk21"
     name="platform/prebuilts/jdk/jdk21"
     clone-depth="1" />
-  
+
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
 
