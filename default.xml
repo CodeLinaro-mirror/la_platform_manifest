@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-savedstate-release" remote="aosp" />
+  <default revision="sparse-13694153-L55000030013439784" remote="aosp" />
   <project path="build/make" name="platform/build" revision="ee3b26059de98b01914e29756c5766412dc7310f" upstream="androidx-savedstate-release" />
 
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="c0b8fac6e8a09f743eccd837a597cd0f47004480" upstream="androidx-savedstate-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a2e4f49f79d441d8c0c2f1526da46d21aeb6b558" upstream="androidx-savedstate-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
