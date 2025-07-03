@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-savedstate-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7f8ed962a47575416ff5e1c8012b0226c7444c4e" upstream="androidx-savedstate-release" />
+  <project path="build/make" name="platform/build" revision="acfb97af27d5e0f3fc280d1a64adf59f7b91a8ad" upstream="androidx-savedstate-release" />
 
   
   
@@ -22,7 +22,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="84f4bcc4838065599d89f38150a818669f20d299" upstream="androidx-savedstate-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-savedstate-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="da5226514ba0fbf90f9dcea5cfd69e9657a5395e" upstream="androidx-savedstate-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e8956393cdab88667a8f6ce664dbe3569f837a52" upstream="androidx-savedstate-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="9f5c986ab89a482ddd9161d9b647c8a2e3d9ef7e" upstream="androidx-savedstate-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-savedstate-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="ce2220212ae036fbcdda7ec61f479eef8bc78d36" upstream="androidx-savedstate-release" />
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="f7ef088ae5d90b45ca2def222beeaa5b463439ac" upstream="androidx-savedstate-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="bbc98c58efda193e0e196485a3f8b81cf1490ccf" upstream="androidx-savedstate-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
