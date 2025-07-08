@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-annotation-annotation-experimental-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="a6d82c10ad0765e818a0c5fd51e1a89c0520fed7" upstream="androidx-annotation-annotation-experimental-release" />
+  <project path="build/make" name="platform/build" revision="890fd0c934affe430724b87b1e56baa848db11b7" upstream="androidx-annotation-annotation-experimental-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="8600df2e1a6279d79bbd92933e655cb8f63d0f13" upstream="androidx-annotation-annotation-experimental-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="af0b67cea9da3f8e8139ee5856040fb5bb47bd72" upstream="androidx-annotation-annotation-experimental-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
