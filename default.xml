@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-androidx-tv-material-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="40ad4d25a8698c779a3ebd0692d272e2ab8a3c72" upstream="androidx-androidx-tv-material-release" />
+  <default revision="sparse-12614902-L80400030013812924" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="be3b24b7c41924baa8871405b40909eda9497a97" upstream="androidx-androidx-tv-material-release" />
 
   
   
