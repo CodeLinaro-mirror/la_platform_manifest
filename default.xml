@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-lifecycle-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="e9fd4223e034d82536854d79fa2e617f59f740e6" upstream="androidx-lifecycle-release" />
+  <project path="build/make" name="platform/build" revision="1d60760ed7ffa9c4f7a250d97ea1d1c5269c39b8" upstream="androidx-lifecycle-release" />
 
   
   
@@ -23,7 +23,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-lifecycle-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="a93f93b66ac872a67c56efe43c1f5576221bde95" upstream="androidx-lifecycle-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="763b382cccea78a3d639ae5106f9c903f0bb7ef0" upstream="androidx-lifecycle-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="25c051c730ba850f2f403e3be48ea2e39a028795" upstream="androidx-lifecycle-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-lifecycle-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bff65283d9c2ce3ce06517aff965b7b63ee5ee38" upstream="androidx-lifecycle-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="7098ca4f6dda72c4a275678518ec9910c66cf52e" upstream="androidx-lifecycle-release" />
