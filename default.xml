@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="dab7427243cc1d04ae2391358cd0fcdc29833b75" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="d0ad54039a6a5bc7842950b41338c0165047cce3" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="3f4c15be9fbf30e659f8f706030bd7936f7fa63b" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="21149cfb55d626a9245bc24d77224fe5329cc5d4" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="5a4cf84c15f4fa8dea3ca120081be92c69bdc771" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="473041e6636aae84555200b13f39f62dcdd786fc" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
@@ -1048,7 +1048,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" revision="d4195a0bdfe35a6201cf1b5e222eb532a92cff2a" upstream="android15-tests-release" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" revision="1d85202d8e653854c766a8d6f4a9f6590037cb00" upstream="android15-tests-release" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" revision="051ca1565ae8fb7e8e23f0dbcd94460f5a9ad522" upstream="android15-tests-release" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="796677920cbf5d0416cc2c6d29a6cd9680c0d75e" upstream="android15-tests-release" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="c1598744009c7d85e2b2fae90adbfe4c630ca077" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="b345030177adac7c2b00c4f0ecf431f8927c6960" upstream="android15-tests-release" />
@@ -1332,7 +1332,7 @@
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" revision="0c6e83d2f3cf9068f718531658e746b1e878d7a0" upstream="android15-tests-release" />
   <project path="test/cts-root" name="platform/test/cts-root" revision="2d86934ff8ec537364cc881dfc86a73dfe716963" upstream="android15-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="a9be441bc2c5012316e32c0bc6eed8373c27c9b3" upstream="android15-tests-release" />
-  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="3c7804a7c34ee8486d3d46282b9eb9d61cfdff7b" upstream="android15-tests-release" />
+  <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="b7d6581d0efa6a75855191a944cff8acd74bad9f" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="1e699172d7b32ab0305a1c5f34b91d12c2bfbdad" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="android15-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="78be7a5ff439bf9c6c5993a7c848ec9c0af3a0c9" upstream="android15-tests-release" />
