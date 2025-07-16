@@ -66,7 +66,6 @@
   <project path="tools/gradle-recipes" name="platform/tools/gradle-recipes"/>
   <project path="tools/idea" name="platform/tools/idea"/>
   <project path="tools/repohooks" name="platform/tools/repohooks"/>
-  <project path="tools/sherpa" name="platform/frameworks/opt/sherpa"/>
   <project path="tools/studio/google/cloud/testing" name="platform/tools/studio/google/cloud/testing"/>
   <project path="tools/studio/google/cloud/tools" name="platform/tools/studio/google/cloud/tools"/>
   <project path="tools/swing-testing" name="platform/tools/swing-testing"/>
