@@ -1,94 +1,109 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-compose-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="216071f514c5fff28a473fa6ff0711c7f7995c95" upstream="androidx-wear-compose-release" />
+  <project path="build/make" name="platform/build" revision="bf4086f95afa03064678298762a338439cadfdc9" upstream="androidx-wear-compose-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="9302927a1460eba94a07e6d6e771eeacc3c9906c" upstream="androidx-wear-compose-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="744e21a9732b49ada5a745990aba048b003ab3ca" upstream="androidx-wear-compose-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="d68a79645dfcc1fab4f196cc6a61ff2ccb7262cf" upstream="androidx-wear-compose-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="7b8f59330a153db0daae55b791ed472cb955cedc" upstream="androidx-wear-compose-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="92a640e04cf1a505e5c2835db1dbb2da6848468e" upstream="androidx-wear-compose-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="5ff1e956cd9f998ae5cb678c581a776c1d30f527" upstream="androidx-wear-compose-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-wear-compose-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="415a9bbd9775883ff244d8a432798400e078d915" upstream="androidx-wear-compose-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="51d96ffb883b4bdce88e34a2188c125fbfda2b37" upstream="androidx-wear-compose-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="ff1e80cd602ce67d0d71623bb23e336d5630e39e" upstream="androidx-wear-compose-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6ac3bc4f871725ea6a3d58e8ef8844b769e5f44a" upstream="androidx-wear-compose-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="6aaad7b6f9db66956d0344d66521c83c4e523569" upstream="androidx-wear-compose-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="3840db35575e6cbdaeac6e431c65eeb4c9d735e5" upstream="androidx-wear-compose-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5c56d4ccdd3defed538173a0decb670989263ed6" upstream="androidx-wear-compose-release" />
+
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="f6b5dd967b62dae7e52bb39a4b8f4a09f9fee0b3" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="5f0fb2344f06d9a5029c213b0923e0ec1201d5c2" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c8094f1f64e887f376f244dfabe70821961d1ee7" upstream="androidx-wear-compose-release" />
+
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7739d5bd7b985d79a9f7976f1d406ebf94871d75" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="ef1959e4717c8c041d4eeb05e637dd2161d469a7" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-wear-compose-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a21a8ae5577e588ecfd4e0907f5c893dc75ebb79" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="d22446b3cf09fd4c758c6eff110776ffb00ca6cf" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="ea430bee532c0ee8b79353b1a99f370200d9da59" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="27fc6b6bacf3ba9a92e12a0069538ef1b727340a" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="421e84395d78f0df3a50b83097c1ca393455f774" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="48db74b86f788f9681464678ebebe6f2a14a888a" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="876af2ca9adee5c7b587c1d30404980a19a68c94" upstream="androidx-wear-compose-release" />
 
   
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="1857d414a3f80ac181d69cb4283ca6ee31beacb2" upstream="androidx-wear-compose-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-wear-compose-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="c4e6a045320ab3e1ec0f902a29f1f6337b4432c4" upstream="androidx-wear-compose-release" />
-
   
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="0b151c94e4e5b165a49699c4b82b042d9c281530" upstream="androidx-wear-compose-release" />
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="63ae937126ed0385eb43c0d5f5fc0464a7d8d25b" upstream="androidx-wear-compose-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="b4542ddf1405afea27f5bae5fbb4471bfa80f3da" upstream="androidx-wear-compose-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-wear-compose-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="8511fc7f5bbdb1b6a4a1a0dd42677a288c8b93e2" upstream="androidx-wear-compose-release" />
-  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="c988967267ab778ca959b71c624fd3bf81a6d5e0" upstream="androidx-wear-compose-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="04ea724ee96a6e3511ae750030377df97f886d85" upstream="androidx-wear-compose-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="b6f83f7a4fc62ccc9cb6eee8c168b47d2ed85bc7" upstream="androidx-wear-compose-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="baace7940e20a5580139e40e97a54964d66ae48c" upstream="androidx-wear-compose-release" />
+
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="42dc159729399bccf523c2e409b8a47735b4674a" upstream="androidx-wear-compose-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="f9f8bf4c5b71f3cad37720b96b2a43b3ec18f684" upstream="androidx-wear-compose-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="d276229bb6e19c6803c75dfce3901420a6cc2a79" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="042eca899897a78597f66d06301b85d197b7aa2e" upstream="androidx-wear-compose-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="2891550e648404eea91b4b9071ca8f591d2d08da" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="bf0159819fba60a958006616c52465be4963a518" upstream="androidx-wear-compose-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="fcf267b9f32eda0a8e64e1230bd2a82032eb10f5" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="d24d2d6ee0bd0c306e0f53dd0b91109463c8094d" upstream="androidx-wear-compose-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="e00ec3326ef5d2460bb59b1bea7c43ca5fc54b63" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="b19787872e15201fec88b956ebe26d92f1420a76" upstream="androidx-wear-compose-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-wear-compose-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="7523eaa2b85d25382c9941ea13d903e1b63a8d8d" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="176858d6eede8a707f09efce015708c7d8d845b1" upstream="androidx-wear-compose-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="236e8cdd06c412320fae9050cbd6b5f84a15bc4e" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="4016147123b93274b5d216ad521a9f834ded08bf" upstream="androidx-wear-compose-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-compose-release" />
+
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="9c16cc8e08a81c6ab7152269ab68cdab347185a3" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-wear-compose-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="c13f6a0901332598ecbe1786c0bfce8d35723a6e" upstream="androidx-wear-compose-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="e9d5e5c8446a599b20fe03bcb548a5fb7e161b4d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="001ed46e3703c78cbc3838adfe4c14ba279f9ff7" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="df0cd542a4f0625a278f69547884a5e59a19a5d9" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="18d720e6fe6bbe9193fbcd6efef7d0ffb64a3319" upstream="androidx-wear-compose-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-compose-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="ce839eb414a7d47239271e94efa32853b50512fc" upstream="androidx-wear-compose-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="59ee68222d0bc52c176e918622f0db37d01e3a85" upstream="androidx-wear-compose-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="692c2cd60b9b3b1164ffd49d04d1c3477c532684" upstream="androidx-wear-compose-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="00d22e1b01e44eee0fa010547d1022fd5b98ceb7" clone-depth="1" upstream="androidx-wear-compose-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="a312302ee53bf1c942180d3b63c29ffc23d9dfb4" clone-depth="1" upstream="androidx-wear-compose-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="0b6b988ea3cb4d0071d919013762e8061a6a4b15" upstream="androidx-wear-compose-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="6833bd6639229d2e4ba028ebfc87ff5590404602" upstream="androidx-wear-compose-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="6b675cc236924912359c8f06d33ee6a6abbefbd4" upstream="androidx-wear-compose-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="f6f9cfa3b8a33f55279f10f4bd2df72ec8806f3c" upstream="androidx-wear-compose-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  
+  
+  
 </manifest>
