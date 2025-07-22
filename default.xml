@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-compose-material3-release" remote="aosp" />
+  <default revision="sparse-13812986-L62200030014235841" remote="aosp" />
   <project path="build/make" name="platform/build" revision="babe40d24fe481d42445c5e827a6067d789865bb" upstream="androidx-compose-material3-release" />
 
   
@@ -93,12 +93,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="3e1c26d09a2c859985f31b6fe3a557f817875476" upstream="androidx-compose-material3-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d4680a1d26cbf3a4181fe656c3a6ff737f75e268" upstream="androidx-compose-material3-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="430ca642fff0fbf80c22aecd64453d75e98a645c" upstream="androidx-compose-material3-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="cee39033dc08a4d8d4d9ebb013fb4a75ba01f3bf" upstream="androidx-compose-material3-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="7a6a98e87d5d1ac39f9d55ddf93746d9d6ea82de" upstream="androidx-compose-material3-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
