@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="321d844c1e16ebdf6faf020c7dab381748a63c72" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="5092bc47fe15ca16f4fc24ee5502b06163ca8569" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1220,7 +1220,7 @@
   <project path="test/vts" name="platform/test/vts" revision="f95e6b905ef00efed70e58b3834fbae5bf158209" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="4cf94915bfa6d6840d46050f6f0e3cdf340a422c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="bf895e007da139ae6d634c7939ee3c0886c485b2" groups="vts,pdk" upstream="android14-tests-release" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="8524310c618a567bfc05710b4e164bef9b1c1799" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="5de6b992ca4a80b381c8a5dced4debceb8034035" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
