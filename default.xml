@@ -1,46 +1,56 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-camera-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="be2d1faac71d608a4be119a39cee7ac4b1eab7d1" upstream="androidx-camera-release" />
+  <project path="build/make" name="platform/build" revision="e08a80ecfe3e21a1b254978b26f88a2681b62322" upstream="androidx-camera-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="2e9a99583c8a98168e628ee76f52bb5344d0a369" upstream="androidx-camera-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="fdcb316891554b34890934a003861b1e9b089d2f" upstream="androidx-camera-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="b651694eac0db04dc468ce4bc435c71839aca0a9" upstream="androidx-camera-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="19abbf58f74d62731fd5fb3d7cfd27d557337649" upstream="androidx-camera-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="edcc7c2bce586c6eeed4242954784d1214e303d4" upstream="androidx-camera-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="fb9cae9e70aaef235da4eb8179a047c31198d295" upstream="androidx-camera-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="42dd9174fd7bfa093de73a8220733c1141cdb01c" upstream="androidx-camera-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-camera-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea0a9974aa4f44ab251ebab29981246962d7f8ae" upstream="androidx-camera-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="4507fc9a619ad8b2a05ec92e8508ea46396e7b7c" upstream="androidx-camera-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="3a87eda3fb69a7b3773cfe39937fd918b45ecb9e" upstream="androidx-camera-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="9b6c3f6d4a6ad950e0d35d71b5ece92f40cd66f8" upstream="androidx-camera-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="3840db35575e6cbdaeac6e431c65eeb4c9d735e5" upstream="androidx-camera-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5c56d4ccdd3defed538173a0decb670989263ed6" upstream="androidx-camera-release" />
+
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="48af1120cc4413696e3585f5ec37dff9c49f9e5a" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="8c8ad353b6b9056aa61cf55c3c991299f5065945" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="3de12ff745238a7c8fb486107b37921a7563fdb1" upstream="androidx-camera-release" />
+
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="cc20ddbf9c9dd2ecdc38af0388f78e9b821aeea6" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="11c065daf30d2b28c65e8912d4d7741f40a0b5fb" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-camera-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="0082b06fd17bc1580348b335b43f9a8cff8ec800" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="5e7edcf7c7f185c9c320cc81ad7393ef6f4b1710" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="3fc327a5e7b07e62e6fcc350e3a02aaeda335c34" upstream="androidx-camera-release" />
-
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="7a8889fe0c0f9c0f06fc23f3323ebdd0bcfdede1" upstream="androidx-camera-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-camera-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="b6334639e6fada9d8b607ef0a9979bab7e29b7f8" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="62e9f2acc6015e27689174a8477e04bbbe02fa76" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="69ba6ec3b1baaebf34db1f521be9c7b65b21b11c" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="0c6c006142afb3b45a61373253c44b3a6d37ff39" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="48db74b86f788f9681464678ebebe6f2a14a888a" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="f77bb720a6654ca1ee1cbf7bef4c04ff6dbbb130" upstream="androidx-camera-release" />
 
   
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="ca6dbca44760b7bec79a760cbc76341f59ca5ff0" upstream="androidx-camera-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="196e2bd527f1fdfff0a786c76e6a7be7ffdfada8" upstream="androidx-camera-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="27a0aebc855e86939c2a3fef16531724f823ab81" upstream="androidx-camera-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="b1a26ee1914467f72201e8983782271b659f15bb" upstream="androidx-camera-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="26508cf9166b45547d9d46cae4874557670b03ef" upstream="androidx-camera-release" />
   
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="71603a93b9c699ae3885e96bd7b5c7b8e2a6dec6" upstream="androidx-camera-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="70ca7d2ce9d8971edcb646442912bf5b009c2c6c" upstream="androidx-camera-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="0a66346efcec241c62d5d6f42747588c3c703729" upstream="androidx-camera-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="4f7307623a5d9f56a7796baa029f4ce267227784" upstream="androidx-camera-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="f413d8e2b4f018337ecf6a1125bed85c6c7e4cf7" upstream="androidx-camera-release" />
+
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="e3969f78549b2b62a127ab110182eb312d1a3aed" upstream="androidx-camera-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="cd2d81b097d77e239995f2afeeb54f8547b8bb97" upstream="androidx-camera-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="7e7eaf61b68cf2a750c22e216c343995b157530b" upstream="androidx-camera-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="29bcd3a44e67ef1ab441913a5165dd252a93bad6" upstream="androidx-camera-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="c48167218cb34102868ceb397079bf4542ae0a46" upstream="androidx-camera-release">
@@ -48,48 +58,52 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="17d3f246d4ade9308c9d67626d1b89d2b599897b" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="4d8590dade134a4d3a43ad426cd0c99ee63e5418" upstream="androidx-camera-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-camera-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="657f972b8bb011ac3883889d676e5baef6ae64e2" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="db018094465af19ebaefe3ba4ced1ffbefb8fed4" upstream="androidx-camera-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-camera-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="94237ac765022c287892d70dfd85c414e29a09a6" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="bc3aec03bec88c024834514873d43ca247616889" upstream="androidx-camera-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-camera-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5c48b4ac53e134f659ff053994c3fb85ce7809af" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="1bbc775b6b0372cbb413cb7c24249a68c639e964" upstream="androidx-camera-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-camera-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-camera-release" />
+
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="9c16cc8e08a81c6ab7152269ab68cdab347185a3" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-camera-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="14ab9bd7fda082cef68d72c953f86ec591214e9b" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-camera-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="14ab9bd7fda082cef68d72c953f86ec591214e9b" upstream="androidx-camera-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-camera-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="c4ee864d10d116c690a8c8a7b8f3991e301dfee3" upstream="androidx-camera-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="e9d5e5c8446a599b20fe03bcb548a5fb7e161b4d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-camera-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="f358cba0dcd30bd00a2c9dbfc56c9ca3b3739f25" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-camera-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="df0cd542a4f0625a278f69547884a5e59a19a5d9" upstream="androidx-camera-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="f4bee25645c233f426acbd5db9f2679bc9d70498" upstream="androidx-camera-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-camera-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="51a56054e6e47d1efc0edf4d50cd3260484fe58d" upstream="androidx-camera-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="f4f694be70dbcb691c2f97e37b04c5294abea7d1" upstream="androidx-camera-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="c0b1d08b166903a517013d8fb0a9a79b7ff6e6f2" upstream="androidx-camera-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="adfebd994ef60cbc812fcb4db46bfd53247423eb" clone-depth="1" upstream="androidx-camera-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="73ab0f31d66b5acc6d542ed1fbb6a7ca6e1d9a64" clone-depth="1" upstream="androidx-camera-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="9e06d64916768339e74a36782c04b3f5f48459a5" upstream="androidx-camera-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4b4d88df2106a3be7385a96a7cf18b833227967c" upstream="androidx-camera-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="3e0a72e3dcd61a1dee78ce48b9092c6b3267b331" upstream="androidx-camera-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ff7d9327b06e182c0af0bddbbe3662eb10e7b996" upstream="androidx-camera-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  
+  
+  
 </manifest>
