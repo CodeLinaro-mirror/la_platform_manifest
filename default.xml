@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-telecom-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b29ab1516c2b9767eb4aafeedc2b0ac222889879" upstream="androidx-core-telecom-release" />
+  <project path="build/make" name="platform/build" revision="8d24fbf8bb644135b8a6ae0d1c2ba07fc3bcc72c" upstream="androidx-core-telecom-release" />
 
   
   
