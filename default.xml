@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-telecom-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="8d24fbf8bb644135b8a6ae0d1c2ba07fc3bcc72c" upstream="androidx-core-telecom-release" />
+  <project path="build/make" name="platform/build" revision="bae82732b457dcf58e407f6292fd5b24d5666561" upstream="androidx-core-telecom-release" />
 
   
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="61f102dc66f0340febd0f8b8b220386282d785c5" upstream="androidx-core-telecom-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="40e5626dcdec536576fecb4158c54e929329f682" upstream="androidx-core-telecom-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
