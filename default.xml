@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-hilt-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="4b09bacef005ad5cbb2f0280faa4579873a4a305" upstream="androidx-hilt-release" />
+  <project path="build/make" name="platform/build" revision="5d27f8886897d4690fe012481b88c9df71f8bce3" upstream="androidx-hilt-release" />
 
   
   
