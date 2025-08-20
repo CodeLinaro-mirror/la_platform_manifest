@@ -1,10 +1,10 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="sparse-13953748-L13400030016808211" remote="aosp" sync-j="4" />
+  <default revision="sparse-13963245-L08000030016811103" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="51424dc0d5d8c2a140bccb994b17288ebcc7c396" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="2826e51a3b651a96d196cc39e3af14ab9fffce3c" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1048,7 +1048,7 @@
   <project path="hardware/samsung/nfc" name="platform/hardware/samsung/nfc" groups="pdk" revision="d4195a0bdfe35a6201cf1b5e222eb532a92cff2a" upstream="android15-tests-release" />
   <project path="hardware/synaptics/wlan" name="platform/hardware/synaptics/wlan" groups="pdk" revision="1d85202d8e653854c766a8d6f4a9f6590037cb00" upstream="android15-tests-release" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" revision="051ca1565ae8fb7e8e23f0dbcd94460f5a9ad522" upstream="android15-tests-release" />
-  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="653824f53ac360166f1c3f5da7f2550bc85e5fe9" upstream="android15-tests-release" />
+  <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="ded5fd3f5d69272762b588fc5b1041808c4078b1" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="b345030177adac7c2b00c4f0ecf431f8927c6960" upstream="android15-tests-release" />
