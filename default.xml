@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="a7e587f4857487c6f1ee65a6236595113c9fc157" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="696b98631af1e805ffca48f4b5acca00b894daa5" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1033,7 +1033,7 @@
   <project path="packages/modules/CellBroadcastService" name="platform/packages/modules/CellBroadcastService" groups="pdk" revision="2b1bd96e60c14e63a4f29ec91c2506d0cd7df238" upstream="android14-tests-release" />
   <project path="packages/modules/common" name="platform/packages/modules/common" groups="pdk-cw-fs,pdk-fs" revision="b2ae601de2b8f0b4beab0b8b3033dc12bc365434" upstream="android14-tests-release" />
   <project path="packages/modules/ConfigInfrastructure" name="platform/packages/modules/ConfigInfrastructure" groups="pdk-cw-fs,pdk-fs" revision="a15a96ba455d0931f3336120e333b99f4c1b3987" upstream="android14-tests-release" />
-  <project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" revision="7e723826a267df3659f5b922dd624a444797f436" groups="pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="packages/modules/Connectivity" name="platform/packages/modules/Connectivity" revision="c9f9fc16f2c460339c4ca9a91c2dcd6e0bcdd7c0" groups="pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="packages/modules/Cronet" name="platform/packages/modules/Cronet" groups="pdk-cw-fs,pdk-fs" revision="5d9adbd1dc6fdb8e84024bdb3d647d969f505a3e" upstream="android14-tests-release" />
   <project path="packages/modules/DeviceLock" name="platform/packages/modules/DeviceLock" revision="f27e87ffd9d75e37061281693f4f47cf048b5aea" groups="pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" revision="5a172fbaad996e59306f7a9a6e3526d2004a4178" upstream="android14-tests-release" />
