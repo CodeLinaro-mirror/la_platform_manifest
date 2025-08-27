@@ -1,94 +1,109 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-graphics-shapes-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="f765a18bde0ca200f693830e1ac7b4aff931f351" upstream="androidx-graphics-shapes-release" />
+  <project path="build/make" name="platform/build" revision="a6a16952a2e9f9c2dda09a19736c21fd7d816f61" upstream="androidx-graphics-shapes-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-graphics-shapes-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-graphics-shapes-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="c6fa38d422e2ea5ec05b54784cfcd62817faad45" upstream="androidx-graphics-shapes-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="b1b8c8771490b286182357d1f2f8418a47e3297c" upstream="androidx-graphics-shapes-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="59f78ef789000fd069b4ba2814b8c0670071b8d7" upstream="androidx-graphics-shapes-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="e2ed6486d164a60f2daeb733b58814a72437be3f" upstream="androidx-graphics-shapes-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-graphics-shapes-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-graphics-shapes-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="52ca06f38c1b0569bc462a5c6eec8de5b9002136" upstream="androidx-graphics-shapes-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="18e7adac0ea6ef5b3d86b414fa864c7f0a7a8e52" upstream="androidx-graphics-shapes-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2d47941a21c4d4abe959504fd7fba9bdac81dd3b" upstream="androidx-graphics-shapes-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="d85b8746b6da018887c4a85a773bef3962c09b5d" upstream="androidx-graphics-shapes-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="2061154a86868d77ac1c3c0f414954af0072c66c" upstream="androidx-graphics-shapes-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5c56d4ccdd3defed538173a0decb670989263ed6" upstream="androidx-graphics-shapes-release" />
+
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="efac4f2a256ff4789ae1f69fc446c988fe99e3ee" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="ef69f62805839d8a04645060462a4b6f10e21a96" upstream="androidx-graphics-shapes-release" />
+
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="963bcd4561ec3ffcd8a4d7c954f153b3ba0cb083" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="442ba71e3063644d2d495f8d989befa0de4e5493" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e74ce8d29ee72e705692ab8867dc1bdb0fb09d9d" upstream="androidx-graphics-shapes-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="7c92aa58167a2f03b34c01c0ef2d6cb6f71e601a" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="b2e3e5c6fc582a534bc4b8f865b395992c043c97" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="17ccc432776b19242eb0d6a0f3df80a5c72c917d" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="92fae79a34cad043edeb7db1bb915b37045158ac" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="482263ff12d04ebd48aac8c4e66099ef534488da" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="f88470eb4a308c9cc196818fb18bae2453e7b478" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="80bca250326bc63f72c32c16949cad4310ab84b7" upstream="androidx-graphics-shapes-release" />
 
   
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="5c71b03698ea2944e5b463d14dcd56e044a3f2a2" upstream="androidx-graphics-shapes-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-graphics-shapes-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="55359293d811e46351f85295aba72fbde0a15e91" upstream="androidx-graphics-shapes-release" />
-
   
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="3ae9574664554780f3b2aceed1b430266d363975" upstream="androidx-graphics-shapes-release" />
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="3001ed73efa5c88bd3def905afec8f3b6fe70af6" upstream="androidx-graphics-shapes-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="5e67a70e0758e1382818de569c30d146560a33b1" upstream="androidx-graphics-shapes-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="f6d6c638b4b81cf937de239f40384650f8c1d931" upstream="androidx-graphics-shapes-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="2524d71c505d8735be185f3b806e6b1f90962fd8" upstream="androidx-graphics-shapes-release" />
-  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="bee2e0ec5a436811ac3a23bc2cc957b08df036a2" upstream="androidx-graphics-shapes-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="d40c7a8ba7f00147aab16bc4ea35919f8704756b" upstream="androidx-graphics-shapes-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="b32e524313eb238d4b5a0d60210ad284bf2fb30b" upstream="androidx-graphics-shapes-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="dd6add6077f8b3a6c94f87472e48c03525d2e062" upstream="androidx-graphics-shapes-release" />
+
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="f19364e43bccb1f611afc30c8ffd7c43de0ef962" upstream="androidx-graphics-shapes-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="6b9d2242d08ea24c854cdd53b88041489db72f56" upstream="androidx-graphics-shapes-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="ef3c3184b50e686cbd257d5c1baff9fad9c6161b" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="9e0af8d6cf30f9b24403e6162ff62538d68ec252" upstream="androidx-graphics-shapes-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="bcfbe3a5fc572ea731c08053d83160e677c877da" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="81e8c377869f8c41d3cdf2e585103625cdf4862b" upstream="androidx-graphics-shapes-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="637bcc9898ef640de721c26a7aa2790666f5f8b1" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="cb81be8efff8b0d27fec6cac05586ddb01e0befe" upstream="androidx-graphics-shapes-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="67cf11e65ca14e7e6e777b5fdaad9b19bf374b37" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="817ef06fde7294349960dbd6763c45190c5c6ce7" upstream="androidx-graphics-shapes-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-graphics-shapes-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="2cb14dfc87e3d9311a3cedb9a5e886679d5cdbf4" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="55fdab334d778701bb63bdc15ed80f932b438ffa" upstream="androidx-graphics-shapes-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ac03ac9aec94f76e52e24b2f65ec6948737b94dd" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5b54cf4c926c87b59338ef4cd1a71119fab0500b" upstream="androidx-graphics-shapes-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-graphics-shapes-release" />
+
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="9c16cc8e08a81c6ab7152269ab68cdab347185a3" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-graphics-shapes-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="21e99699f7bdc09b62b17785107374c96c82e2d5" upstream="androidx-graphics-shapes-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="e9d5e5c8446a599b20fe03bcb548a5fb7e161b4d" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="ee2dd3beffa9f70e3dc562748b238848c311c107" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="df0cd542a4f0625a278f69547884a5e59a19a5d9" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="85c991ecc13db64d5ee518a3226203a77b9e492b" upstream="androidx-graphics-shapes-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-graphics-shapes-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="f74efcbe4719173ecd383cd5a29bda97e3640d16" upstream="androidx-graphics-shapes-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="1e417caf0a5730ec1e386d621cca120525a9da12" upstream="androidx-graphics-shapes-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="53286f6791dfc279dc1ed4156e5fbd0389af05eb" upstream="androidx-graphics-shapes-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="34fcaf9ae22a69b1bce541563e28079abd3606ab" clone-depth="1" upstream="androidx-graphics-shapes-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="f794eb1481c3214546a485804270bcfa00610a1e" clone-depth="1" upstream="androidx-graphics-shapes-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="7c267dce1f5f730b0882a0143c9ec3e462acfa7c" upstream="androidx-graphics-shapes-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="37caf52bb54dde56d8f20c5c80806ac5d1b0db76" upstream="androidx-graphics-shapes-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="57a5f9c08f7f459617a9cc84635af0f818761f4d" upstream="androidx-graphics-shapes-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a1575365889263a8ae455c8127adea239f056f80" upstream="androidx-graphics-shapes-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  
+  
+  
 </manifest>
