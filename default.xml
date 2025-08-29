@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="370252db7caac3fa59063d59109fe7b36069ad7d" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="c72672d761f32e6536b146d81d2ecb47d19a7819" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -86,7 +86,7 @@
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" revision="91eaa48f029a9fa83c3c00313d661553746e383b" upstream="android15-tests-release" />
   <project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" revision="5db52e2f4e2c2ee624cc6fb79dede2753eaeacc8" upstream="android15-tests-release" />
   <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" revision="bccd0a6d1469a8d0aa19f94740c8d9230a09f571" upstream="android15-tests-release" />
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" revision="9fe44ca1ec11579b625657fb957ceb55424b1b40" upstream="android15-tests-release" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" revision="658646e96f38a1818b86c06c5f2c4420ad2da089" upstream="android15-tests-release" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" revision="59a64e0123f2745eb589bef6361d5ea1b57fa7bc" upstream="android15-tests-release" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" revision="1578c235a3b6ec4981892d4bb6848bdca7180678" upstream="android15-tests-release" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" revision="43c692e0815aa9d73d4fc37363c60ba390d5c9eb" upstream="android15-tests-release" />
@@ -1350,7 +1350,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" revision="81eb4a2ac4d08c70bef69635ebead7f26158a112" upstream="android15-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="4eb4a1dad83637200eb2aada232b536706613665" upstream="android15-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="5819393ca04902c8fea8f07062d7e38f76aa36c5" upstream="android15-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" groups="pdk,tools" revision="dea6795b0bd0b901bcef61172cd9f9d1c0ad935c" upstream="android15-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" groups="pdk,tools" revision="bb9fcc7357e7f4989302d7f0a71bfd3aca891694" upstream="android15-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-cw-fs,pdk-fs" revision="27695d3ceda1808b49cdc4aa1d5ed636e56871fa" upstream="android15-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="a17cc37541597fbb02676bbda5afcc2b1077cbf7" upstream="android15-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="4cb92fdf950088feb6a4efcc932a2a235557a4b5" upstream="android15-tests-release" />
@@ -1368,7 +1368,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="050b47820173185eba555d2edf09a17334e375a9" upstream="android15-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="cd87a9cf11be58c4fc17af8d0ab14281c46c14ed" upstream="android15-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="1b5ad3e9ba5b82967bb9bfd2e63efc075ef3df75" upstream="android15-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="53059049e7870360620254ea3c0f4ceffd14316d" upstream="android15-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="98003cbc07ebc6e1a0afe9eccbecff7a3a6e8f5c" upstream="android15-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="d15b469cdcbd79b625066924477fe9d314f1f349" upstream="android15-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="android15-tests-release" />
   <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" revision="f49beacbb089828255d293f34d7a0f64fa7623a5" upstream="android15-tests-release" />
