@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="c72672d761f32e6536b146d81d2ecb47d19a7819" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="91ae37cf60b44c08de85ce70367b86ca50344515" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1169,7 +1169,7 @@
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" revision="55346cfdcaf32bc038ae868761446cc3babfc40c" upstream="android15-tests-release" />
   <project path="packages/modules/Scheduling" name="platform/packages/modules/Scheduling" groups="pdk-cw-fs,pdk-fs" revision="0df1f67d0897f0d2c5a71433242f33570a8839a4" upstream="android15-tests-release" />
   <project path="packages/modules/SdkExtensions" name="platform/packages/modules/SdkExtensions" groups="pdk-cw-fs,pdk-fs" revision="0e2e6905ed9168718f6867c2f6f7d19b0711e7ed" upstream="android15-tests-release" />
-  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" revision="8d6f362156ac130e7fa85d1d4ddbec3a61a152f2" upstream="android15-tests-release" />
+  <project path="packages/modules/StatsD" name="platform/packages/modules/StatsD" groups="pdk-cw-fs,pdk-fs" revision="155c9ca0049195f9bd40e1d3a73f06a78b64bba9" upstream="android15-tests-release" />
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs" revision="8f1bc4e3284d27525c41c1064019473574d8378a" upstream="android15-tests-release" />
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" revision="bae2b4ee03cdfe81d0a09a96cd7ee9c21103a492" upstream="android15-tests-release" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" revision="7674843e45aef3fbc153d85e24e583e8882fd9db" upstream="android15-tests-release" />
