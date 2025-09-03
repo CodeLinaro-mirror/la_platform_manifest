@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="7f33af2f73b5e22cee58c91b8d5b15fade9de778" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="3c90d00964e6e6b007b236d081df8517db471586" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -161,7 +161,7 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" revision="2e4ef497c74a2a2de08cd8dfeadd24167f50a9d6" upstream="android14-tests-release" />
   <project path="external/ComputeLibrary" name="platform/external/ComputeLibrary" groups="pdk-lassen,pdk-gs-arm" revision="5e63e0232fe7426f10e5982bd4005d706f1beea2" upstream="android14-tests-release" />
   <project path="external/connectedappssdk" name="platform/external/connectedappssdk" revision="6149d266910d96ec0395bdb12038baa80dfe3a3d" groups="pdk" upstream="android14-tests-release" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" revision="313ed811f1c7e663595d9915c7007662028271ee" groups="pdk" upstream="android14-tests-release" />
+  <project path="external/conscrypt" name="platform/external/conscrypt" revision="25df3323132420add45069c6dbf432497abb9c06" groups="pdk" upstream="android14-tests-release" />
   <project path="external/cpu_features" name="platform/external/cpu_features" groups="pdk" revision="1dedb9ec071aa599ae0c4ae3e300bf2e776b25e5" upstream="android14-tests-release" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" groups="pdk" revision="44d0d4282252025ec864c22bae3de09fd8972c6f" upstream="android14-tests-release" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" revision="a164e4c8ceb68d2ed98bfa4453ac24556007d537" upstream="android14-tests-release" />
