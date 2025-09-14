@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-compose-release" remote="aosp" />
+  <default revision="sparse-14098334-L91000030017888941" remote="aosp" />
   <project path="build/make" name="platform/build" revision="4cc2f2b0c3b7b6dd24b4f9d8ebfdc5682665dee0" upstream="androidx-compose-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-compose-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="bb15e010b3066ae3e798fd7d292243d4a32f1fb8" upstream="androidx-compose-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="ef962ad8785ada65b54caf288a8cf4f88916d4ca" upstream="androidx-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="b7ffd49deb7e327b4b7155167858de2b1b90a0cc" upstream="androidx-compose-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="6b112f8bd86d9012fa477adc7bde8d125633ad07" upstream="androidx-compose-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-compose-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="34509e3e0ab85ffc6dd3e3bf9967be11ff4b598a" upstream="androidx-compose-release" />
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="93a1ed2aac05dbfa192392b9d4ab27c40da53d69" upstream="androidx-compose-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="893b59543e4e01d0f7200861a57f452127bf4599" upstream="androidx-compose-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
