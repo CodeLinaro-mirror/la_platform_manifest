@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="fc996852eba741c4e0f47921c197fa129353ccc4" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="a03df89e6fe7e88c08900e3297053f56f7095066" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1230,7 +1230,7 @@
   <project path="prebuilts/jdk/jdk8" name="platform/prebuilts/jdk/jdk8" groups="pdk" clone-depth="1" revision="6cd518be7a7147ed5b1053edfbf66379bf5a45f9" upstream="android15-tests-release" />
   <project path="prebuilts/manifest-merger" name="platform/prebuilts/manifest-merger" groups="pdk" clone-depth="1" revision="e343ee70b85ce1e210008f34647a34a61f588006" upstream="android15-tests-release" />
   <project path="prebuilts/maven_repo/bumptech" name="platform/prebuilts/maven_repo/bumptech" groups="pdk-cw-fs,pdk-fs" clone-depth="1" revision="6fcaf191c5ba4cc9ba0594c778dbe17cf01f40cd" upstream="android15-tests-release" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" revision="10b27f5be442ea4980f5c7ab1ba70a72bac74340" upstream="android15-tests-release" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,sysui-studio" clone-depth="1" revision="41aa58b45540293dfc729dc55c820b4586c3a536" upstream="android15-tests-release" />
   <project path="prebuilts/module_sdk/art" name="platform/prebuilts/module_sdk/art" groups="pdk" clone-depth="1" revision="7190491772b9d2e34e306773915761c74b765a1d" upstream="android15-tests-release" />
   <project path="prebuilts/module_sdk/AdServices" name="platform/prebuilts/module_sdk/AdServices" groups="pdk" clone-depth="1" revision="9d505252fc3f89f9b35e3acb77d3be9202d3274b" upstream="android15-tests-release" />
   <project path="prebuilts/module_sdk/AppSearch" name="platform/prebuilts/module_sdk/AppSearch" groups="pdk" clone-depth="1" revision="b8b18f32ef06b08775aa8e2f7b60eba55006e18f" upstream="android15-tests-release" />
