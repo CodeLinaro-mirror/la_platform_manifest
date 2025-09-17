@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-datastore-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="02acc9fefdf0faab469ce7b766b4a6e75be64c95" upstream="androidx-datastore-release" />
+  <project path="build/make" name="platform/build" revision="09218b02d3b57fc81e1b3ce9c0ce55dbff7d4470" upstream="androidx-datastore-release" />
 
   
   
