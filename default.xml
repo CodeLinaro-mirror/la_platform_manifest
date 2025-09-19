@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="8b6568f385825f1290a1e3402f126d8a8971f98c" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="9eff57638258e939386325f5c05071ace3788fe6" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -954,7 +954,7 @@
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" revision="5d812a47eb13aeaf6781a70e160cb75d52b32880" upstream="android15-tests-release" />
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" revision="24e8048ce040188a263113a81a105302756be435" upstream="android15-tests-release" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" revision="513427e33d61bc67fc40bc261642ac0b2a686b45" upstream="android15-tests-release" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="2056c2b70ee6584d368d203fb54c3f61630654ee" upstream="android15-tests-release" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="b2fb38e44ec9f17d621ad21d500a84fda9c04101" upstream="android15-tests-release" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="b8398d0b9d9390b4efa37f84f10c47ee1c09fc32" upstream="android15-tests-release" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="e42b60e8adeb4c6ea81562cc0a7c0783e3aa7856" upstream="android15-tests-release" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="00a9bfa0b906ae9db8ae8d79eb573dac9bbeef63" upstream="android15-tests-release" />
