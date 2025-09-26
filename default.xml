@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
 
-  <project path="build/make" name="platform/build" revision="c4a53236fdbb5481feb223d8f17108481b7919ec" groups="pdk" upstream="android12L-tests-release">
+  <project path="build/make" name="platform/build" revision="5f960d5ee6a5e205af8de41859530730855fbd8e" groups="pdk" upstream="android12L-tests-release">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -1093,7 +1093,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" revision="97607e3caf0456c25da1b27dadbad5d37fb8c97c" upstream="android12L-tests-release" />
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" revision="28e12eb3de07051b65b56360dc71d3ac26866cbc" upstream="android12L-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="8cabc02acf0745f11cd00758ee8906faa52ee631" upstream="android12L-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="ae62de130260bcf29892f57c128ad0d4afdc432c" groups="pdk,tradefed" upstream="android12L-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="be720da456eadc5e6f6928c2fe1bcdea872abe59" groups="pdk,tradefed" upstream="android12L-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="f86e669bee8f7347e3be37ddd74f707d685395f1" upstream="android12L-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="cc86c36ffc7d164dc7f20373f072c821f36458c6" upstream="android12L-tests-release" />
 
