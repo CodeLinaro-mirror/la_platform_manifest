@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-scenecore-pre-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="c61da380860f6ba3d33aea9c0dd2a2a8dc5d9e3c" upstream="androidx-xr-scenecore-pre-release" />
+  <project path="build/make" name="platform/build" revision="6efe77e2ecbaf61a33411256bfebedd85b89fc1b" upstream="androidx-xr-scenecore-pre-release" />
 
   
   
