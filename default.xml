@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-runtime-pre-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="22c221b79507f5988b4f1128897328fd93b63d2f" upstream="androidx-xr-runtime-pre-release" />
+  <project path="build/make" name="platform/build" revision="1f7b1d87ea0fb088339f659444a3498d09e68147" upstream="androidx-xr-runtime-pre-release" />
 
   
   
