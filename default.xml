@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-graphics-shapes-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="a6a16952a2e9f9c2dda09a19736c21fd7d816f61" upstream="androidx-graphics-shapes-release" />
+  <project path="build/make" name="platform/build" revision="8018c815c0755b1f3f63f31e50f7e2db57de2b05" upstream="androidx-graphics-shapes-release" />
 
   
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="a1575365889263a8ae455c8127adea239f056f80" upstream="androidx-graphics-shapes-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cb163bee53214245ad7a23367396a21b7f85ae82" upstream="androidx-graphics-shapes-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
