@@ -1,14 +1,14 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-arcore-pre-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="70efb9dcf05869a178ef05e965e1162990b27d99" upstream="androidx-xr-arcore-pre-release" />
+  <project path="build/make" name="platform/build" revision="6609d5c4c0f1ddfa9e4e5bb0acd81ccac7f74c08" upstream="androidx-xr-arcore-pre-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-xr-arcore-pre-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-xr-arcore-pre-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="140aa0df7615b585d8d94943d8184b6d653ce91b" upstream="androidx-xr-arcore-pre-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="82a8494714bfb15412c49c47d7e31d46b2f0d8df" upstream="androidx-xr-arcore-pre-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="0b65dc74652e88bf7f76446911d3f2e34f49530e" upstream="androidx-xr-arcore-pre-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="fc351fcc48020223b6f8f4d35967c07f33a7a7d1" upstream="androidx-xr-arcore-pre-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="58bcc6db12231c0f8b0f0fd2c590d8cea8205a0e" upstream="androidx-xr-arcore-pre-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-xr-arcore-pre-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="50738a06c2e18414eb8c456ea4e29673b997442b" upstream="androidx-xr-arcore-pre-release" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="b185cd3544166b7de604aca0b632ea369f81a96e" upstream="androidx-xr-arcore-pre-release" />
@@ -16,26 +16,26 @@
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="0e7fb8cc9a1137e4299b622b6fe365bd7d8cd63c" upstream="androidx-xr-arcore-pre-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="b8252eb525b2235860cf001c33018081e7c1e765" upstream="androidx-xr-arcore-pre-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="69808c103f73b106d78fecc8713066cf8fef64ef" upstream="androidx-xr-arcore-pre-release" />
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="328907fee3f996b0df18d46caefcc47d2fc3b625" upstream="androidx-xr-arcore-pre-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="af4ad4d253fa05f6b2b4dead277b86d65ed6627f" upstream="androidx-xr-arcore-pre-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-arcore-pre-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="a42c5c93b9f35e2cd5e644add9897d324ad0038a" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e92c844c682f6c16410cf629ab80cd2dda861241" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="8ebbfa5282f6811ca9a9f5c5399651b79f21c0c8" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="5eb5999936cf6f10e9f220a15fecc89c53978a26" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="50d4c0d6db860a51d382580cdb5ef47a9bac6fb1" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="08b179958fb8763eae053219d34f780b196ef93b" upstream="androidx-xr-arcore-pre-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="2f857b0d94b036a535fe32817e940e929aa7c596" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="d285e87c8da44de986f4a013500cb8259da105d8" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="a45de23608a94000c2b87a67801d3b08c3d31133" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="eb79875550d3ed9ae2922d12376f233226cb5287" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="c32618d7c2036e45df86a5571ebb306cc10e5a12" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="81c0b8cb9bf6c280a7ca0d443cbe335e42660722" upstream="androidx-xr-arcore-pre-release" />
   <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="b72305f07f23a3cd2111906a1a046e5187a450e5" upstream="androidx-xr-arcore-pre-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="bc1a7c3f096150d81194bfa1fd8df854fd3d2584" upstream="androidx-xr-arcore-pre-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="1ad11d6d51de39d8755bb668727fc3fcbac0901e" upstream="androidx-xr-arcore-pre-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="d6cdae3291fd4de5b75783a24904fbc57be36312" upstream="androidx-xr-arcore-pre-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="87a759f9aa5ab62d717fea1b5d51c904360bfab3" upstream="androidx-xr-arcore-pre-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-xr-arcore-pre-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="877b5b6789e631d5d381dd02667bc87b5aae1268" upstream="androidx-xr-arcore-pre-release" />
@@ -50,7 +50,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="09ade887de703eaccca39d570eaaa26b5923a57a" upstream="androidx-xr-arcore-pre-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="dbb81676d92573bcc2d5604857c6396bd1d8dd96" upstream="androidx-xr-arcore-pre-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="3e0ac07baa37d773a6dd497cfadc7fa3a8eecd64" upstream="androidx-xr-arcore-pre-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-xr-arcore-pre-release">
@@ -93,12 +93,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="0d5dc22d255ae6a33738281b814238045ec7a723" upstream="androidx-xr-arcore-pre-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="7ca756409f24141b99453d423b11315b753c69e4" upstream="androidx-xr-arcore-pre-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="5d4f8673274861fdf2c864c4023522a198cea063" upstream="androidx-xr-arcore-pre-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="2b064a168d829249efe96ad64737eb84d6c23d4e" upstream="androidx-xr-arcore-pre-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cedd794df5cd1ef7e06aa9ab18b6b23ed806a649" upstream="androidx-xr-arcore-pre-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
