@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-core-splashscreen-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="619e302eb06561e39984a9b59901bf319dd7271a" upstream="androidx-core-core-splashscreen-release" />
+  <project path="build/make" name="platform/build" revision="031b684ba8ef24ca574cb202e5eef556717c88b3" upstream="androidx-core-core-splashscreen-release" />
 
   
   
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="207e91042ce50586697faf3838c2c0a808e99799" upstream="androidx-core-core-splashscreen-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="39e25369b3a6dd0b08038933f4c1b15af324b339" upstream="androidx-core-core-splashscreen-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
