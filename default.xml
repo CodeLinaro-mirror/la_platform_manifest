@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-tracing-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7e3302c9bde255f52dd3f2d43c80ebde711da010" upstream="androidx-tracing-release" />
+  <project path="build/make" name="platform/build" revision="9b3c7f1d565a51a9e5d13a989512b17566e82291" upstream="androidx-tracing-release" />
 
   
   
@@ -23,11 +23,11 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="ca4adeef988acf3f5bf607298bd9d795c8d656e5" upstream="androidx-tracing-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="b41570797a5a5553be2c0bad87080bb1ecacedb3" upstream="androidx-tracing-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="2bb40998806c6d5929a712164139c9885ae7d916" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="7098ca4f6dda72c4a275678518ec9910c66cf52e" upstream="androidx-tracing-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="79de741c3b9ac15481bcddf97c1c61a8f9f44e36" upstream="androidx-tracing-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="4e168add5c8feee73feb4c0c8ccf0ad1f8476818" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="655f40a40b5f4334141226f333da95cb5b7a4272" upstream="androidx-tracing-release" />
   <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="5b0fdab020e2612669e8ad91d8a24dac5c85ac40" upstream="androidx-tracing-release" />
 
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d18ebd553ebd4be0d20667d818363a853612adcd" upstream="androidx-tracing-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="abe943de19960d610378bc8c82d2c4760d9a0aa9" upstream="androidx-tracing-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
