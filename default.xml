@@ -159,10 +159,6 @@
   <!-- JDK dependencies -->
   <!-- Config: shallow -->
   <project
-    path="prebuilts/jdk/jdk17"
-    name="platform/prebuilts/jdk/jdk17"
-    clone-depth="1" />
-  <project
     path="prebuilts/jdk/jdk21"
     name="platform/prebuilts/jdk/jdk21"
     clone-depth="1" />
