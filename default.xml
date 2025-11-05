@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigationevent-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="e5efdae2f171f2f236376e6af0a05dc7995df710" upstream="androidx-navigationevent-release" />
+  <project path="build/make" name="platform/build" revision="5c9eb67fdbe6b97c90936a2f2a465ccf75b36063" upstream="androidx-navigationevent-release" />
 
   
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="7cc48474876c19197c67eda0f2d537f62760130e" upstream="androidx-navigationevent-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a336be7aa59aced2a87c402849988939d848fee3" upstream="androidx-navigationevent-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
