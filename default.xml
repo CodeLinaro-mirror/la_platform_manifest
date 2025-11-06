@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-activity-release" remote="aosp" />
+  <default revision="sparse-14359989-L98700030035032540" remote="aosp" />
   <project path="build/make" name="platform/build" revision="455501db838d7118b1921fbfdacddb8ad8ce00d9" upstream="androidx-activity-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-activity-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="081f728710538a86f0ae623669f1a75634c7cf6d" upstream="androidx-activity-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="27559fa6f2fac92619bd3a856c6aac163c2c4f3d" upstream="androidx-activity-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="6fb153bf08b4d5f57a831615e7449dc67b0d64ff" upstream="androidx-activity-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="422101241691a46437bcfcac991ae87a737bf172" upstream="androidx-activity-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="d12a3d94f5818a5f86492e3866a1cd08bf00df61" upstream="androidx-activity-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="e1b5eaddc1460e0fd623ef3087d8ad138bda7816" upstream="androidx-activity-release" />
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="bcc8bee1eb595dcb47e9d7acf0379692cc49061f" upstream="androidx-activity-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="b1828b307feee9ddd078488b83edcec0673a0c91" upstream="androidx-activity-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
