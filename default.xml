@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="2c62df6cc1a42016d2cd38033c8b30143b2e639a" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="35e918104a3abc756dd423b37f00b379c521e5e9" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="22865bf2a33b5a98f5636458566e6cd231e928bb" groups="pdk" upstream="android13-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="d0ab6ef7da71a0da47bee0b408dc8c1cf625b283" upstream="android13-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="c89ecef9d9c6a8fe370a3b17e0456a156ff9b9c1" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="cts" name="platform/cts" revision="90d31aacc7c6c2852023856533a8b0068b7a3523" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
+  <project path="cts" name="platform/cts" revision="0112b77b148474064415df42e9fd33e9695c1a92" groups="cts,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="63a409550581d053b55cb4ad2e9caba456ad5030" upstream="android13-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="9b775d9249f019055622bfa5549d12de8cac8f5c" upstream="android13-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android13-tests-release" />
