@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="107707d8027dd25578c03fbdef7b5cf18e94133b" upstream="androidx-navigation3-release" />
+  <project path="build/make" name="platform/build" revision="602670f859be4bd7f48fa2c09feac2ea15dbf6b0" upstream="androidx-navigation3-release" />
 
   
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="a795b628c4cb486a17057a64890102f98bc710b9" upstream="androidx-navigation3-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="493f70fe3b1fbc1f888f1dc2adf159099e0b1245" upstream="androidx-navigation3-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="23e40b226e4dd64747bd64a43078d6d26c48cb80" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="f3e2993416f071efcf729405d4c786da2b235353" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="6b0b4006d2aef0c20d401b80fbb672056738c7ff" upstream="androidx-navigation3-release" />
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="9ba7522c66713c4b3a8fc757b7e3b80222e780c7" upstream="androidx-navigation3-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a92e0bb2098b75926d7267b67ae6a851b69ad27a" upstream="androidx-navigation3-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
