@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-swiperefreshlayout-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="bea247c5e3c42d4dfd33ea71fcefe106a65e453f" upstream="androidx-swiperefreshlayout-release" />
+  <project path="build/make" name="platform/build" revision="32edd3f0bd580249d2056ee59511ca989752c577" upstream="androidx-swiperefreshlayout-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="bc967b3b2ff6a5f5047d4e14f4aedbbe49939161" upstream="androidx-swiperefreshlayout-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="fb5a38f0bb473e1249b111faeeaf4dca679d3b5a" upstream="androidx-swiperefreshlayout-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
