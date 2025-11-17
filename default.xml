@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-graphics-core-release" remote="aosp" />
+  <default revision="sparse-13235368-L16800030039746902" remote="aosp" />
   <project path="build/make" name="platform/build" revision="7b3b912e3cebb8774ddfabb0dd3ccaeb6ac58f89" upstream="androidx-graphics-core-release" />
 
   
@@ -17,7 +17,7 @@
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="5a62517a06deab0f4581e2e67a5208aa089301c0" upstream="androidx-graphics-core-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-graphics-core-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="7c92aa58167a2f03b34c01c0ef2d6cb6f71e601a" upstream="androidx-graphics-core-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="cb4577f072bbf22be4b62b03f87fd03d42ea68df" upstream="androidx-graphics-core-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="14fb8f0340e17e685739a2b4b4c77d573eac7bc1" upstream="androidx-graphics-core-release" />
 
   
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="081c6f70830b54a36bcb63562efead23584d855e" upstream="androidx-graphics-core-release" />
@@ -87,7 +87,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="e4b672d6ee0029b3ab664d3c70b7f97b01376f8b" upstream="androidx-graphics-core-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="14d6f65e08b6169cefe38000a3d6fda0ee7c9caa" upstream="androidx-graphics-core-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
