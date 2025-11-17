@@ -1,14 +1,14 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-backported-fixes-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="6f0a37438a06fef5f7723d7aa29a980a4e90e411" upstream="androidx-core-backported-fixes-release" />
+  <project path="build/make" name="platform/build" revision="7364f552864e07876c0d844d41527396ce01d1ce" upstream="androidx-core-backported-fixes-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-core-backported-fixes-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="cd5d2bfd0eac7020052db93854d92f1aa0b41f1d" upstream="androidx-core-backported-fixes-release" />
   <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="cb539fbf663571454ed1d37980d712ce5a8b6414" upstream="androidx-core-backported-fixes-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="0499b344393f0c6bc0504a491f6518ebdb5b7719" upstream="androidx-core-backported-fixes-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="ad1d32d5b7d2d06d3a361f4c3309de8fa9d57838" upstream="androidx-core-backported-fixes-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-core-backported-fixes-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="50738a06c2e18414eb8c456ea4e29673b997442b" upstream="androidx-core-backported-fixes-release" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="9174e0fc27550181b5e87bec4849777376c043e9" upstream="androidx-core-backported-fixes-release" />
@@ -23,19 +23,19 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-core-backported-fixes-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-core-backported-fixes-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="0fad33f5f99435aae4d442ea5ae8f6f9744631d2" upstream="androidx-core-backported-fixes-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1b1558c9614b976b8a22f351e1b4cfbac5ac9ec1" upstream="androidx-core-backported-fixes-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="9fffd3768238098d355b95b7812542fbc3668181" upstream="androidx-core-backported-fixes-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="9a45e197c85fa2bc0ae7dcbf1401e4d60bda4970" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="1659b8716082fd1a497424bdf493a20423b2f6de" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="4a2b1ddd48168807460b0ef7d26d1eb799043fd3" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="8a53af1a2fe39cd25aa344cb87404f708ff7b41c" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="2a1ac4ad6f8cc5959b7b9458a7cac583ffb1b400" upstream="androidx-core-backported-fixes-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="f88470eb4a308c9cc196818fb18bae2453e7b478" upstream="androidx-core-backported-fixes-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="e09282b719358aca0347bcbdcaadba0854417bf0" upstream="androidx-core-backported-fixes-release" />
   <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="079c3867d2334e3a46cacf4364e892b871138f3a" upstream="androidx-core-backported-fixes-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="b3480cde51863bebb0d7aef1acb60186eb449e39" upstream="androidx-core-backported-fixes-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="22179d900493fd338b5fff62de9bf3a753ee0b3a" upstream="androidx-core-backported-fixes-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-core-backported-fixes-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="b85c593ecb521c6ccd9d2f2c8b6dbabda7a640ad" upstream="androidx-core-backported-fixes-release" />
@@ -92,12 +92,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="0d5dc22d255ae6a33738281b814238045ec7a723" upstream="androidx-core-backported-fixes-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3c7772ab4cc2d462c646e05eadc692e005ca835b" upstream="androidx-core-backported-fixes-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4149a972134d235ab83525d625f16a8faac85333" upstream="androidx-core-backported-fixes-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="adfe73c7b85d4116aae580d9cd255b4403b6b243" upstream="androidx-core-backported-fixes-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a0b8ae160b0b355ccab0c569d91e3c57f0b728da" upstream="androidx-core-backported-fixes-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
