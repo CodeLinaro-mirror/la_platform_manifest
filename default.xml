@@ -55,6 +55,7 @@
   <project path="packages/apps/Car/MultiDisplay" name="platform/packages/apps/Car/MultiDisplay" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/Radio" name="platform/packages/apps/Car/Radio" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/DriverUI" name="platform/packages/apps/Car/DriverUI" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
+  <project path="packages/apps/Car/SensitiveAppLock" name="platform/packages/apps/Car/SensitiveAppLock" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/Templates" name="platform/packages/apps/Car/Templates" groups="pdk-fs" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
   <project path="packages/apps/Car/tests" name="platform/packages/apps/Car/tests" groups="pdk-fs" revision="mirror-car-apps-aosp-release" />
@@ -62,7 +63,7 @@
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="pdk" clone-depth="1" />
   <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" groups="pdk" clone-depth="1" />
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" groups="pdk" clone-depth="1" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" revision="android16-release"/>
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
