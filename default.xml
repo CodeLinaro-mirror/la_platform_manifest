@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-exifinterface-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b0f40c0b73ead8e8a192711a2087fcad88d285dd" upstream="androidx-exifinterface-release" />
+  <project path="build/make" name="platform/build" revision="ff6d6ab7ccb33f6f197828b61983ac668d26ee8e" upstream="androidx-exifinterface-release" />
 
   
   
@@ -96,7 +96,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="63af1a240d10ff7128cb64b905ae0efde6b94270" upstream="androidx-exifinterface-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="68ebfa7071e3aace695af9332e7b0193a45f5d53" upstream="androidx-exifinterface-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
