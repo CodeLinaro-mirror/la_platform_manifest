@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="b813aa861b183ec0a75319b75ecb2ad0f7a9ecc2" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="2db84f188330ccd3fae3182d9f484069717a2368" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="217fc74bdf01c7c3e0101370f9dcd250028c11b8" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="da736acb2dcd2d54c51093c53b6927a076998ea0" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -86,7 +86,7 @@
   <project path="device/google/sunfish-sepolicy" name="device/google/sunfish-sepolicy" groups="device,sunfish" revision="91eaa48f029a9fa83c3c00313d661553746e383b" upstream="android15-tests-release" />
   <project path="device/google/tangorpro" name="device/google/tangorpro" groups="device,tangorpro" revision="5db52e2f4e2c2ee624cc6fb79dede2753eaeacc8" upstream="android15-tests-release" />
   <project path="device/google/tangorpro-sepolicy" name="device/google/tangorpro-sepolicy" groups="device,tangorpro" revision="bccd0a6d1469a8d0aa19f94740c8d9230a09f571" upstream="android15-tests-release" />
-  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" revision="4923739ad60346db612f4e25ad754e650d61afe6" upstream="android15-tests-release" />
+  <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" revision="43f30bf79227c537c65a87c306988d786c45fea9" upstream="android15-tests-release" />
   <project path="device/google/cuttlefish_prebuilts" name="device/google/cuttlefish_prebuilts" groups="device,pdk" clone-depth="1" revision="59a64e0123f2745eb589bef6361d5ea1b57fa7bc" upstream="android15-tests-release" />
   <project path="device/google/cuttlefish_vmm" name="device/google/cuttlefish_vmm" groups="device,pdk" clone-depth="1" revision="1578c235a3b6ec4981892d4bb6848bdca7180678" upstream="android15-tests-release" />
   <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" revision="43c692e0815aa9d73d4fc37363c60ba390d5c9eb" upstream="android15-tests-release" />
