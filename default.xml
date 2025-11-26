@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-compose-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="4354b618636d1dc689eefd450740ef8e8689e0fe" upstream="androidx-wear-compose-release" />
+  <project path="build/make" name="platform/build" revision="489e101418d3b059201037479b85ffe538fb6d45" upstream="androidx-wear-compose-release" />
 
   
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d392f40a73fcb0ea8c8234138e3cee86e1574726" upstream="androidx-wear-compose-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="e2ea71e4c4545c2ede5173979110b2a3d6bfc3dc" upstream="androidx-wear-compose-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
