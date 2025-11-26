@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="f0cbbbf27dd5a22148e688cee9087cc69759c134" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="f581010498c230ec61406895bc1b570a843d56bb" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -952,7 +952,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="3a824846d56bfce4c0812c0859d985849ac59d06" upstream="android14-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="2385962a747a7377b11769ae2b8466913897562e" upstream="android14-tests-release" />
   <project path="kernel/tests" name="kernel/tests" revision="ff780bdf59047b54243b3d68b65e5f8294e87a4d" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="libcore" name="platform/libcore" revision="1f058ccd5ef6cd461bc8197a3e2777027293dc4a" groups="pdk" upstream="android14-tests-release" />
+  <project path="libcore" name="platform/libcore" revision="9a9fb4bc6440f99924288356d0779c302f1b6ca7" groups="pdk" upstream="android14-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="af5fd77f9cb6b30654e4812b03d0b49495520a06" upstream="android14-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="a1eccc01b8e7e07c553acb426f0601f9876e1f1d" upstream="android14-tests-release" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" revision="eeb832404f6c4b21fdfc32da1423c2eec56d24e3" upstream="android14-tests-release" />
@@ -1217,7 +1217,7 @@
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" revision="5d0acdd148117cf5609bf3055ff1aba58da97342" upstream="android14-tests-release" />
   <project path="test/cts-root" name="platform/test/cts-root" revision="7cc9397a8251236f64a4f698eeeab34580000857" upstream="android14-tests-release" />
   <project path="test/mts" name="platform/test/mts" revision="0fd8bcf9c7adaa6514d106bfcf3f3b1c481bf734" upstream="android14-tests-release" />
-  <project path="test/vts" name="platform/test/vts" revision="2079111551d0ff3bf6516aa8ad96bc32fd286915" groups="vts,pdk" upstream="android14-tests-release" />
+  <project path="test/vts" name="platform/test/vts" revision="bfaef117d4e563620c24515d888248ff3aceea02" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="4cf94915bfa6d6840d46050f6f0e3cdf340a422c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="7f51fe9e2ca391bc0979ec56434e5a055a9c12d1" groups="vts,pdk" upstream="android14-tests-release" />
