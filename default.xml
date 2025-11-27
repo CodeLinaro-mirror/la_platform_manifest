@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="3063bfb7ae6d7371e3a72589aa41e4bdfc4def0c" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="1011f1f798aab1f01574f0e63d8adbb9ccbe1215" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1062,7 +1062,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="c1b6f17450d64bb1c368b48aae97055563e5043e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="8686f19c255c36095c0dcf087901a5a8f7a00750" upstream="android15-tests-release" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" revision="ac84a5ba54e2e66a6ca0110cf2e20566ca28f72d" upstream="android15-tests-release" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="6e60df5d85ae60e7c6889454f61ac3e260799a0e" upstream="android15-tests-release" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="c9802d58d93822641d2a66d2d5160676a3b00b2a" upstream="android15-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="3ca43dfe2bf4613852df0303531fa8ecf4b7063c" upstream="android15-tests-release" />
   <project path="packages/apps/AvatarPicker" name="platform/packages/apps/AvatarPicker" groups="pdk-fs" revision="9a0155909de48a274fa7517107e01f1991eb2ba0" upstream="android15-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="8d2edabe83a6b622617037e9a913ba8ac5a0b5fa" upstream="android15-tests-release" />
