@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-backported-fixes-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="83595d7ec2ae8a501546ddad7b5601d9834dc051" upstream="androidx-core-backported-fixes-release" />
+  <project path="build/make" name="platform/build" revision="af1e6e8accf162ce27ee95cc15d5f8553acced12" upstream="androidx-core-backported-fixes-release" />
 
   
   
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="41c6d4700dc6c688a8090d524343e85d4aa57ac3" upstream="androidx-core-backported-fixes-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="9fd7970d9ffe85819abfe13d22b3a69726874220" upstream="androidx-core-backported-fixes-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
