@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-emoji-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="63fb016e35b271055f75f0ef25fe8e840ca5f508" upstream="androidx-emoji-release" />
+  <project path="build/make" name="platform/build" revision="14e35f41c07dd6412e98869b12215ceb253b8817" upstream="androidx-emoji-release" />
 
   
   
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="8607f5744cc2d010ef10bd5dac765a77f536e67c" upstream="androidx-emoji-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="469f59815d3e414e392949f242392e83cc80a2fa" upstream="androidx-emoji-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
