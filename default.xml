@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="119f753dba65cf03bdd03d588dbbe5afbc9959b2" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="1903cdac7714e05a52873ea792ea4733dc357a55" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -973,7 +973,7 @@
   <project path="frameworks/native" name="platform/frameworks/native" groups="pdk" revision="8c6864eea0fdb306a3017f237fb792705bfc8666" upstream="android15-tests-release" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" revision="958affd2e0b70e659f5e5a32157e0ba3b7b558c1" upstream="android15-tests-release" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" revision="21e2d1f9ebcd6f681798ce6a79607536f0255403" upstream="android15-tests-release" />
-  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-cw-fs,pdk-fs" revision="dfd04b6f85ea5eb95b4b4330e3389775dbed0d0d" upstream="android15-tests-release" />
+  <project path="frameworks/opt/car/services" name="platform/frameworks/opt/car/services" groups="pdk-cw-fs,pdk-fs" revision="8b247946be2a3794295f4162fd9ebcc05b3fefbd" upstream="android15-tests-release" />
   <project path="frameworks/opt/car/setupwizard" name="platform/frameworks/opt/car/setupwizard" groups="pdk" revision="7cd105bcbc3aba22a8c56b6203a6a14ec839445f" upstream="android15-tests-release" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs,pdk-fs" revision="39b006fab914fdb71317e8ac8ccddb9526afa079" upstream="android15-tests-release" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs,pdk-fs" revision="8f7ffa3eb27884e4e511d6921b06eb7a41069d47" upstream="android15-tests-release" />
