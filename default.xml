@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-ink-release" remote="aosp" />
+  <default revision="sparse-14496245-L81400030048325492" remote="aosp" />
   <project path="build/make" name="platform/build" revision="6873e06347e1a113a0b2a9822064827bdfb51906" upstream="androidx-ink-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-ink-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="3ea1049e83500a04843f25702067d177d13c9a45" upstream="androidx-ink-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="d3d54f0ddc75c7cc5162ea58263e363b23227919" upstream="androidx-ink-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="163bef2a526bcda128f567c8e7a161ee648b0657" upstream="androidx-ink-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="1659b8716082fd1a497424bdf493a20423b2f6de" upstream="androidx-ink-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-ink-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="cbf44ed6df095a319131ec4787cffde9f127612f" upstream="androidx-ink-release" />
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="7a31b848f1d509fe53e220229333c573be219d10" upstream="androidx-ink-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="e19caf3227c6bbba203661e20a3f2cda8bcc1dca" upstream="androidx-ink-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
