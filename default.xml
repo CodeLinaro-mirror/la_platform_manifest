@@ -1,54 +1,56 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-credential-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b956c3f731a75f0b15080cced33c5f9b2df3f32e" upstream="androidx-credential-release" />
+  <project path="build/make" name="platform/build" revision="d1c62f37c9a5d1feb90447d873851c4bb966a050" upstream="androidx-credential-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="4b47919889dca69913c5a1e54252d82d18dd23a2" upstream="androidx-credential-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="86d289d05e901c5a78903fc2c97443cbcab4aff1" upstream="androidx-credential-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="58aa7abc9d90a742770753d20093919e0eb214c9" upstream="androidx-credential-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="7d59da04187e1e74e14cfb900294e792c3821ba4" upstream="androidx-credential-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="82c2854a5557412cdc30e41ae7c1290353e0c1a7" upstream="androidx-credential-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="54b40955e3867711316fc0f78b2d55cfda99cc76" upstream="androidx-credential-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="e3c2f4df4e91d8c25170799257ed366e189d86bf" upstream="androidx-credential-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-credential-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="f18a9d6596aae1aae34bdd2d1c003d4a9910abc6" upstream="androidx-credential-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="cfbac670791f5f56847373a8094fead0bb913725" upstream="androidx-credential-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="0698842d97ba2fe615ceb677a0478ff6b8b1b39d" upstream="androidx-credential-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="9e18e24e811287f2f80276b82fa4cb4a93b40848" upstream="androidx-credential-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="6b5899d44688f56dc681109c268f7d316533b7fe" upstream="androidx-credential-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="8be7e43f34ce289dc73c5f70d376546f253770e1" upstream="androidx-credential-release" />
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="464a92e7373da7dd5ac068cc53d28935f16fdbaa" upstream="androidx-credential-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="2848a78bc71a4a6fa6a00c27a2825f34fa35a6dd" upstream="androidx-credential-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-credential-release" />
+
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="30b1329ab5f5d1f26cba485802f6099df0e80dd0" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1a7e444f2c235a14e105219e7a490a0e5a23df1c" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7ad5e5e84dc41e3bbeb761a1b8967ab14a7e10b7" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e17eb324212c4abac6af911eb2627c05a1820a59" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="5e49cf7f7a38affccbd4db9603fd434d7a293d70" upstream="androidx-credential-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="b3482a4f965003b6ce024157df52eb5f3f4bdba2" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="9bc1f5a94b4d478c6f12f79d0af81e7b6799010b" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="9eb6f3ff7700ca4e6733183d8cc5ea2eed2821c8" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="efe7fb62c93f085ceecea8b211994ee929c69e33" upstream="androidx-credential-release" />
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="14ba29272f50c7c6dc431dc78776f3745a3213ff" upstream="androidx-credential-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-credential-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="f2665241bb728c0fda80eee4f33ad4e0f1d4ac2f" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="bce05752e6c0d458916238ee6e47816bb429280a" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="d6c7483af0c544e18641f6f18804bd5081edf453" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="1dbae4c3c590620dc3a32b50b131d8e344460239" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="df5ef898685b830b729d5c3dd4c55919ea7fbcdf" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="d68d296dacfcff88ee419788bb4aa8c1ffce38a5" upstream="androidx-credential-release" />
 
   
+  
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="9a8d0d21d6fd4aa9bb7523dfbdfee956df5f29aa" upstream="androidx-credential-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="7552e3b3e6a23854bebcf82540c82ad153f697a0" upstream="androidx-credential-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="b50465cfd54150d511e22f2eacada7859a2e8e02" upstream="androidx-credential-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="b7510ab5293e45d1fed70e8ed3de878bde05fb00" upstream="androidx-credential-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="e5d4475e818830b17f549f4c533eba47345b8703" upstream="androidx-credential-release" />
-  
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="4668aded22089b1875461b9146d3119d8797d87e" upstream="androidx-credential-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="0b6325290b221770d87bc25497451c2c4c379ff3" upstream="androidx-credential-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-credential-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="e746dbf3e42b8a71a872f6f5fee349ba36324525" upstream="androidx-credential-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="95140a99a943a510660015305909275b587149b9" upstream="androidx-credential-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="7538630c98a463ce72cb22d9fd73b1cb42001654" upstream="androidx-credential-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="cd57dfa042c6074685bb17b10d2b279b918cd51d" upstream="androidx-credential-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="3dd3a80f5220da955fd824ce4708d29fa875ac3f" upstream="androidx-credential-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="07a632a83eeabd42d5754eb16213550e7c14db6a" upstream="androidx-credential-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="4d7e32f8681f937ada7c642a2cf6458d3f13727f" upstream="androidx-credential-release">
@@ -56,47 +58,46 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="cd2c154a80ae2d462f64feac88e9e7c7397440be" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="d7033285fcf1cfbecf48b46ce177a0e794dfec9d" upstream="androidx-credential-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-credential-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="884b5ab6212197535982f6e0ebcee83bef86be16" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="2d541b55df3bb183d17290de6e0e56fb21efc4b4" upstream="androidx-credential-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-credential-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="41fe41eee3d240a81d9b35f1eb176e5828ed4962" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="60bf6e35865b7164cbadc5bb14d8c32709769f63" upstream="androidx-credential-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-credential-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="8f3b67305a9e852824fdc496ad0ef7bcd9080520" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="c9c0815b2bff8fc026ff24caac46753a755d7915" upstream="androidx-credential-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-credential-release" />
 
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-credential-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-credential-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-credential-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-credential-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="e9860523655366001a5d6ef01f636c7f47b3e28a" upstream="androidx-credential-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-credential-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="cc549d1a89df9b67b5917d199097a1cd4d436679" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-credential-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="9eea28f163b4c13ae3dba17b02f6c00012df7286" upstream="androidx-credential-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="cc549d1a89df9b67b5917d199097a1cd4d436679" upstream="androidx-credential-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-credential-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="2ab8b3531b612e14aa059625e410348490520663" upstream="androidx-credential-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="4d25b05c9a4d6057a534e94a76da0f02431e4d2b" upstream="androidx-credential-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="27004131f674856d89a60aff3d1739ddc7fa0f0c" clone-depth="1" upstream="androidx-credential-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="f486f3a1ab4ff0bfdf91e5e3c04c4045a99cb3ef" clone-depth="1" upstream="androidx-credential-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c138b06b8eb6ba47ba168d582ed939fdcba0d8a1" upstream="androidx-credential-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c063c558ef31738834ca7fc00fcb76619eb54a10" upstream="androidx-credential-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="9aca98b55b132550a298cc52cb2e42cedb32c452" upstream="androidx-credential-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="903b9e8516270fe904f67331e0b25da594c3d141" upstream="androidx-credential-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
