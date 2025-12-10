@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-credential-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="5ab36a9f5d277e07ba6b2dbef06893f01c29ce98" upstream="androidx-credential-release" />
+  <project path="build/make" name="platform/build" revision="cdacd6e248ef067083c44b16506a7fd01d4eb385" upstream="androidx-credential-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-credential-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-credential-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4db5dc4d0d4ef413c9b3a7d739fc4c4a6780559e" upstream="androidx-credential-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="778dd5c4b4be5bef41c23aeaef33cbb40d93f2ac" upstream="androidx-credential-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e17eb324212c4abac6af911eb2627c05a1820a59" upstream="androidx-credential-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="5e49cf7f7a38affccbd4db9603fd434d7a293d70" upstream="androidx-credential-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-credential-release" />
@@ -35,7 +35,7 @@
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="cc308284ce73ffa104eba88d8615a52c934da935" upstream="androidx-credential-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="a474c5a34c7eafc2efdf78dd0c0169a30805153b" upstream="androidx-credential-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="7552e3b3e6a23854bebcf82540c82ad153f697a0" upstream="androidx-credential-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="4668aded22089b1875461b9146d3119d8797d87e" upstream="androidx-credential-release" />
@@ -92,12 +92,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="4d25b05c9a4d6057a534e94a76da0f02431e4d2b" upstream="androidx-credential-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c063c558ef31738834ca7fc00fcb76619eb54a10" upstream="androidx-credential-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="311876e1244cbedcdc3e2b43f99d845c710d9576" upstream="androidx-credential-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5d8fddfa02bf0a20d0345c7b7747770b30523e56" upstream="androidx-credential-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="01c19981455eaa37cb7d93540367aef6e5bc2449" upstream="androidx-credential-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
