@@ -21,5 +21,9 @@
            name="platform/prebuilts/androidx/external"
            clone-depth="1"
            revision="androidx-main" />
+  <project path="tools/external/gradle"
+           name="platform/tools/external/gradle"
+           clone-depth="1"
+           revision="androidx-main" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
