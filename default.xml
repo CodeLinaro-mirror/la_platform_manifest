@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="03ad4a2bd68c9be03de85c58febe8e52d293e9d6" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="cdca206bc2256c16de6b7ab98e321904764e697b" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="967010cc07881aa08ed8d138ea4a8b8e2c721ba4" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="1fd97adeb2438b4be4f1c1f6bbdfdda2b912f063" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -177,7 +177,7 @@
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" revision="68add45df67ecc8a980d660e313c1e3dfc37c98f" upstream="android14-tests-release" />
   <project path="external/dexmaker" name="platform/external/dexmaker" revision="3b5567d44e992e26acdbc41bc531884a4138e3a7" groups="pdk" upstream="android14-tests-release" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" revision="a89d75d0dae08a70f16fe8ddac8e683b5167b832" upstream="android14-tests-release" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" revision="4689f810a78c351d4ae1bbd7aa3323bbc684c2dc" upstream="android14-tests-release" />
+  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" revision="61eb09c1987eeff6e51d636013952436b5ec5449" upstream="android14-tests-release" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="c9c0200a2ce535caf3a17ddf2ff4d1443767f116" upstream="android14-tests-release" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" revision="3ca0194f9821686625fa4804484b7c6c10a15aa9" upstream="android14-tests-release" />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" revision="1ad7cb605dfb17398c17f882f6119991770aa434" upstream="android14-tests-release" />
@@ -759,7 +759,7 @@
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk" revision="0f137c87a52f3a451c2cf9a53a88a88ce4ad5bb5" upstream="android14-tests-release" />
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk" revision="7febe9feb40df796f100384b8ea729b9c0489522" upstream="android14-tests-release" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" revision="25ec53f63c81a717d7ba901a512c9dd3f833bc33" upstream="android14-tests-release" />
-  <project path="external/skia" name="platform/external/skia" revision="7a3ed7c76a39094f43b8953706b23de77cd2ec75" groups="pdk,qcom_msm8x26" upstream="android14-tests-release" />
+  <project path="external/skia" name="platform/external/skia" revision="8816f273d4d30a83049eca6e8054f73b84d979a6" groups="pdk,qcom_msm8x26" upstream="android14-tests-release" />
   <project path="external/sl4a" name="platform/external/sl4a" groups="pdk" revision="d4b0ade54eb84c0db0bd17e846d995a4f0aa4b35" upstream="android14-tests-release" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk" revision="0e689a7d3f0f3294cfe4669c3ee23329183f4a58" upstream="android14-tests-release" />
   <project path="external/smali" name="platform/external/smali" groups="pdk" revision="f9c288124d4ee91da9cef282e243826a4d58c6d9" upstream="android14-tests-release" />
