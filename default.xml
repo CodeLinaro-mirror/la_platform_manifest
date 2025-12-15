@@ -162,6 +162,10 @@
     path="prebuilts/jdk/jdk21"
     name="platform/prebuilts/jdk/jdk21"
     clone-depth="1" />
+  <project
+    path="prebuilts/jdk/jdk25"
+    name="platform/prebuilts/jdk/jdk25"
+    clone-depth="1" />
 
   <!-- Golden images -->
   <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
