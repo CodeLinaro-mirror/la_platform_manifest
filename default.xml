@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="02c0a8f6fb653801621f9e93dd41f67959bd9fd8" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="5433fde2a63193d23895f25f7dc20078df145eab" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1192,7 +1192,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" groups="pdk-fs" revision="90495ef24ed00a4a46e1cac2ad671e3d549ad8df" upstream="android15-tests-release" />
   <project path="packages/services/BuiltInPrintService" name="platform/packages/services/BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" revision="99508ea2441adc72638b0966c42185f1ace6aff4" upstream="android15-tests-release" />
   <project path="packages/services/AlternativeNetworkAccess" name="platform/packages/services/AlternativeNetworkAccess" groups="pdk-cw-fs,pdk-fs" revision="ca53c2d63e7800c503396e8ad9944204f14a71ba" upstream="android15-tests-release" />
-  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" revision="702b2868fdee4a373ddd4ba38238d76b99f754f7" upstream="android15-tests-release" />
+  <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" revision="86081376056d52b3ef71998656a4b51b6cea7415" upstream="android15-tests-release" />
   <project path="packages/services/DeviceAsWebcam" name="platform/packages/services/DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" revision="575de73626c56909bd157a66624e50882db758c0" upstream="android15-tests-release" />
   <project path="packages/services/Iwlan" name="platform/packages/services/Iwlan" groups="pdk-cw-fs,pdk-fs" revision="b74013aca34254c0224b4fca93bb800e5c8107ec" upstream="android15-tests-release" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" groups="pdk-cw-fs,pdk-fs" revision="5dee3f9659c2be8ef95d20ba4490681f224f5687" upstream="android15-tests-release" />
