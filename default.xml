@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="d7563cabee6df7878b63706630372a11cce9994e" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="3fc020507081802aa4c944e030bebf6fb37cfe9d" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="72f0f57d4b14dce14e773a0e5808290efb0d559b" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="f30de38ca30e69120c18de74347c37b5e2c88432" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -1160,7 +1160,7 @@
   <project path="packages/modules/DnsResolver" name="platform/packages/modules/DnsResolver" groups="pdk-cw-fs,pdk-fs" revision="5f5d7bd759d7f60e4fc21024534e6a21a556e80f" upstream="android15-tests-release" />
   <project path="packages/modules/Media" name="platform/packages/modules/Media" groups="pdk" revision="e41e61328e0632c108ebc81e75e3187227933560" upstream="android15-tests-release" />
   <project path="packages/modules/ModuleMetadata" name="platform/packages/modules/ModuleMetadata" groups="pdk" revision="6401c153e0e9dcc54d99995abe7f5efc65d90f73" upstream="android15-tests-release" />
-  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="497e6ce4e8f086820f84b085d2cc5143aad064fc" upstream="android15-tests-release" />
+  <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="ca6b3b2416fe12446949dacca8e168f672e555ea" upstream="android15-tests-release" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" revision="98a45077c133196d9d4686cb558cd75b954097e5" upstream="android15-tests-release" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" revision="29be413cfda32b0dad04b968c5bbc0cdc414997c" upstream="android15-tests-release" />
   <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="de659f187d6ffc64953aeaa0c2bef6f0e1cfd59f" upstream="android15-tests-release" />
