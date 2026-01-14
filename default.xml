@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-camera-release" remote="aosp" />
+  <default revision="sparse-14712680-L41800030063173069" remote="aosp" />
   <project path="build/make" name="platform/build" revision="9a11b73abfad654dd5df55fcf3f7d137011cf0e3" upstream="androidx-camera-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-camera-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="cc20ddbf9c9dd2ecdc38af0388f78e9b821aeea6" upstream="androidx-camera-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="b49bb87c58e8040dd0bffe46cfe8dbe5bfd4d7a4" upstream="androidx-camera-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="74636fa95ac0129c631b2e62ff5f57e54ff9a757" upstream="androidx-camera-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-camera-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-camera-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="beb9e11c2b8382d024f47df28ac8ebcf5a93d71c" upstream="androidx-camera-release" />
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="da47360b61f1a5c7e3f6612fb3e75e380ebefde9" upstream="androidx-camera-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="c391a2e57f50802b11b8c02f8fe595ebbe83863f" upstream="androidx-camera-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
