@@ -1,46 +1,56 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-wear-remote-interactions-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="fecd50306f14ec4aa067acb445bc6dc182134b3c" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="build/make" name="platform/build" revision="2faa0aad014919f50332070429422d68c41ef664" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="7cf933034d48062b6286f72b17c09952c3cc73ff" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="08b44b3ed1d256d68a0c9d8f7b0afb0b479273e2" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="233371d35985cf61de52622ecb6515290447e449" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="9bfc5c8b0abf83516d20d8d5141b8739943f3e80" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="c127f4aa9b1633382cd84f70acf772949caa8003" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="f49947f64dc27b68c7e25f3736cf3d3e550d308d" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="d0c041491555a47d60165b6ab235c24b4fa1ba8c" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="87d284e93a696aeecfd1ec4352ecdea8571d1830" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="c947c50a724d1d417c402c238767ec76848b96b9" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="0b54fe99d981fbea16566aef20e366711ec47dc1" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="310957d1aba0ba64d192b05d707b5ad1c5626632" upstream="androidx-wear-wear-remote-interactions-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="22843878c75aadbe393f7945238ef8a32daf8efe" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="082b524e307f2ef92b88096256b91e5aa06e6163" upstream="androidx-wear-wear-remote-interactions-release" />
+
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="b1e22db755f17eebe2be14c85fdd1d4bbf8b1a3e" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="737889d73067508ecd595ac0b0c499d67a8dc730" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="5ab08f516f6cf0574da8eb5d4a1f89e757cadd57" upstream="androidx-wear-wear-remote-interactions-release" />
+
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="539ab46af201f3899304e5e57402a469baab1e6b" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="7e7bd33bd29fe0fd139b81cdfb4a4893479505e3" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e689344c93c4f4f2a20cf0be9af29d52754f1cee" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="8b0aebea9d6d97d582d470390302256427a8105d" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="fab13c29e2bd82ca8a607fa336c72b2c13699762" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="ded639276bfecbfc2d56d0fabbd3421e2db27c84" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="46686b70e73b03d9eebe9ca12bc0e6783e0119a5" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="61b0948fecddfea238c4fd64849add7a17d8e6d8" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="4febcb66897983ddab65135add69af03f957f1ec" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="8cd195f39e5b2aba8a3f2f2bd9107ac8c5694f99" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="f145db6b89e1a308925c9142290e555a3125d649" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="122d50f002c78fdab8ee07c566c6e0b0c3771369" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="45b8fd027c8f0f927e1a0f496a1ca246f6f3b6be" upstream="androidx-wear-wear-remote-interactions-release" />
-
   
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="2e2b514129abd1ee9ec67a84b650db31094e9d90" upstream="androidx-wear-wear-remote-interactions-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="681fbcf4e720d7ec150f7d81e390cc52941641a5" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="c755f83748516b854e728881a5e7ca1a2367ee60" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="18697843d906c46b1454d1bf8e7a91036bec2c40" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="9a685e39fc1a677e5c31532a6d852bbd5cf7ba39" upstream="androidx-wear-wear-remote-interactions-release" />
-  
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="74a87c6ffee20723e8e51af638dcd8aac5ff5996" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="10998bac6fd7f999b11df3df92ac80ce75631765" upstream="androidx-wear-wear-remote-interactions-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="8aa67e8e0ec81007749692e62c1f669ee9dcb786" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="aff8d7f3e1041c0eedc7754467ec3b788b796e38" upstream="androidx-wear-wear-remote-interactions-release" />
+
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="a892bfaf4e489655905e964ad812013d93d10de8" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="e20ef303637676ec2b0703b03459b7da89934ecf" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="35966db7f67482fe7f43bdd21b0b8dbe53c439e0" upstream="androidx-wear-wear-remote-interactions-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="5836fd53ef583a041d663c3b6c576642d4bdfbd0" upstream="androidx-wear-wear-remote-interactions-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-wear-wear-remote-interactions-release">
@@ -48,48 +58,52 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="7540faf0c99f587e09526916f2663bc0342c0724" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="3613aee5b63664dacc5cc964976ca6ba7c1f6476" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="2c081c63567b89af5e6b80f0098b72cbcb843f1b" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="c3d08ba717264cadba01d67c51f2b9ecdec21287" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5d7b781b0367b83e6249396cbd4f9fab0a5313f0" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="a6a5b191ebfbbcd331c5a6db740d79d23b1ba376" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="b4ef76b5dff2ab805d13d89fc695cd2c5a08f151" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="279213a5b9337a6b378fa3e658ab19139dbbb9c2" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-wear-wear-remote-interactions-release" />
+
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="f61107f98c5ee1593572c76c817ef91250713137" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="f61107f98c5ee1593572c76c817ef91250713137" upstream="androidx-wear-wear-remote-interactions-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7fa4a86fe2863e90311704276ffce7573116d0c5" upstream="androidx-wear-wear-remote-interactions-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="917cf5c8187525c36df63344ade5b67839261cf0" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="95e76bcdb9d7353279ac3839b9bb56a82f828664" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="917cf5c8187525c36df63344ade5b67839261cf0" upstream="androidx-wear-wear-remote-interactions-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="62d130b170695d1214c8f4042fb5334f4b5d8065" upstream="androidx-wear-wear-remote-interactions-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="06a4a817824dd7db59c7cbe5a3fe714176d1718a" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-wear-wear-remote-interactions-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="f6e0a88cff84fd57741fc671208ba0326f036c8e" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="904924e7dd21e48ca457d8e142d99553fc73cb03" clone-depth="1" upstream="androidx-wear-wear-remote-interactions-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="0a870e62d4c791a1ba3de7ed1e61e2202c9c3f3a" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="6fc22db2fc92d767ddc9a94ad3eabf63cfbb4901" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="c80589c1ddd2f27bbb6103e55cd3a8a1f18c5b16" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="7b41731cd36163f3e218f3d341cf22b377fdf90c" upstream="androidx-wear-wear-remote-interactions-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  
+  
+  
 </manifest>
