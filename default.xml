@@ -6,15 +6,15 @@
   <contactinfo bugurl="go/repo-bug" />
 
   
-  <project path="build" name="platform/build" revision="5b85691a0631330788e0bc0b834018f6c67d6bfd" upstream="android-games-sdk-game-text-input-release" />
+  <project path="build" name="platform/build" revision="8efc77b8e40be631f0004334f3dafcc744bd1317" upstream="android-games-sdk-game-text-input-release" />
 
   
-  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="a34179b397368ee91f1352496e08c969e6246280" upstream="android-games-sdk-game-text-input-release" />
+  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="3ff0ed6279027361eb5d0f076bbf385048311130" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="0612904d32186358f1b791b7c0d2346afca77a91" upstream="android-games-sdk-game-text-input-release" />
-  <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="1fef09af6ce26b3e00dc2fbbb55ee46a1801e143" upstream="android-games-sdk-game-text-input-release" />
-  <project path="external/modp_b64" name="platform/external/modp_b64" revision="fbf9838620e56e63d42204ba40347675b9b07244" upstream="android-games-sdk-game-text-input-release" />
-  <project path="external/googletest" name="platform/external/googletest" revision="b5916a52a7596afd9627372e001715ab7ca3826b" upstream="android-games-sdk-game-text-input-release" />
-  <project path="external/six" name="platform/external/python/six" revision="3083bdc73b53f052bf91df392ef2c7e3fcc6fe3f" upstream="android-games-sdk-game-text-input-release" />
+  <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="d2f884f2ad319d132bf527d16e3978d32eb68a19" upstream="android-games-sdk-game-text-input-release" />
+  <project path="external/modp_b64" name="platform/external/modp_b64" revision="90101fa4fa7894850416830491f6c4d17f20907e" upstream="android-games-sdk-game-text-input-release" />
+  <project path="external/googletest" name="platform/external/googletest" revision="a7f477599fde44b1c4118635d65850e75da96c09" upstream="android-games-sdk-game-text-input-release" />
+  <project path="external/six" name="platform/external/python/six" revision="bd4e6ff5a1b1d10f229e7e309676c235a82533df" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/tensorflow" name="platform/external/tensorflow" revision="80586fdc64759207f64e6f63e0b107a6b2421357" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" revision="7c831673275ad137f81749388bed19ef74788903" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/pthreadpool" name="platform/external/pthreadpool" revision="08bcb1538635dbffaf1b5d460fc5132c8b95f532" upstream="android-games-sdk-game-text-input-release" />
@@ -33,11 +33,10 @@
   <project path="external/StatsD" name="platform/packages/modules/StatsD" revision="08f2a7cd60f55617cd8ded687e68c6895067040f" upstream="android-games-sdk-game-text-input-release" />
 
   
-  <project path="prebuilts/ndk/r17" name="toolchain/prebuilts/ndk/r17" revision="deabaef24322c1a30a099a2af08e9fd1514c28b5" upstream="android-games-sdk-game-text-input-release" />
-  <project path="prebuilts/ndk/r19" name="toolchain/prebuilts/ndk/r19" revision="a867cc2416e18eb71d724f8b4fb84512f3c26fe1" upstream="android-games-sdk-game-text-input-release" />
-  <project path="prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="720929d7f6d857e0cb937973d5ad44b7b67e4054" upstream="android-games-sdk-game-text-input-release" />
   <project path="prebuilts/ndk/r21" name="toolchain/prebuilts/ndk/r21" revision="be518ef4272ce61fd6dad9db73e9be74853b3974" upstream="android-games-sdk-game-text-input-release" />
-  <project path="prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="3569c0978cf3991afd4d7c4b50bc2d1c23284c40" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/ndk/r27" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" upstream="android-games-sdk-game-text-input-release" />
 
   
   <project path="prebuilts/sdk/build-tools/26.0.1" name="platform/prebuilts/fullsdk-linux/build-tools/26.0.1" revision="d2fc43324433e6d04263fd269ee54b654cdfab04" upstream="android-games-sdk-game-text-input-release" />
@@ -55,13 +54,15 @@
   <project path="prebuilts/libprotobuf/windows" name="platform/prebuilts/libprotobuf/windows" revision="dc18c4109d3b4e9aaf572954ab1d8be9f30a42bf" upstream="android-games-sdk-game-text-input-release" />
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="aee26c8cd89b9abb428f676caba168699cd8662f" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="06631886c14eeba7780810fd72b01b47a4e6a1b3" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="c1903b509fa6f89e4dd5f5a1c71fab50ddef2129" upstream="android-games-sdk-game-text-input-release" />
 
   
-  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c9b19360d246af47c29deecc1899f564d602d0b" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c847f41653f3d154b29e60f23feb45fbff86971" upstream="android-games-sdk-game-text-input-release" />
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="android-games-sdk-game-text-input-release" />
   <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" revision="f6283abb0a655968016437be07d04370fd815e6c" upstream="android-games-sdk-game-text-input-release" />
 
-  <project path="prebuilts/cmake_old/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c9b19360d246af47c29deecc1899f564d602d0b" upstream="android-games-sdk-game-text-input-release" />
+  <project path="prebuilts/cmake_old/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c847f41653f3d154b29e60f23feb45fbff86971" upstream="android-games-sdk-game-text-input-release" />
 
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="f01be9c357118e6a807f7330c832fe375c5f2c4f" upstream="android-games-sdk-game-text-input-release" />
   <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="4f4fd4ec3d82655a8de035dc9f1dda51587ef50c" upstream="android-games-sdk-game-text-input-release" />
@@ -72,7 +73,7 @@
   <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" revision="b88e85c90e260cfed1d5130499b8dfd7bb9dc02a" upstream="android-games-sdk-game-text-input-release" />
 
   
-  <project path="tools/repohooks" name="platform/tools/repohooks" revision="b5718a2e82d0f3ce90d113d0a8498eebec3adccc" upstream="android-games-sdk-game-text-input-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" revision="15ef04bef2980cfe6066d01454116d6683b429c3" upstream="android-games-sdk-game-text-input-release" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
