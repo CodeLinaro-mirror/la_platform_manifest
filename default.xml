@@ -6,15 +6,15 @@
   <contactinfo bugurl="go/repo-bug" />
 
   
-  <project path="build" name="platform/build" revision="4067a7702472ee82ae6be8f9c5a2ebfecc6af3fe" upstream="android-games-sdk-game-activity-release" />
+  <project path="build" name="platform/build" revision="ff823c7f1644f66d55b318830888f11c2f731349" upstream="android-games-sdk-game-activity-release" />
 
   
-  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="65ee0100ead8cf73c851f150bffad2779dfa8704" upstream="android-games-sdk-game-activity-release" />
+  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="180b405e97d6824703ae1baf3000701e3cfe09e5" upstream="android-games-sdk-game-activity-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="c3e7245647e894497042ff9addb20dc1dd172cc3" upstream="android-games-sdk-game-activity-release" />
-  <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="c82c30ce3a4961807494ecdfabc636a3944d2fbe" upstream="android-games-sdk-game-activity-release" />
-  <project path="external/modp_b64" name="platform/external/modp_b64" revision="87e477c1873e1dff60ea5c1743e91028aaf804c9" upstream="android-games-sdk-game-activity-release" />
-  <project path="external/googletest" name="platform/external/googletest" revision="2f915add0af5d79f8d1e3a2eec3cd81fb575cd2f" upstream="android-games-sdk-game-activity-release" />
-  <project path="external/six" name="platform/external/python/six" revision="83a511b462f898a1b365a24c4c5d900dbe8f9cd5" upstream="android-games-sdk-game-activity-release" />
+  <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="4f82aeb90b79e6ab0809152bcc79dd892194f56c" upstream="android-games-sdk-game-activity-release" />
+  <project path="external/modp_b64" name="platform/external/modp_b64" revision="e9ef02a8a1aa7078c758d9370d471ae27494a83a" upstream="android-games-sdk-game-activity-release" />
+  <project path="external/googletest" name="platform/external/googletest" revision="430cc072e08a0f78db98b8e5898292e84860cb3c" upstream="android-games-sdk-game-activity-release" />
+  <project path="external/six" name="platform/external/python/six" revision="96b0dea12383500c5078cd82410a5803a3016fdf" upstream="android-games-sdk-game-activity-release" />
   <project path="external/tensorflow" name="platform/external/tensorflow" revision="80586fdc64759207f64e6f63e0b107a6b2421357" upstream="android-games-sdk-game-activity-release" />
   <project path="external/cpuinfo" name="platform/external/cpuinfo" revision="7c831673275ad137f81749388bed19ef74788903" upstream="android-games-sdk-game-activity-release" />
   <project path="external/pthreadpool" name="platform/external/pthreadpool" revision="08bcb1538635dbffaf1b5d460fc5132c8b95f532" upstream="android-games-sdk-game-activity-release" />
@@ -33,11 +33,10 @@
   <project path="external/StatsD" name="platform/packages/modules/StatsD" revision="08f2a7cd60f55617cd8ded687e68c6895067040f" upstream="android-games-sdk-game-activity-release" />
 
   
-  <project path="prebuilts/ndk/r17" name="toolchain/prebuilts/ndk/r17" revision="deabaef24322c1a30a099a2af08e9fd1514c28b5" upstream="android-games-sdk-game-activity-release" />
-  <project path="prebuilts/ndk/r19" name="toolchain/prebuilts/ndk/r19" revision="a867cc2416e18eb71d724f8b4fb84512f3c26fe1" upstream="android-games-sdk-game-activity-release" />
-  <project path="prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="090bbcaa361eb158e8bfc5e6950081cb9679e350" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/ndk/r20" name="toolchain/prebuilts/ndk/r20" revision="e664aa831735e3761a347bae62c820b7be79faf0" upstream="android-games-sdk-game-activity-release" />
   <project path="prebuilts/ndk/r21" name="toolchain/prebuilts/ndk/r21" revision="be518ef4272ce61fd6dad9db73e9be74853b3974" upstream="android-games-sdk-game-activity-release" />
-  <project path="prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="19ac7e4eded12adb99d4f613490dde6dd0e72664" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/ndk/r23" name="toolchain/prebuilts/ndk/r23" revision="7f569863e685c52df5b24bc8545b0b7f3caf5ada" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/ndk/r27" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" upstream="android-games-sdk-game-activity-release" />
 
   
   <project path="prebuilts/sdk/build-tools/26.0.1" name="platform/prebuilts/fullsdk-linux/build-tools/26.0.1" revision="d2fc43324433e6d04263fd269ee54b654cdfab04" upstream="android-games-sdk-game-activity-release" />
@@ -55,13 +54,15 @@
   <project path="prebuilts/libprotobuf/windows" name="platform/prebuilts/libprotobuf/windows" revision="dc18c4109d3b4e9aaf572954ab1d8be9f30a42bf" upstream="android-games-sdk-game-activity-release" />
 
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" revision="aee26c8cd89b9abb428f676caba168699cd8662f" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="06631886c14eeba7780810fd72b01b47a4e6a1b3" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="c1903b509fa6f89e4dd5f5a1c71fab50ddef2129" upstream="android-games-sdk-game-activity-release" />
 
   
-  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c9b19360d246af47c29deecc1899f564d602d0b" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="86018005c6597f0f6534d070696efae016093f47" upstream="android-games-sdk-game-activity-release" />
   <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="android-games-sdk-game-activity-release" />
   <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" revision="f6283abb0a655968016437be07d04370fd815e6c" upstream="android-games-sdk-game-activity-release" />
 
-  <project path="prebuilts/cmake_old/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="5c9b19360d246af47c29deecc1899f564d602d0b" upstream="android-games-sdk-game-activity-release" />
+  <project path="prebuilts/cmake_old/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" revision="86018005c6597f0f6534d070696efae016093f47" upstream="android-games-sdk-game-activity-release" />
 
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" revision="f01be9c357118e6a807f7330c832fe375c5f2c4f" upstream="android-games-sdk-game-activity-release" />
   <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" revision="4f4fd4ec3d82655a8de035dc9f1dda51587ef50c" upstream="android-games-sdk-game-activity-release" />
@@ -72,7 +73,7 @@
   <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" revision="b88e85c90e260cfed1d5130499b8dfd7bb9dc02a" upstream="android-games-sdk-game-activity-release" />
 
   
-  <project path="tools/repohooks" name="platform/tools/repohooks" revision="9518a819caba1e18659ddb87e6732fe76d72291c" upstream="android-games-sdk-game-activity-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" revision="b32af28f87c2074afecaf639293d07c387ba1d71" upstream="android-games-sdk-game-activity-release" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
