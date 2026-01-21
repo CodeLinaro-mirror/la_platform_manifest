@@ -6,10 +6,10 @@
   <contactinfo bugurl="go/repo-bug" />
 
   
-  <project path="build" name="platform/build" revision="ff823c7f1644f66d55b318830888f11c2f731349" upstream="android-games-sdk-game-activity-release" />
+  <project path="build" name="platform/build" revision="a83438a4770b5990e0082256a48cd39da3cccb1a" upstream="android-games-sdk-game-activity-release" />
 
   
-  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="180b405e97d6824703ae1baf3000701e3cfe09e5" upstream="android-games-sdk-game-activity-release" />
+  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="a0843d96af70d1044505bfb95f9ec3b2a68c5f99" upstream="android-games-sdk-game-activity-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="c3e7245647e894497042ff9addb20dc1dd172cc3" upstream="android-games-sdk-game-activity-release" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="4f82aeb90b79e6ab0809152bcc79dd892194f56c" upstream="android-games-sdk-game-activity-release" />
   <project path="external/modp_b64" name="platform/external/modp_b64" revision="e9ef02a8a1aa7078c758d9370d471ae27494a83a" upstream="android-games-sdk-game-activity-release" />
