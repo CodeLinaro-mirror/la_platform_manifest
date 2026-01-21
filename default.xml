@@ -6,10 +6,10 @@
   <contactinfo bugurl="go/repo-bug" />
 
   
-  <project path="build" name="platform/build" revision="8efc77b8e40be631f0004334f3dafcc744bd1317" upstream="android-games-sdk-game-text-input-release" />
+  <project path="build" name="platform/build" revision="60af4c0f17be783dfe301eee5322876b2bb0ed58" upstream="android-games-sdk-game-text-input-release" />
 
   
-  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="3ff0ed6279027361eb5d0f076bbf385048311130" upstream="android-games-sdk-game-text-input-release" />
+  <project path="gamesdk" name="platform/frameworks/opt/gamesdk" revision="3450aac6bad7ff5ecdf68d518d3bc0c9183641d9" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/protobuf" name="platform/external/protobuf" revision="0612904d32186358f1b791b7c0d2346afca77a91" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/nanopb-c" name="platform/external/nanopb-c" revision="d2f884f2ad319d132bf527d16e3978d32eb68a19" upstream="android-games-sdk-game-text-input-release" />
   <project path="external/modp_b64" name="platform/external/modp_b64" revision="90101fa4fa7894850416830491f6c4d17f20907e" upstream="android-games-sdk-game-text-input-release" />
