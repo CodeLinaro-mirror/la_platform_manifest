@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-paging-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="d0bf8d1bcb3d3b6bd59157f7a7c9ba577dc04cbd" upstream="androidx-paging-release" />
+  <project path="build/make" name="platform/build" revision="91974bba0ddc202246a8ee09033f0be9f97a5193" upstream="androidx-paging-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="1224823d70894d195321f1a74d0632daff2be298" upstream="androidx-paging-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="f4784cece36f2496924c99397ab5d1d9909f6ec8" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e7b1bb3ecc44f56581af23e6e2f51e1546b22379" upstream="androidx-paging-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="486ca7207ef0c03c023f1401ef539befab1e2c54" upstream="androidx-paging-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e689344c93c4f4f2a20cf0be9af29d52754f1cee" upstream="androidx-paging-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bae44ab831fe50bf9092071b4ccb993b062acead" upstream="androidx-paging-release" />
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="f9bfc2c700440f809fc6b8a9565788c078861187" upstream="androidx-paging-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a7b61f4dc6cd2e2b77709217169815c94688e65f" upstream="androidx-paging-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
