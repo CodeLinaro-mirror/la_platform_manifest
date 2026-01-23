@@ -20,6 +20,7 @@
   <project path="external/cmake" name="platform/external/cmake" revision="mirror-goog-cmake-main-dev-external" />
   <project path="external/libffi" name="platform/external/libffi" revision="mirror-goog-main-external" />
   <project path="external/ninja" name="platform/external/ninja" revision="mirror-goog-cmake-main-dev-external" />
+  <project path="external/mpdecimal" name="platform/external/mpdecimal" revision="mirror-goog-main-external" />
   <project path="external/python/cpython3" name="platform/external/python/cpython3" revision="mirror-goog-main-external" />
   <project path="external/zlib" name="platform/external/zlib" revision="mirror-goog-main-external" />
   <project path="ndk" name="platform/ndk" revision="mirror-goog-main-ndk" />
