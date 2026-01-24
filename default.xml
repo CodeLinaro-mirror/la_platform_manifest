@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-wear-remote-interactions-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="a8ec6db573cd3614d1d105231f66023c264f8aab" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="build/make" name="platform/build" revision="209a51568056fe929e7d9c9b7e317f128b130a8c" upstream="androidx-wear-wear-remote-interactions-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="b1e22db755f17eebe2be14c85fdd1d4bbf8b1a3e" upstream="androidx-wear-wear-remote-interactions-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-wear-remote-interactions-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="539ab46af201f3899304e5e57402a469baab1e6b" upstream="androidx-wear-wear-remote-interactions-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="391fd07b5f7566613a67f56aad76a9276f8be2a4" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="7e7bd33bd29fe0fd139b81cdfb4a4893479505e3" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e689344c93c4f4f2a20cf0be9af29d52754f1cee" upstream="androidx-wear-wear-remote-interactions-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-wear-remote-interactions-release" />
