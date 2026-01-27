@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-watchface-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="12e75a8ce0b2d41651b8d924d60ff48f1f9d8889" upstream="androidx-wear-watchface-release" />
+  <project path="build/make" name="platform/build" revision="a210dd78e0298123f309c1ebf7b558e0f1acd379" upstream="androidx-wear-watchface-release" />
 
   
   
@@ -23,19 +23,19 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="bebbb0a68493aa269612e0a29b9a0908c1105dc4" upstream="androidx-wear-watchface-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-watchface-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e18b8a47ac58312324c581c0cb9e53e5220d817c" upstream="androidx-wear-watchface-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c170450fe0b0f24b7e9c5d0b05df4c89d56d1482" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="84f344be654056fcf60c46b180492f36185710b4" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e5f601aaebac769813f35c52f5de7341122ea11a" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e689344c93c4f4f2a20cf0be9af29d52754f1cee" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="b831620095808e4ce2fffccd9c18e67dfe0eca66" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="1c16ce0f2100d61d792d34edf19779d43a0253f4" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="99f1425abc7079d57b94e6baffd7eb69bab54f10" upstream="androidx-wear-watchface-release" />
   <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="8cd195f39e5b2aba8a3f2f2bd9107ac8c5694f99" upstream="androidx-wear-watchface-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="f145db6b89e1a308925c9142290e555a3125d649" upstream="androidx-wear-watchface-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="ff0b0f340712eecc7299f9608a5ff088b1b7f40d" upstream="androidx-wear-watchface-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="7ba21eb732c423220549e368869782fbc96a6d63" upstream="androidx-wear-watchface-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="df877fafda21b658c09d32fd13a166105bf6b914" upstream="androidx-wear-watchface-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="0620aa0396923ad81ba6a86a50b4a4644cf53548" upstream="androidx-wear-watchface-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="da58ea797e64af80b8f758003c369df64be4beea" upstream="androidx-wear-watchface-release" />
@@ -93,12 +93,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-wear-watchface-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="992ee7f85f3a350d5139993840b25c8c12bffff4" upstream="androidx-wear-watchface-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="315462e339afc31e17c471aefaa0d07421418a0e" upstream="androidx-wear-watchface-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="7cb43039c56fab9dadda5459dd4b838ca00cadd4" upstream="androidx-wear-watchface-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="cf0a0923fe7003050daafbd71edf293bee3c23af" upstream="androidx-wear-watchface-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
