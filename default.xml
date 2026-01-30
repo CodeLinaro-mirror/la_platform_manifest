@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="3dd8b19c16d0398fdee7e030654765d92bb65aaa" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="42f912d4584437db02d3f7e4f9e3ef512b2029f3" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1153,7 +1153,7 @@
   <project path="packages/modules/ExtServices" name="platform/packages/modules/ExtServices" groups="pdk-cw-fs,pdk-fs" revision="6b16caf1df921e913f25bfebb23293f21affaa6c" upstream="android15-tests-release" />
   <project path="packages/modules/GeoTZ" name="platform/packages/modules/GeoTZ" groups="pdk-cw-fs,pdk-fs" revision="7c3c5d94d7e53af91580f00f5b44272cc7f26d94" upstream="android15-tests-release" />
   <project path="packages/modules/Gki" name="platform/packages/modules/Gki" groups="pdk-cw-fs,pdk-fs" revision="7c062c2c20eabeeb72a64c8d29e6ff8d1a56f2ea" upstream="android15-tests-release" />
-  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" revision="1565767c1cca61dd49a7c67b515c1c24dc6c1322" upstream="android15-tests-release" />
+  <project path="packages/modules/HealthFitness" name="platform/packages/modules/HealthFitness" groups="pdk-cw-fs,pdk-fs" revision="2ed087a1f1306da056e7a3c0c3439b6f48682b15" upstream="android15-tests-release" />
   <project path="packages/modules/ImsMedia" name="platform/packages/modules/ImsMedia" groups="pdk" revision="f6ffe4612d6ca0db7d406afc460cc07c81beb188" upstream="android15-tests-release" />
   <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" groups="pdk,sysui-studio" revision="8d6c627a3cde9a5c2d50928be8c1b0841c9a8f60" upstream="android15-tests-release" />
   <project path="packages/modules/IPsec" name="platform/packages/modules/IPsec" groups="pdk" revision="82c2d22e1a42797c8c18bd3f48c480071c74bcd4" upstream="android15-tests-release" />
