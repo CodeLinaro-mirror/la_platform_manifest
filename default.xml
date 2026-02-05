@@ -68,7 +68,6 @@
   <project path="tools/idea" name="platform/tools/idea"/>
   <project path="tools/repohooks" name="platform/tools/repohooks"/>
   <project path="tools/studio/google/cloud/testing" name="platform/tools/studio/google/cloud/testing"/>
-  <project path="tools/swing-testing" name="platform/tools/swing-testing"/>
   <project path="external/freetype" name="platform/external/freetype"/>
   <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/skia" name="platform/external/skia" clone-depth="1"/>
