@@ -1,55 +1,56 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-tiles-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="bd15f59434ac27ebf316465d4135c09560fd6366" upstream="androidx-wear-tiles-release" />
+  <project path="build/make" name="platform/build" revision="9ebe1649bad94984061e5e561cbade91ffb4a3da" upstream="androidx-wear-tiles-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="032cb4d078ba1d04f507f3c548cf1d1240da41e3" upstream="androidx-wear-tiles-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="f1a4aec7648b15aaa0f258c62d0276e5bfde83e1" upstream="androidx-wear-tiles-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="37e0e793c19a5582504be4fb1b81aeaed5f110f8" upstream="androidx-wear-tiles-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="318883a8689625d1bf2b8a3645ca59a485148be9" upstream="androidx-wear-tiles-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="ecdeaa6c5ea5240d77d5bb27c877839c08842e2a" upstream="androidx-wear-tiles-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="2f1f002c95685642c910b837963c41bfbb546429" upstream="androidx-wear-tiles-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="af40d332cd4fbbb0a6ebcd647222a5f1dccedffd" upstream="androidx-wear-tiles-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="a09726102cad3b4ce442b0bf4645b9c44e748dfb" upstream="androidx-wear-tiles-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="47aeaa1f74c53cceec694191137634bf84c7a391" upstream="androidx-wear-tiles-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="fe90d98132ef6ce3dca60ae813741e04b1f03a4d" upstream="androidx-wear-tiles-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="945898277ca3e81910aac2e8e9f883cd9379a9fc" upstream="androidx-wear-tiles-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="4e131bd395b7f612f8811cfefea7993507d22f96" upstream="androidx-wear-tiles-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="20ae3804a9423085f55aae73831371b37759a35d" upstream="androidx-wear-tiles-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="64410085c0bdc60ff920360f1e8d6253a42b76cf" upstream="androidx-wear-tiles-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="5678cdc5f046ae366804938f768dd343bfa3c5ab" upstream="androidx-wear-tiles-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="893187aaa15e2e88f494ea7f613caabcb63784f6" upstream="androidx-wear-tiles-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="c76c96414983f2e98a6c4a4a4a34c62413fb7663" upstream="androidx-wear-tiles-release" />
+  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="1115732ac4cbb1d9f1175d6b7220c8e544620c99" upstream="androidx-wear-tiles-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5b03a59d31bb20de316853935afb1299aa4739cc" upstream="androidx-wear-tiles-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="e08a5f10418bb3e43f32ca8fbb4f28aedda29a88" upstream="androidx-wear-tiles-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="805c62b26175e8f68d534d3e6c3f2c4e7134d875" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="4c1cea9f43d0da3d3c2315f19e3ee84bcb0b39bb" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4d904c35dc822ff06613a576ef1c304f49d1844b" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="8d793bf1b788202871e72c61d6ff0f98f986bbfb" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="8934d4aec4eff6ce55f702191ca8ba0c09cecca1" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="7098ca4f6dda72c4a275678518ec9910c66cf52e" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="1f7a3788c3e6c44813949a1f5b673d31c51ce2c7" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="003038ec302909bc22c19cc1cafdab32bc8b9cab" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="3672da820a24cdb73f707240ba3e697a265149a1" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="4bd2ac516b1763f8d42feb47bc6284d9057e014a" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="3278f482730363d0e05a28d632e3d1dedad0c1b2" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="67ed8f04ece04a6fbc0feb0919ccb157b0fba2be" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="cb49deae69b52f1bc816f32808d3ba417d422d83" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="9f9f9282bf73246c5f3d4ff0072a1d717be2293d" upstream="androidx-wear-tiles-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="beb976e2c585b73e732833b70b170f34a7ffe6d0" upstream="androidx-wear-tiles-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="8bce9453e0c633c735beb627db66c4db574a3ea7" upstream="androidx-wear-tiles-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="c5b6a84740a4b2e9216b84ab53e1e6c0c4c46d17" upstream="androidx-wear-tiles-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="c9aad15bc327f5f69941307efa693220fbc062a4" upstream="androidx-wear-tiles-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="cb9c5ae83fb5ee3ea7dede67bfa4bbf40f7d7619" upstream="androidx-wear-tiles-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="0428c8923015e8f7acf896a2dede16052e039fd4" upstream="androidx-wear-tiles-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="29d87e964026621b04372080e1d215167403e7cb" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="a87f07be9bd9e8c98fe9b4bea33fcca39c7ff143" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="6465c96aa9e9d5738d8888d18899923929615268" upstream="androidx-wear-tiles-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="88779ccd5fc8fc1dc0ee0f9e21dba9f0963c5d65" upstream="androidx-wear-tiles-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="8e32accc97f65d35000d0bb73462a8b084dc982d" upstream="androidx-wear-tiles-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="d92edcaf193870c3d2b4c6bbf5c49c12b7b37d16" upstream="androidx-wear-tiles-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="3db137627d6f431b9b3a54b37576f0dc7bfdf6e8" upstream="androidx-wear-tiles-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="2280309e844f15365bf45a1845f986b4d93c0c2e" upstream="androidx-wear-tiles-release">
@@ -57,15 +58,15 @@
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="1932951b98fd1aca00c4868d2c6e4a91eb2dbd63" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="cfd7bb668552ec8c6b837aa9fdfd88101fe5eebe" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="3821584396b263b9a38baebeb241a6b6844e857e" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="b4524a0f2e36cf0688f85ae8b46381ba0efb74e1" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-wear-tiles-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="2463001b335b11e1155acf5e0f59b756247826d6" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="0a9342f183512e9297be072005bbdbe2a801096c" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-wear-tiles-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="be1f5cbcad0a337cd782b1c6a3c8bb04f45e3b8a" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="43c2b744a4b91afb6585b48552cbe32dba57ccc1" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-wear-tiles-release" />
 
 
@@ -78,26 +79,26 @@
   <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="555f49397edd9e15beddc9b504f69e7db55c22fe" upstream="androidx-wear-tiles-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="de4db2922647be580c334f292ee03ea1e1c95f14" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="de3940de7b0ba05f42433f8692943f6ed47b3753" upstream="androidx-wear-tiles-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
   <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="eca204ab669a16c131999b0fab54b98e5f995f3a" upstream="androidx-wear-tiles-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
-  
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="334b3efb60c84f393824ee4eca3d10f8056cd7cb" upstream="androidx-wear-tiles-release" />
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="5ad515c627a858904f952e0d6fbc9481eb4a6d3e" upstream="androidx-wear-tiles-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-wear-tiles-release" />
+
   
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="c80fcec807a438303f40dc801b101a81bef72c83" upstream="androidx-wear-tiles-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="cf98cac8b4628bc1d69ae70d2edbff9ecc4d6e26" upstream="androidx-wear-tiles-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="90062705131fa122cdd8d9bed30380b183dc48bd" upstream="androidx-wear-tiles-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ab5b6a7b57eb87f47a018419129d770797386e00" upstream="androidx-wear-tiles-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
