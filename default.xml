@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-xr-compose-pre-release" remote="aosp" />
+  <default revision="sparse-14882048-L69700030076267948" remote="aosp" />
   <project path="build/make" name="platform/build" revision="4eea207654fe3f8ae0a4d45a5d9c8a70133b7afc" upstream="androidx-xr-compose-pre-release" />
 
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-compose-pre-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-compose-pre-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="9dfe47374a9c46c9685fd6415659046417931c21" upstream="androidx-xr-compose-pre-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="f3a95b24e8c286df3a3fe7e3970c428a9880173c" upstream="androidx-xr-compose-pre-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="6795eba147ca427f7fbc9c78f2f6016cbd62d4ef" upstream="androidx-xr-compose-pre-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="868f8466bccbc9faa1373ab99b760b86353efddf" upstream="androidx-xr-compose-pre-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-xr-compose-pre-release" />
