@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="b7e7a652ce61b889750891e3acb58dde03c0ab1d" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="ab1ad535180696e69f35c9f4309473e38c4a82e7" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bootable/deprecated-ota" name="platform/bootable/deprecated-ota" groups="pdk-cw" revision="951a7b93163bf46c424554a82dfb222b76d2e652" upstream="android15-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="4f2b04b79a563e8f0fc7b3c0aec99ffaf9dc0afe" upstream="android15-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" groups="vts,pdk" revision="b6a3e20b77261718b70e0b4070c75aa82fef6262" upstream="android15-tests-release" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="7e1c1faef06eaa13d14aeaf83c27ccd8dcda2860" upstream="android15-tests-release" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="177327803a14138184ab3e0e3444aba39b501f48" upstream="android15-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="055d459012065f78d96b68be8421640240ddf631" upstream="android15-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="f67ba0ed7047fa4b1981f652100094642d097724" upstream="android15-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android15-tests-release" />
@@ -955,7 +955,7 @@
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" revision="24e8048ce040188a263113a81a105302756be435" upstream="android15-tests-release" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" revision="513427e33d61bc67fc40bc261642ac0b2a686b45" upstream="android15-tests-release" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="4af6e439c0e76c472acc9e46b030f6a457ed5ddb" upstream="android15-tests-release" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="90f82d7e83a57772ec75929b3c28dc1750003f01" upstream="android15-tests-release" />
+  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="24adb0d805d5c1669c12fc32e9238d291fc6b33f" upstream="android15-tests-release" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="e42b60e8adeb4c6ea81562cc0a7c0783e3aa7856" upstream="android15-tests-release" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="00a9bfa0b906ae9db8ae8d79eb573dac9bbeef63" upstream="android15-tests-release" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="8e9a212552c9096cfeccaacd65dea1d1bca88107" upstream="android15-tests-release" />
