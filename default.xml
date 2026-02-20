@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-watchfacepush-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="929eb72c266a0f37cf89837459085c7540749972" upstream="androidx-wear-watchfacepush-release" />
+  <project path="build/make" name="platform/build" revision="dd7348a5c043b8d2a7c3f6d0e8634b7cb6ca0d6f" upstream="androidx-wear-watchfacepush-release" />
 
   
   
