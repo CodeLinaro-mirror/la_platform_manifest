@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-wear-watchfacepush-release" remote="aosp" />
+  <default revision="sparse-14912441-L01900030079554830" remote="aosp" />
   <project path="build/make" name="platform/build" revision="dd7348a5c043b8d2a7c3f6d0e8634b7cb6ca0d6f" upstream="androidx-wear-watchfacepush-release" />
 
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="c3d37a8abb06d03c8e2bb2df67cb6351c21b4e02" upstream="androidx-wear-watchfacepush-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="5260986426d4fd2d7f420bd2eaddcdce6b1ec5eb" upstream="androidx-wear-watchfacepush-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
