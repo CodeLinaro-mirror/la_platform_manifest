@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-annotation-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="551ddf3628abf7cd88632127de30f491e1b6f17e" upstream="androidx-annotation-release" />
+  <project path="build/make" name="platform/build" revision="5f0a32ff11094ae4c0aa5d181a621ef21e355cff" upstream="androidx-annotation-release" />
 
   
   
@@ -26,7 +26,7 @@
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="42fb48d975fe1169f786b940de152bb78ab9540e" upstream="androidx-annotation-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a241f9c5af4ffa77634bd0e6951f3dcbafb0e594" upstream="androidx-annotation-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="887535bb4b963e8669d524bc78813f1587898f7b" upstream="androidx-annotation-release" />
-  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="a57b70ac6a2e597a381f99465431d241956ad148" upstream="androidx-annotation-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="d18ceeeb88b62ba31ea1571b33e93798699aa23c" upstream="androidx-annotation-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="e9ccba44edaf0f5fda18b8c3d2c0d813b5cfee93" upstream="androidx-annotation-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="dcc429e332ccd0abadeaf9dc4dc408c05d3f464b" upstream="androidx-annotation-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="39232e68fdd0b2ecc75230790bc6cc5d9b2ba38f" upstream="androidx-annotation-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="0b9bfd38747010557602be3054208d88b4d6cab3" upstream="androidx-annotation-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="3ecc7edf721678e3c031cb2532c407ccea3a2cf6" upstream="androidx-annotation-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
