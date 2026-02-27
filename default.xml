@@ -23,7 +23,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" />
 
   <!-- External Compose Hero Benchmark Targets -->
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1"/>
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1"/>
   <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1"/>
 
   <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
