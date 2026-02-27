@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-tiles-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="2592c43ff3277d6dd0385ceed4b6c79954d7a44b" upstream="androidx-wear-tiles-release" />
+  <project path="build/make" name="platform/build" revision="880120f983e23de368e52f357572b8eb7748862e" upstream="androidx-wear-tiles-release" />
 
   
   
