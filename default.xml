@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-room-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="df954d9ec3b86c663a1b321c523fa31cd160c2d6" upstream="androidx-room-release" />
+  <project path="build/make" name="platform/build" revision="b53734522d9ed26b678382a986176124f1f2d434" upstream="androidx-room-release" />
 
   
   
