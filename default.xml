@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-main-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b43d2f70f7760594ce0c4373a2c17881ea0f9e22" upstream="androidx-main-release" />
+  <project path="build/make" name="platform/build" revision="1447aa8c8fafa6e7847a790b85f9445106f8ed7b" upstream="androidx-main-release" />
 
   
   
@@ -23,8 +23,8 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="ffdf2be0d43a6becb00b9204811a35eaafbe2dc2" upstream="androidx-main-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-main-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4c4c3b6c5f6d3a49acdc767330197b75549fc2d1" upstream="androidx-main-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="49466e59193e34f8574f02a196817b6ae1ab1a43" upstream="androidx-main-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7b8d533ccdde6e1648123bb7e9bedf29c297e816" upstream="androidx-main-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="0a934eedd1905dbe9712ec1d2b9ee85caea47c38" upstream="androidx-main-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="b7777a84cf04620a63aecce84275de28e3881eed" upstream="androidx-main-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-main-release" />
   <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="30158df6f421f3f64c1905224d81405bf7383531" upstream="androidx-main-release" />
@@ -35,7 +35,7 @@
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="07a738eb967f40c9bd9730e720a7c91deaa5b864" upstream="androidx-main-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="241fa1c870b00e65c773fccf3002f8daea3bbfd4" upstream="androidx-main-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="06eecf2ab0c42dfdcc2f267c07134a692fa843f3" upstream="androidx-main-release" />
   <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8c72a46e550c6d3b3d6e55294bda1e2783cb0f6d" upstream="androidx-main-release" />
@@ -47,7 +47,7 @@
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="23b1ccff3b5b816526a18639f43b033d03d85e38" upstream="androidx-main-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="7860416f802ccf0aee70b77708eeab252755c338" upstream="androidx-main-release" />
 
   
   <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="d32cbcd4dec7d03cb06dc90b69f2532745f5975f" upstream="androidx-main-release">
@@ -93,12 +93,12 @@
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="162b0029c896d7f8f8a96d5e0b8731c1dc24df2f" upstream="androidx-main-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="accef0b96093182bbb2ea986a742d9f15dc83250" upstream="androidx-main-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="f7d08f37d5300e2141f5e62d3ea267ebf7b6d144" upstream="androidx-main-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="262b8e77a141e4b20a5656688137c1a1a89492b0" upstream="androidx-main-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="6c782acfac38c5e0e259be106860863bd5c63d51" upstream="androidx-main-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
