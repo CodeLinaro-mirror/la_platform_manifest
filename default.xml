@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="a642e4005c5a3de883c757e21c2b53287835f0f2" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="c49aca3d3ef5bdb5166fdb4f0d8fcdbbda38f59e" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1312,7 +1312,7 @@
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" revision="fcff623e003d53baf0553ceb127079801e78bea0" upstream="android15-tests-release" />
   <project path="system/secretkeeper" name="platform/system/secretkeeper" groups="pdk" revision="05ae62e557638b374f74077dc871bbea3a1fe2d3" upstream="android15-tests-release" />
   <project path="system/security" name="platform/system/security" groups="pdk" revision="791527dc32dde0d6316e1ec2c246a7c25c317fa7" upstream="android15-tests-release" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" revision="6d2d6184b1405de3beb73ff510069a7367f746fc" upstream="android15-tests-release" />
+  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" revision="d007f991b44e041d0889c9c89cad2eca2c8768a1" upstream="android15-tests-release" />
   <project path="system/server_configurable_flags" name="platform/system/server_configurable_flags" groups="pdk" revision="c4e3d80622dc4f0a4ec98d831320002953d93960" upstream="android15-tests-release" />
   <project path="system/teeui" name="platform/system/teeui" groups="pdk" revision="86054efbe88a936b488537adf99b2c26f4dc1b8a" upstream="android15-tests-release" />
   <project path="system/testing/gtest_extras" name="platform/system/testing/gtest_extras" groups="pdk" revision="708fe1c942e270eded542a9ed2487483055d1dfa" upstream="android15-tests-release" />
@@ -1368,7 +1368,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="050b47820173185eba555d2edf09a17334e375a9" upstream="android15-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="cd87a9cf11be58c4fc17af8d0ab14281c46c14ed" upstream="android15-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="1b5ad3e9ba5b82967bb9bfd2e63efc075ef3df75" upstream="android15-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="74985bcde211eff981f7a54cdf055314763616b8" upstream="android15-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="d55b956d9ad25ac596145e38a3453d82ae7cc956" upstream="android15-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="d15b469cdcbd79b625066924477fe9d314f1f349" upstream="android15-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="android15-tests-release" />
   <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" revision="f49beacbb089828255d293f34d7a0f64fa7623a5" upstream="android15-tests-release" />
