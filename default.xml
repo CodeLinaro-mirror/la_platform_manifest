@@ -1,56 +1,57 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-location-altitude-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="ec41956f9f3c1a92c57d941e9d9f0e3b90eb5d1c" upstream="androidx-core-location-altitude-release" />
+  <project path="build/make" name="platform/build" revision="36ac440d81df97fc21ee800bca7023a3f2d00dc1" upstream="androidx-core-location-altitude-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-core-location-altitude-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-core-location-altitude-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="5f0a2e2336cabcf3f7d1635510325a5014bc9aee" upstream="androidx-core-location-altitude-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="50e8084415237907bf7f168f299cda56727a5404" upstream="androidx-core-location-altitude-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="7f74b784eb84e9d24fedf5f7598c3e70b09d6d47" upstream="androidx-core-location-altitude-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="b295a6b81fc66a2734e9241fe9e3ae5d07d08ddd" upstream="androidx-core-location-altitude-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="bf4ca4348dda73e801e39010cf8224c0cafffba2" upstream="androidx-core-location-altitude-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-core-location-altitude-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="50738a06c2e18414eb8c456ea4e29673b997442b" upstream="androidx-core-location-altitude-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="2c29daf835c375ab83724400697cda04f054099c" upstream="androidx-core-location-altitude-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="218f71b4b5dbc3e62ea98c8c1a256ccb4403d84e" upstream="androidx-core-location-altitude-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-core-location-altitude-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="9ac065f6219f6a1c7d000be0673133947e8e5fe7" upstream="androidx-core-location-altitude-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="54523667d4eb0c5c5bed5a50a6662c08f85be05d" upstream="androidx-core-location-altitude-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="76c025a101235bdb9d15cd0ffea3b771f3a741b2" upstream="androidx-core-location-altitude-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="edcb8a49a693d4a6248d8854e28a0d54e19dd7e9" upstream="androidx-core-location-altitude-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="ef69a67aca0606640f4cf7cb92717fc8454b60c6" upstream="androidx-core-location-altitude-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-core-location-altitude-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="11747fa704e85be5ed06ff5d011cd88e1974a87d" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1d7fa6cb86308222fdc11503d266e517f987f5e2" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="735760d6f033f3705e312d9b40023ce13eea4cd9" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="6097225b20beeb4c159afe3437a9b43a93a31b58" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="8b532f2cd8eca58946a0b14f4d47c3f3822793d0" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="49635b03192689f958dadeaad93985e2e96713c7" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="696b3a573f93f6d14df6d230936e12f055569846" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="c5ef872881e3f60ea0adc6f0951282c838a5860e" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="72ec9aaea87b869ed1454db5f6212f109dd48b14" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="16e41c6663ffa1770f8b35921ff1266532cff196" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="f88470eb4a308c9cc196818fb18bae2453e7b478" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="37d3c81180738f18799ed054195094189141aecd" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="a361a94e8e99efd8bf7a6facc3c060ddb5ee88be" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="ff437f98c5d9815e8ca2f6acc39f0004b1e08490" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="05ac8e2ef2fc5f25964ec8c79d15285b9f251d14" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="653b7f755c73089da70c823fc4075b2501860d73" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="d48becc0faf7d062fd4ab8c86a75e7fac93eaf64" upstream="androidx-core-location-altitude-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="b617cd0dea3c2b5b8e3b3edd0025b1580b83a316" upstream="androidx-core-location-altitude-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="631adf3b23767a2b5a45ebd65f450797170bad7e" upstream="androidx-core-location-altitude-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-core-location-altitude-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="b85c593ecb521c6ccd9d2f2c8b6dbabda7a640ad" upstream="androidx-core-location-altitude-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="6f0c20f75d5efb24cad32fda0399f9846a973fbe" upstream="androidx-core-location-altitude-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="c3c068d9a331575369438e39ffa4b34be9033e9b" upstream="androidx-core-location-altitude-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="d79cf8ae900c693db2bc806cc4322a26231f013b" upstream="androidx-core-location-altitude-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="edcf31338059e195f9f03637fd9735ed9794a28c" upstream="androidx-core-location-altitude-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="7593176f84034d349932917380e89ee9ef9fa457" upstream="androidx-core-location-altitude-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="420cac78556502aba42d9045196210bf79955575" upstream="androidx-core-location-altitude-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="f63ad98afce4a84cff7d09c47f2195e7b8f818fc" upstream="androidx-core-location-altitude-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
   <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-core-location-altitude-release">
@@ -60,13 +61,13 @@
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="ab06103c5895dbc471e6cbfaf199ae1ae13ac03d" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="0ed69b4037a5b1ca51d3d30b0d33d7cb4ec1f33d" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="8167bfc2f6e6d2e3c7aa6093c59bbb8d827f640f" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-core-location-altitude-release" />
 
   
   <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="59e1753c1176223ea51525696f3c3c1f5699199f" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-core-location-altitude-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="354d4fde9f3640a6421ad38e8b5b6c3f0af19ac8" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="99786af2d596b749e6c26ae1e30a64584a07eac3" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-core-location-altitude-release" />
 
 
@@ -89,16 +90,16 @@
 
   
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="33f6d84fe86961209f18af6d356590d281913fb8" upstream="androidx-core-location-altitude-release" />
   <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="0d5dc22d255ae6a33738281b814238045ec7a723" upstream="androidx-core-location-altitude-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-core-location-altitude-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3fe88481e4ea47f45b1b7153d178873476cc053d" upstream="androidx-core-location-altitude-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="1e8d44189dc04e00e0eb3887c76215326abf3860" upstream="androidx-core-location-altitude-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5efc18b3cff6a5fe94edf31670a2a91e56618208" upstream="androidx-core-location-altitude-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="81dd52fddf75014a1767b9ae092529435a4d9963" upstream="androidx-core-location-altitude-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
