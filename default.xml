@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-camera-release" remote="aosp" />
+  <default revision="sparse-14973601-L92300030096213463" remote="aosp" />
   <project path="build/make" name="platform/build" revision="a0cd1e4daf0d84cc39c195a85a155f8e002b3e47" upstream="androidx-camera-release" />
 
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="18899702605001b396c92fe1f50666948ce85048" upstream="androidx-camera-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="184fa3bfb77028bee69183fda92e4da651697d64" upstream="androidx-camera-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
