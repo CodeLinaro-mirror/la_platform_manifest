@@ -5,7 +5,7 @@
   <contactinfo bugurl="go/repo-bug" />
   
   <project path="toolchain/rustc" name="toolchain/rustc" revision="bcfff4e50dda5837a362e7ef749affe38767d9f2" upstream="rust-1.82-release" />
-  <project path="toolchain/android_rust" name="toolchain/android_rust" revision="1dc576b0fb13985149a881000c2be352731838b6" upstream="rust-1.82-release" />
+  <project path="toolchain/android_rust" name="toolchain/android_rust" revision="a2982e945c13de88669037867668c835535c3b3e" upstream="rust-1.82-release" />
   <project path="toolchain/common" name="toolchain/common" revision="0bce8b062126242872e9f3fc66760d3f76773c49" upstream="rust-1.82-release" />
   <project path="toolchain/cargo-deny" name="toolchain/cargo-deny" revision="562cc53f5f508f59b215479a152007696632d969" upstream="rust-1.82-release" />
   <project path="toolchain/cargo-vet" name="toolchain/cargo-vet" revision="464066581e19c9786440c33675de450ae30fd1c1" upstream="rust-1.82-release" />
