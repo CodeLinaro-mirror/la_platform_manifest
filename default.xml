@@ -21,6 +21,9 @@
            name="platform/prebuilts/androidx/external"
            clone-depth="1"
            revision="androidx-main" />
+  <project path="prebuilts/metalava"
+           name="platform/prebuilts/metalava"
+           clone-depth="1" />
   <project path="tools/external/gradle"
            name="platform/tools/external/gradle"
            clone-depth="1"
