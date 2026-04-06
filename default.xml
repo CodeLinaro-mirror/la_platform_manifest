@@ -17,10 +17,6 @@
            name="platform/tools/repohooks"
            groups="adt-infra,cts,eclipse,motodev,pdk,tools,tradefed"
            revision="main" />
-  <project path="prebuilts/androidx/external"
-           name="platform/prebuilts/androidx/external"
-           clone-depth="1"
-           revision="androidx-main" />
   <project path="prebuilts/metalava"
            name="platform/prebuilts/metalava"
            clone-depth="1" />
