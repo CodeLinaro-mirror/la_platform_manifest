@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-xr-scenecore-pre-release" remote="aosp" />
+  <default revision="sparse-15142469-L63800030098943943" remote="aosp" />
   <project path="build/make" name="platform/build" revision="2cb7c1d95f5f894e4c2acce89d21cb74b908a201" upstream="androidx-xr-scenecore-pre-release" />
 
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-scenecore-pre-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-scenecore-pre-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4cd5dc79c84fe4b85891902cc146fd6aa60f1737" upstream="androidx-xr-scenecore-pre-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="a1e8a0fb3ca197cbb3345395adb293b04b657c93" upstream="androidx-xr-scenecore-pre-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a31b36d9d365e2e5d92239cb4d64280d18b00d7a" upstream="androidx-xr-scenecore-pre-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="3ad4f09966ecf3350e66479242fe638a74524a73" upstream="androidx-xr-scenecore-pre-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="696b3a573f93f6d14df6d230936e12f055569846" upstream="androidx-xr-scenecore-pre-release" />
