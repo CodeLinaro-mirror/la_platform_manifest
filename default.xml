@@ -3,20 +3,15 @@
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
   <default remote="aosp" sync-j="4" revision="refs/tags/ndk-r29"/>
   <remote name="aospsuperproject" fetch=".." review="https://android-review.googlesource.com/"/>
-  <project path="bionic" name="platform/bionic" groups="presubmit"/>
-  <project path="development" name="platform/development" groups="presubmit"/>
   <project path="external/effcee" name="platform/external/effcee"/>
   <project path="external/regex-re2" name="platform/external/regex-re2"/>
   <project path="external/googletest" name="platform/external/googletest" groups="presubmit"/>
-  <project path="external/python/astroid" name="platform/external/python/astroid" groups="presubmit"/>
-  <project path="external/python/pylint" name="platform/external/python/pylint" groups="presubmit"/>
   <project path="external/shaderc/glslang" name="platform/external/shaderc/glslang" groups="presubmit"/>
   <project path="external/shaderc/shaderc" name="platform/external/shaderc/shaderc" groups="presubmit"/>
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="presubmit"/>
   <project path="external/shaderc/spirv-tools" name="platform/external/shaderc/spirv-tools" groups="presubmit"/>
   <project path="external/vulkan-headers" name="platform/external/vulkan-headers" groups="presubmit"/>
   <project path="ndk" name="platform/ndk" groups="presubmit"/>
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools"/>
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86"/>
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="presubmit"/>
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86"/>
