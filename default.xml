@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-benchmark-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="ed93240965364d5f2ee8ce18be6eb73a980c6fe4" upstream="androidx-benchmark-release" />
+  <project path="build/make" name="platform/build" revision="fe0771fea540f6c31cbc7cefab7b35a96f63a521" upstream="androidx-benchmark-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="30c5a4dae75e08658e2e0d3c814910f091ba17fb" upstream="androidx-benchmark-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-benchmark-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="114de8801934b9331c5fe97571bbb03d7e1dcb43" upstream="androidx-benchmark-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="8b3cd23725388318c045467a4df4d9e496d6d8d6" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="7529448aeda7d8b71be8587af7ceb1be9c462dc1" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-benchmark-release" />
@@ -97,7 +97,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="53b1ca0749c57eeb0aaab2bef8b2afaede083710" upstream="androidx-benchmark-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="42b3207c2a640cef0205dc4ff55de6021e26f4a9" upstream="androidx-benchmark-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
