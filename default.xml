@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-benchmark-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7cb7aa29a08b05bd790c7756faa128bab860365d" upstream="androidx-benchmark-release" />
+  <project path="build/make" name="platform/build" revision="b5da550b26e389cda3ff30629c4867b1925f09cd" upstream="androidx-benchmark-release" />
 
   
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="30c5a4dae75e08658e2e0d3c814910f091ba17fb" upstream="androidx-benchmark-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-benchmark-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="de47d64a4a86958f7b045bb4c35096c8815e909a" upstream="androidx-benchmark-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="d979406cb6a86dffbbed119b2b44cf6a4c912305" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="7529448aeda7d8b71be8587af7ceb1be9c462dc1" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-benchmark-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-benchmark-release" />
