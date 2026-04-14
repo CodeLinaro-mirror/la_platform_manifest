@@ -1,44 +1,45 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-paging-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="3bbcc843d61a93e689f46b04dfc62cccc2432382" upstream="androidx-paging-release" />
+  <project path="build/make" name="platform/build" revision="d37caec9e77a0abf51e9bd6304261778c8a5a0b5" upstream="androidx-paging-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="49985ef8ae559b123d2ebfdbad35c7f9ee06fedd" upstream="androidx-paging-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="8b2982d67269ccbcb2980fbf70d7a8a1c3dc2f7e" upstream="androidx-paging-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="65af1b8292966874faee402f909cdca5d1214bd8" upstream="androidx-paging-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="d1b799f81e12b709c394f3004d3541b7a222cd86" upstream="androidx-paging-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="7f4fcfddaa2bca1dc8e2b27afaa49f374b8b401d" upstream="androidx-paging-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="17070310c3e0ff02e5cff4c9bfa9ce98a6e81013" upstream="androidx-paging-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="1cea60df751384274d388677c7ca4e553985a63d" upstream="androidx-paging-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="cedcf71578a9eff389aa6484be85fa63ed2ef8c3" upstream="androidx-paging-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="a6d1230aa9391f19a485cca48c48d9d0c6d7cda8" upstream="androidx-paging-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="76929381445dd2e6025488369ca01a9cf8407850" upstream="androidx-paging-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="c07eecddf29fd5a7a2b7fdfb7f36b695397bb6da" upstream="androidx-paging-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="2fb17cb1d1e81963374eb71e338d1bc0c763ddf3" upstream="androidx-paging-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="ee23e2e088ef1a0eaece78589c814ba8f47c6524" upstream="androidx-paging-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="2848a78bc71a4a6fa6a00c27a2825f34fa35a6dd" upstream="androidx-paging-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="40ded6932dab96801b1d3aa8c227f6685f092135" upstream="androidx-paging-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="b2464974b80e3439416bd533b2e21794e4ca0488" upstream="androidx-paging-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="1224823d70894d195321f1a74d0632daff2be298" upstream="androidx-paging-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e7b1bb3ecc44f56581af23e6e2f51e1546b22379" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="486ca7207ef0c03c023f1401ef539befab1e2c54" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e689344c93c4f4f2a20cf0be9af29d52754f1cee" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="a88f7e28f88d8a13ea15e041e55234afc2e8d9f8" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e5d6f7f4d8f84f10d8dfd6f13079b8f2f194424e" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="b4c177e632d9cda6cb593b5b4f623c39f19c3390" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="f280221ab9038788000b6b97082f70c974a38050" upstream="androidx-paging-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="bae44ab831fe50bf9092071b4ccb993b062acead" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="b831620095808e4ce2fffccd9c18e67dfe0eca66" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="22e6cd225b316ca294625e2a6044d107c00c4e8f" upstream="androidx-paging-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="527bbcb950de7eca9509fd69c8808ae4288422b9" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="5b7e240fae857a9da4616095f8864e3a81238ad6" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="d0ef8124250a81d24da5b3e9a3a05612d3dbf804" upstream="androidx-paging-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="105711130d1b30eed66c41f58874080cbce34c2f" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="ad029a6264b9cb4824fa339a789a783b1bdef3bb" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="33bb5edcf4bb274c19b3636a23aee73c11ad600c" upstream="androidx-paging-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="5eba2a78503f8c0a82fe9e11ddf8fa7bcf90f8a0" upstream="androidx-paging-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="5ee776cd418eff8bff62400a14a8005fa2fe4690" upstream="androidx-paging-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="ca47df2f202a3f759e97fe2afe7cee6d0abfff8e" upstream="androidx-paging-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="dc95e7eef3b0f20fb34c39c46b2d1b18702b7f97" upstream="androidx-paging-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="986f9bc07138f2265262f3ed4d2ae3a47065a996" upstream="androidx-paging-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="c1b9fa4fc2cf34c3802a7aec22ed041a95c491f2" upstream="androidx-paging-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="f05907228f4e54fe0b662cea614b2522d47b114f" upstream="androidx-paging-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="a1bc36d714a613a869d028352c47f1d410ca33be" upstream="androidx-paging-release" />
@@ -47,13 +48,13 @@
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="25e46d8e80848b5b8d0afe1bb233a6e83a0e111b" upstream="androidx-paging-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="3499ddc4132580cd7597b77e4decc2e08288a89c" upstream="androidx-paging-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="02b61f52e943e8a3084c7aa6ce0deeb80fe4c1d5" upstream="androidx-paging-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="96cc6bb0defda476f40f3dc3b88cb75604a50b7f" upstream="androidx-paging-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="a00be26dee564237a8496072a0f514690ebd81ed" upstream="androidx-paging-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="304a45a5aa06872c377905ae67c6b3b33c8ba4f2" upstream="androidx-paging-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
@@ -93,12 +94,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-paging-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="2759f163c6dd424fa674d37f383f3fb8a60a31bc" upstream="androidx-paging-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="5a2ab884132c2cdb541f7d64664772b199b7feef" upstream="androidx-paging-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="e1d643601cb239f3506da86f62e3b5619294e6e0" upstream="androidx-paging-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ea98cdb782363cf3ee86f5c3393757dd1f608653" upstream="androidx-paging-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
