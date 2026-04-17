@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-health-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b9479f024cc24c81b1e60bc0d4e123029c459847" upstream="androidx-health-release" />
+  <project path="build/make" name="platform/build" revision="bf0e9f0b849538a66571a227b4cb74aa3919b4ed" upstream="androidx-health-release" />
 
   
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="7ff96b5234fa386046d864758f46119069f76c8e" upstream="androidx-health-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="3bcb69d968b4cfce9aa0d3f7c73e8b82527f0ce3" upstream="androidx-health-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
