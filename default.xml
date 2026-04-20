@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="b7e77ef0c6d992a36978ad0fb17feee4cf8059dd" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="33d0d1baf2dd10c7b8377c4199ee7e8d0803cccb" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="a6bbb2a92a4567281d9cdb321a364b4d078bd5d5" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="a56b5ceaae5c6dfcc080989612cf5df00cb8c07e" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -177,7 +177,7 @@
   <project path="external/desugar" name="platform/external/desugar" groups="pdk" revision="68add45df67ecc8a980d660e313c1e3dfc37c98f" upstream="android14-tests-release" />
   <project path="external/dexmaker" name="platform/external/dexmaker" revision="3b5567d44e992e26acdbc41bc531884a4138e3a7" groups="pdk" upstream="android14-tests-release" />
   <project path="external/dlmalloc" name="platform/external/dlmalloc" groups="pdk" revision="a89d75d0dae08a70f16fe8ddac8e683b5167b832" upstream="android14-tests-release" />
-  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" revision="61eb09c1987eeff6e51d636013952436b5ec5449" upstream="android14-tests-release" />
+  <project path="external/dng_sdk" name="platform/external/dng_sdk" groups="pdk" revision="68f5793b3ee2c610c18f5e7f8f218c6ecdb0087d" upstream="android14-tests-release" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" revision="c9c0200a2ce535caf3a17ddf2ff4d1443767f116" upstream="android14-tests-release" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk" revision="3ca0194f9821686625fa4804484b7c6c10a15aa9" upstream="android14-tests-release" />
   <project path="external/dokka" name="platform/external/dokka" groups="pdk" revision="1ad7cb605dfb17398c17f882f6119991770aa434" upstream="android14-tests-release" />
@@ -1236,7 +1236,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" revision="d30d58cc26280aa97b5c5499c4d712a59f3a8852" groups="pdk" upstream="android14-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="bee28ce92a9f75365b91a900caf29192295fc491" upstream="android14-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="5819393ca04902c8fea8f07062d7e38f76aa36c5" upstream="android14-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="0580ad2889859262a6ee58892752224d8104bf69" groups="pdk,tools" upstream="android14-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="a1d577fd024a25355af0296568b3b7faec6e237a" groups="pdk,tools" upstream="android14-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" revision="ae4452780bda9de852cff261badd399708da031f" upstream="android14-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="401b6b1e1a23ac90d71ff5b739e8381178efdda0" upstream="android14-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="34305064144cbca787310c753c85d72afdcc1713" upstream="android14-tests-release" />
