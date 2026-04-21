@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-graphics-release" remote="aosp" />
+  <default revision="sparse-14929680-L70800030106194084" remote="aosp" />
   <project path="build/make" name="platform/build" revision="da2cb14c1d39bc995f102db24d89096353da6171" upstream="androidx-graphics-release" />
 
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="30b984ce6280d296f47db0e9ddf5fc77b8c1039c" upstream="androidx-graphics-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="15881b97475afdb49222392724f49fe2ccfb866b" upstream="androidx-graphics-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
