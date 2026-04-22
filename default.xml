@@ -1,102 +1,105 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-car-app-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="aea2b6979ca774243635d9c4bc4d5c65c366b795" upstream="androidx-car-app-release" />
+  <project path="build/make" name="platform/build" revision="5094c6952ccefe854e2da24d69cb12c50651e3d0" upstream="androidx-car-app-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="baa491a8936cdecd56fd75f3998a953417e674c5" upstream="androidx-car-app-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="4b453a498472a668150c8250cb87701ebfea2f91" upstream="androidx-car-app-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="a1d76512672da9821fa17d8acf8fd287239aaa12" upstream="androidx-car-app-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="871ced3265a8bef1b606193507ca8d7a6e245b5f" upstream="androidx-car-app-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="1283faa95711d8cadc68e4bba7151cc407315589" upstream="androidx-car-app-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="c6b1950c977f77c71f2cbf53267b1581664582db" upstream="androidx-car-app-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="6550dd76974498609746ea00f685d6273239b1d8" upstream="androidx-car-app-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="e4ba29cdb46d80a8a068b47162cb1db91109aaad" upstream="androidx-car-app-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="44867e6a86465a582a832ae165bab72ee45e7654" upstream="androidx-car-app-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="a4769e240d54d8ff1ebf834ee95da123c204367b" upstream="androidx-car-app-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="e17cf3ac4fb39ac6732e06e353dec4dae6daf514" upstream="androidx-car-app-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="43b522f54ff3bc17a65399d4ad9297ce75494049" upstream="androidx-car-app-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="591f3327a4cbc2d41f814de3a039be40f3d82a4e" upstream="androidx-car-app-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="8be7e43f34ce289dc73c5f70d376546f253770e1" upstream="androidx-car-app-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="902721c4bd3aa0c4e718dc9a2dd8ab2de2d5547d" upstream="androidx-car-app-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="3133f89e9947c94cda102d514583a117ae7c64fe" upstream="androidx-car-app-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="fefbb9e45a88d9df56fea766183c05a5af9debdd" upstream="androidx-car-app-release" />
+
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="8c4693888050dfbf87555647a4a32b1ae8e7ef88" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="b9f389d8b19783e1410efd311834c19d26f680a8" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="3ab600a8300d6ea9012552c2fc992aec313533b3" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="2e7a822c9d781aa8e937f87b2bdcde351a90e83a" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="a480260f19916523ac4cba30e26ee3e4b8f80b93" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="f280221ab9038788000b6b97082f70c974a38050" upstream="androidx-car-app-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="b3482a4f965003b6ce024157df52eb5f3f4bdba2" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="18b29d4ea10718992a70307f0f40d660825d7d8a" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="76cb2434202a519fb213ec072941a0e120498d34" upstream="androidx-car-app-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="efe7fb62c93f085ceecea8b211994ee929c69e33" upstream="androidx-car-app-release" />
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="dae658e6b3c738b1768cdba0913d6a830012658e" upstream="androidx-car-app-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-car-app-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="d27c02b1ac5fe17c2b0bf7a614c09d6797ab7430" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="a94e9e82f158881e4cc5c1b5db0bcaaf89cbce13" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="4047d504174958437607cc5c0f8dbf1796a481fa" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="c603f7f61581a842dacde4d9c8360b595c5a2b9b" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="1a6d11d65dc98899ca80703bd423cc242d504ff9" upstream="androidx-car-app-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="c8872cb7f83b20cf46b4fbd617f0c62b91e461fd" upstream="androidx-car-app-release" />
 
   
+  
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="51b0af676aca06f88a4772f14c219311d4e8a65b" upstream="androidx-car-app-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="03e914e082e572a13ac53c059ef6d5d9ca241f86" upstream="androidx-car-app-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="af3397431bfe49766fd88c5574a4f54a7028419a" upstream="androidx-car-app-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="6b12fb4b2732232e37063bf45b19e01c53f88ed0" upstream="androidx-car-app-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="83165dd05b34ff1493dc2faef738c1d29ae53407" upstream="androidx-car-app-release" />
-  
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="e00298f27960a3d1691fdd1d1d2aba003013dd6b" upstream="androidx-car-app-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="b9fc465cfd3ec2003c1e13129dca54228b63dd74" upstream="androidx-car-app-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="3cf47e36f277e0ed7f970797925c1f76b4296291" upstream="androidx-car-app-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="391672de111926500abcf82de95cb88b1ac6873c" upstream="androidx-car-app-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="d132fb0dc37bd4dd005690b9a28b5bd5e30a6ee3" upstream="androidx-car-app-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="0ed29ddf2dcc99a781ca9135e60edaee7d08e68a" upstream="androidx-car-app-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="5f096b45c3b72468c7a56ba1b3576c5bc5a1dc38" upstream="androidx-car-app-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="7964319aa794b212a463ee49c3c2555cc310d8a1" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="a07e4d526c7462cc5eea176e82ffdd3206a8387b" upstream="androidx-car-app-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="043c6a9f1c08620ef014bbd6b07359c7700cb11d" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="21adae1324dd28893fed96ef7eed7ec4adb927ce" upstream="androidx-car-app-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="195cc6503db6ab6269964b3c65a6f2d81205073c" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="e00b81ccf47eebf2ee03e2cbc30e68708a603461" upstream="androidx-car-app-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-car-app-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="1f2fe5a9e96de0ffb85e6df3955c7408cc3e8857" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="86e6c9f59e209fafdaa6e8fe696794e6cecd9922" upstream="androidx-car-app-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-car-app-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5b6745380a7ff8b124059ec24453cf27a10a8c58" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="88a09ca31b6e6ec5f09440ad856e71a54869e47f" upstream="androidx-car-app-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-car-app-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ca4716aa18e87d157a252f41919c174d26fd92d1" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="529d97220fa75b0530958e47ca6ff63cceb71d7e" upstream="androidx-car-app-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-car-app-release" />
 
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-car-app-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="e03a2e8a12f08b0416b6e8318b4bcce0c37371e6" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="e03a2e8a12f08b0416b6e8318b4bcce0c37371e6" upstream="androidx-car-app-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="45896dba0ad7a4aece144a8cfee90ee339db4408" upstream="androidx-car-app-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-car-app-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="3fa0c4d4fefc1d2b537f633d18c73d15c79b456d" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="057cb46e522fc59ff331ff07135011df50b74bce" upstream="androidx-car-app-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="3fa0c4d4fefc1d2b537f633d18c73d15c79b456d" upstream="androidx-car-app-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-car-app-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="419a9b39d3e28606832d89236de9101ab643e739" upstream="androidx-car-app-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="746856250bc01155ab6a88974bbf79b270471029" upstream="androidx-car-app-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-car-app-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="1ce932ded70a4ba2c432c6f98d2947be339c4c6b" clone-depth="1" upstream="androidx-car-app-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="74744435645bc33cfbeb3187d1550ded2f61a55f" clone-depth="1" upstream="androidx-car-app-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="f4cf22d8d937fb41d6d6b90fac8399b380cab6fe" upstream="androidx-car-app-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3a15ea98498ecdd0c5a2e4fbd5cbabc499e61dab" upstream="androidx-car-app-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="dd0029781d89efa8a4e0cde206734e5ebef5f6ec" upstream="androidx-car-app-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="8080a62785a102835177ec4199c6eac45c4ff0d7" upstream="androidx-car-app-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
