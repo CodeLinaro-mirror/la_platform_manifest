@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-compose-1.7-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="32803744e211c2ce79f7641b84a7f0824b7579c0" upstream="androidx-wear-compose-1.7-release" />
+  <project path="build/make" name="platform/build" revision="8fc5f83cdaa65d47555608a55700661e623241c0" upstream="androidx-wear-compose-1.7-release" />
 
   
   
@@ -94,12 +94,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-wear-compose-1.7-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="369424219c859698175e467a92b1873e1e7d1728" upstream="androidx-wear-compose-1.7-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="fd5649116f7e34d998111a75f3213c823c97d22e" upstream="androidx-wear-compose-1.7-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="805041a45c6a3030f3ed4ad9ef86045e5cd4bc38" upstream="androidx-wear-compose-1.7-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="91b07a1ba9b7194e13c4584b74e7bd3830d77b28" upstream="androidx-wear-compose-1.7-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
