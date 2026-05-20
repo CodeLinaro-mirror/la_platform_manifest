@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="9e0d69dcd8bb04431c4cdde389f92faf280f51c2" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="af26d4ac6355019209b7325049b121a429356192" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="0f7e319d81f6c3d31b0f1aca8fbea703063e7937" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="1c72ebcfc0a2bede2d9cec785f2536be5be61be3" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -255,7 +255,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" revision="5d8bf6fb3251fa0456d0758a4bd7205cd7f38639" upstream="android14-tests-release" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" revision="9f622870dee668ea394e2133123d2560a6482a6a" upstream="android14-tests-release" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" revision="eea73cc9fe6facc10dbaf229e4464b4cc2eaebce" upstream="android14-tests-release" />
-  <project path="external/icu" name="platform/external/icu" revision="788bc258f5b8ad238ebf43f9c05f86159a9b6002" groups="pdk" upstream="android14-tests-release" />
+  <project path="external/icu" name="platform/external/icu" revision="634a050af3ce11152c6dc26e3fbc75fd8cfa0e58" groups="pdk" upstream="android14-tests-release" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" revision="68f45f8ae95791dc164b64a0564aa6e8908b9994" upstream="android14-tests-release" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" revision="e617870700c34c12c4a53d8e91223bb4f99e5297" upstream="android14-tests-release" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" revision="042d035cfca14b5af39cf91817cdf9bf060a60e6" upstream="android14-tests-release" />
