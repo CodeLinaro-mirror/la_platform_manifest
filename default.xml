@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="eac5ba34b8f8358fe66315d984756a6fcaedd3ef" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="f0754d74a521f0a6ca026d6ed459102e4325f461" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -233,7 +233,7 @@
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" revision="94c39a7f519c5746c1b6e39b8c4c28e09259782d" upstream="android13-tests-release" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" revision="822da231787e6cfe73d97a940ff313316beb7742" upstream="android13-tests-release" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" revision="703acbe177667070005dbd9f39aaaded95d7570f" upstream="android13-tests-release" />
-  <project path="external/icu" name="platform/external/icu" revision="9528afc3b8a2d85ec34ce678f39806fcd8cc7583" groups="pdk" upstream="android13-tests-release" />
+  <project path="external/icu" name="platform/external/icu" revision="bf8a1ea8dd88ee841ef91bf38c7f1fcac4ea8265" groups="pdk" upstream="android13-tests-release" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" revision="c6fce9b298f3589e3d14007bf32e1ff9625a57db" upstream="android13-tests-release" />
   <project path="external/ImageMagick" name="platform/external/ImageMagick" groups="pdk" revision="012e0a2124581117d32eeefcdc88a5f91c39a13c" upstream="android13-tests-release" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" revision="9b10dc0100a9208032273e55d09345f32c58566b" upstream="android13-tests-release" />
