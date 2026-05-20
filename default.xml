@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-datastore-release" remote="aosp" />
+  <default revision="sparse-15154507-L42900030119941926" remote="aosp" />
   <project path="build/make" name="platform/build" revision="4e6c52d3bbc874b08cbb4b84095dc0c49175ef6b" upstream="androidx-datastore-release" />
 
   
@@ -98,7 +98,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="a16ac3febdbf76ea70c67c356a508cfa85f55cc0" upstream="androidx-datastore-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="01505883a1092318670d4d6a586d95a5055b0ff0" upstream="androidx-datastore-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
