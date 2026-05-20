@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="8f359b2b196c83b0d300cd0f800273fd010b7f83" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="5b401540c7db6a5d90d67d327be5385628418e56" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -262,7 +262,7 @@
   <project path="external/horologist" name="platform/external/horologist" groups="pdk" revision="969fc919bc03cafe5cb272a0490ed10d58bc0c49" upstream="android15-tests-release" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" revision="7770a808fcf81c47bcc77bf265b2571c1c05ed28" upstream="android15-tests-release" />
   <project path="external/icing" name="platform/external/icing" groups="pdk" revision="6e95075ff5edb3d6f7bd5b447d587dbe44e8bdeb" upstream="android15-tests-release" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="cfcd9dfa2edb21d97133c7b469e9fbbc39125656" upstream="android15-tests-release" />
+  <project path="external/icu" name="platform/external/icu" groups="pdk" revision="c84f7a8c7e1fd9e34f3e8e98ce2b44149d8735fc" upstream="android15-tests-release" />
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk" revision="23718ca7c07af050b9644ffd989ca58541592ca1" upstream="android15-tests-release" />
   <project path="external/image_io" name="platform/external/image_io" groups="pdk" revision="37e2347000d74a82140eeba79fd6ba1232e3f607" upstream="android15-tests-release" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" revision="66acf2076b7a6d036a4dcd0fd2d2d3e5d3a72eaf" upstream="android15-tests-release" />
