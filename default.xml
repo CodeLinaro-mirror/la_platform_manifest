@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="66a06ec021f3c57b4746ae0ee557294c3db4ed63" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="821e8c18e5793c57b24943f72819edfa9017b790" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -954,7 +954,7 @@
   <project path="external/zstd" name="platform/external/zstd" groups="pdk" revision="5d812a47eb13aeaf6781a70e160cb75d52b32880" upstream="android15-tests-release" />
   <project path="external/zucchini" name="platform/external/zucchini" groups="pdk" revision="24e8048ce040188a263113a81a105302756be435" upstream="android15-tests-release" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" revision="513427e33d61bc67fc40bc261642ac0b2a686b45" upstream="android15-tests-release" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="0b622759076e9e68dbb7480f9ef487f39f3dd578" upstream="android15-tests-release" />
+  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" revision="e6098cc206f4be1e0390f750b64b1180f808cc4d" upstream="android15-tests-release" />
   <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="f7523afa6279efdfdc588cf67e66303cab495336" upstream="android15-tests-release" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" revision="e42b60e8adeb4c6ea81562cc0a7c0783e3aa7856" upstream="android15-tests-release" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" revision="00a9bfa0b906ae9db8ae8d79eb573dac9bbeef63" upstream="android15-tests-release" />
@@ -1368,7 +1368,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="050b47820173185eba555d2edf09a17334e375a9" upstream="android15-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="cd87a9cf11be58c4fc17af8d0ab14281c46c14ed" upstream="android15-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="1b5ad3e9ba5b82967bb9bfd2e63efc075ef3df75" upstream="android15-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="480adc6b2ca933cb7f42df6fb113e172a3b73583" upstream="android15-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" groups="pdk,tradefed" clone-depth="1" revision="37a767d133a9e71c161625a3db08e21d075d901e" upstream="android15-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="d15b469cdcbd79b625066924477fe9d314f1f349" upstream="android15-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="14e85d58461740d86077d268c623249077d8ae09" upstream="android15-tests-release" />
   <project path="trusty/device/arm/generic-arm64" name="trusty/device/arm/generic-arm64" groups="trusty" revision="f49beacbb089828255d293f34d7a0f64fa7623a5" upstream="android15-tests-release" />
