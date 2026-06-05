@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="refs/tags/studio-2025.3.4" remote="aosp" sync-j="4"/>
-  <superproject name="platform/superproject" remote="aosp" revision="studio-2025.3.4"/>
+  <default revision="refs/tags/studio-2026.1.1" remote="aosp" sync-j="4"/>
+  <superproject name="platform/superproject" remote="aosp" revision="studio-2026.1.1"/>
   <contactinfo bugurl="go/repo-bug"/>
   <project path="build/bazel" name="platform/build/bazel"/>
   <project path="external/android/system/logging" name="platform/system/logging" clone-depth="1"/>
@@ -15,7 +15,6 @@
   <project path="external/jarjar" name="platform/external/jarjar"/>
   <project path="tools/vendor/redhat-developer/lsp4ij" name="platform/external/redhat-developer/lsp4ij"/>
   <project path="external/jetbrains/kotlin" name="platform/external/jetbrains/kotlin"/>
-  <project path="external/jetbrains/rust" name="platform/external/jetbrains/intellij-rust"/>
   <project path="external/nanopb-c" name="platform/external/nanopb-c"/>
   <project path="external/python/absl-py" name="platform/external/python/absl-py"/>
   <project path="external/gradle-profiler" name="platform/external/gradle-profiler"/>
@@ -39,24 +38,26 @@
   <project path="tools/apkzlib" name="platform/tools/apkzlib"/>
   <project path="tools/assets" name="assets/android-studio-ux-assets" clone-depth="1"/>
   <project path="tools/base" name="platform/tools/base">
-    <linkfile dest="tools/BUILD.bazel" src="bazel/tools.BUILD.bazel"/>
-    <linkfile dest="WORKSPACE" src="bazel/toplevel.WORKSPACE"/>
-    <linkfile dest="MODULE.bazel" src="bazel/toplevel.MODULE.bazel"/>
-    <linkfile dest="MODULE.bazel.lock" src="bazel/toplevel.MODULE.bazel.lock"/>
-    <linkfile dest=".bazelignore" src="bazel/toplevel.bazelignore"/>
-    <linkfile dest=".bazelversion" src="bazel/toplevel.bazelversion"/>
-    <linkfile dest=".bazelrc" src="bazel/toplevel.bazelrc"/>
-    <linkfile dest="prebuilts/studio/sdk/BUILD" src="bazel/sdk/prebuilts.studio.sdk.BUILD"/>
-    <linkfile dest="prebuilts/studio/sdk/README.md" src="bazel/sdk/prebuilts.studio.sdk.README.md"/>
-    <linkfile dest="prebuilts/clang/studio-extra/wrapped_ar.darwin" src="bazel/toolchains/darwin/wrapped_ar"/>
-    <linkfile dest="tools/vendor.MODULE.bazel" src="bazel/bzlmod/vendor/vendor.MODULE.bazel"/>
+    <linkfile src="agent/toplevel.AGENTS.md" dest="AGENTS.md"/>
+    <linkfile src="bazel/tools.BUILD.bazel" dest="tools/BUILD.bazel"/>
+    <linkfile src="bazel/toplevel.WORKSPACE" dest="WORKSPACE"/>
+    <linkfile src="bazel/toplevel.MODULE.bazel" dest="MODULE.bazel"/>
+    <linkfile src="bazel/toplevel.MODULE.bazel.lock" dest="MODULE.bazel.lock"/>
+    <linkfile src="bazel/toplevel.bazelignore" dest=".bazelignore"/>
+    <linkfile src="bazel/toplevel.bazelversion" dest=".bazelversion"/>
+    <linkfile src="bazel/toplevel.bazelrc" dest=".bazelrc"/>
+    <linkfile src="bazel/toplevel.editorconfig" dest=".editorconfig"/>
+    <linkfile src="bazel/sdk/prebuilts.studio.sdk.BUILD" dest="prebuilts/studio/sdk/BUILD"/>
+    <linkfile src="bazel/sdk/prebuilts.studio.sdk.README.md" dest="prebuilts/studio/sdk/README.md"/>
+    <linkfile src="bazel/toolchains/darwin/wrapped_ar" dest="prebuilts/clang/studio-extra/wrapped_ar.darwin"/>
+    <linkfile src="bazel/bzlmod/vendor/vendor.MODULE.bazel" dest="tools/vendor.MODULE.bazel"/>
   </project>
   <project path="tools/buildSrc" name="platform/tools/buildSrc">
-    <linkfile dest="tools/build.gradle" src="base/build.gradle"/>
-    <linkfile dest="tools/gradle.properties" src="base/gradle.properties"/>
-    <copyfile dest="tools/settings.gradle" src="base/settings.gradle"/>
-    <copyfile dest="tools/gradlew" src="base/gradlew"/>
-    <copyfile dest="tools/gradlew.bat" src="base/gradlew.bat"/>
+    <linkfile src="base/build.gradle" dest="tools/build.gradle"/>
+    <copyfile src="base/settings.gradle" dest="tools/settings.gradle"/>
+    <copyfile src="base/gradlew" dest="tools/gradlew"/>
+    <copyfile src="base/gradlew.bat" dest="tools/gradlew.bat"/>
+    <linkfile src="base/gradle.properties" dest="tools/gradle.properties"/>
   </project>
   <project path="tools/data-binding" name="platform/frameworks/data-binding"/>
   <project path="tools/emulator" name="platform/tools/emulator"/>
@@ -71,6 +72,7 @@
   <project path="external/freetype" name="platform/external/freetype"/>
   <project path="external/libpng" name="platform/external/libpng"/>
   <project path="external/skia" name="platform/external/skia" clone-depth="1"/>
+  <project path="tools/vendor/ggml-org/llama.cpp" name="platform/external/ggml-org/llama.cpp"/>
   <project path="tools/vendor/modelcontextprotocol/kotlin-sdk" name="platform/external/modelcontextprotocol/kotlin-sdk"/>
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1"/>
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
