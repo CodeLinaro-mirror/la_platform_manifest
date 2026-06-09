@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-hilt-release" remote="aosp" />
+  <default revision="sparse-15506980-L08000030129101158" remote="aosp" />
   <project path="build/make" name="platform/build" revision="d71d613e6d5cf2ac952c4aed2c43448c0eb21a9c" upstream="androidx-hilt-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-hilt-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="0354e5ec7445638f4083745106c89a6d677fcdc3" upstream="androidx-hilt-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c9d6f61602f70408d1852d0c947310d4516e3582" upstream="androidx-hilt-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="712596a01e28762d12b6c3ba8e3fe16b4b9f73c5" upstream="androidx-hilt-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="d701a395ad47e8a47439c20e828a3198c0778141" upstream="androidx-hilt-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="f280221ab9038788000b6b97082f70c974a38050" upstream="androidx-hilt-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-hilt-release" />
