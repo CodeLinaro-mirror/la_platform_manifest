@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="b492dbbf2caf71e277e7d2c9f79232f1c3d9934c" upstream="androidx-navigation3-release" />
+  <project path="build/make" name="platform/build" revision="43e351f3516ddf58e7ad9d3dcd7c62268c8e0d9c" upstream="androidx-navigation3-release" />
 
   
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="00c1faabef7108e0967aa1975f48aa8dca6af97d" upstream="androidx-navigation3-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="38bbe71d39a4ea74df415440ec0846f469140922" upstream="androidx-navigation3-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="73604eda7389851f2a5b91c12f5bb16a7340a448" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="f980b7a5a7347d9f0c555b8302f6d73ace79a982" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="696b3a573f93f6d14df6d230936e12f055569846" upstream="androidx-navigation3-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-navigation3-release" />
