@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-lint-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="42dc5247173a820d78b4bd242cd9a650de6c1a1a" upstream="androidx-lint-release" />
+  <project path="build/make" name="platform/build" revision="61097a58555cf6148cad387a3f74157e1aee2f55" upstream="androidx-lint-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="706e5869c2c1c5f6db95b3684a2deaa37c96f860" upstream="androidx-lint-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="df2b9da6fcff9fb5520d8564e517dc1f822c5615" upstream="androidx-lint-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
