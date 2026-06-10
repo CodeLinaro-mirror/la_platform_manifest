@@ -1,93 +1,110 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-test-uiautomator-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="099e01119f72dffbdb2315819442b46d81625d3a" upstream="androidx-test-uiautomator-release" />
+  <project path="build/make" name="platform/build" revision="c89f48723b7335bb61785ae2aa9ba3170acc6f66" upstream="androidx-test-uiautomator-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-test-uiautomator-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="c6db8056b21a2d1ef9ad09a0a177447560190571" upstream="androidx-test-uiautomator-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="100631c32aecc3b9e3e44b171ceccfe98d567956" upstream="androidx-test-uiautomator-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="a81a0c8cb5c424e6eed6cec1bd687bc4d609e6cd" upstream="androidx-test-uiautomator-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-test-uiautomator-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="faf50912c8ff37d969db9c9d4b8f1e3139f28a7c" upstream="androidx-test-uiautomator-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="7016c1e421066f04a9c14710e95d74fcfeb34637" upstream="androidx-test-uiautomator-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="1e95cacdf7686095366b0fef1ce19678e01ea272" upstream="androidx-test-uiautomator-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="bd87ba025cd5915b57e26cda62237a09442aee53" upstream="androidx-test-uiautomator-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="8b186ae020a8e8d40b052517aa0db7f2fb9a07c1" upstream="androidx-test-uiautomator-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ba8a088f44310b7001492e92842d19cb757c7db6" upstream="androidx-test-uiautomator-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="de3f205f342dc6087ba0f91c9aa5a0c7e8dbcda1" upstream="androidx-test-uiautomator-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="af723d45c44e99ca1aa328f88dc9bc3238f2bb72" upstream="androidx-test-uiautomator-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="effc1cd2ea2a442ab7b8e2643999424c895a4798" upstream="androidx-test-uiautomator-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="1ab40bc9a86d47cbebe833c542fea719f06be160" upstream="androidx-test-uiautomator-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="a6d87ab0df36ebb6b93e3b53b8f6d68155d14122" upstream="androidx-test-uiautomator-release" />
+
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="fb3d055d99c2b59fc7b7d9d8fe2e90c1e2abaa37" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a97bf15f2fbcf517e8c1e0273fc8ec55b3ff3786" upstream="androidx-test-uiautomator-release" />
+
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="3e3fa71978839e49b70ff3a7149ebea2a4cfab6a" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1c79a0559db1b44870d071a7f957fbf989c2d925" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="784ff8b9b8b1c7167f277be29feec05a9b1d8ee7" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="f280221ab9038788000b6b97082f70c974a38050" upstream="androidx-test-uiautomator-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="38276ebb924dd6cb94ab6abb4548fdbb3a440fb5" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="dec8ba079c9f46248dfdb3c60e93a4929dbcab64" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="6deb8e276af01b5cb1017c037071814e35a00e04" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="81a6a2df768a1f016adc9c0f53adca959562663f" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="f8c6b98c495dee6671c7d087e25cf832341594a5" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="1a6d11d65dc98899ca80703bd423cc242d504ff9" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="45211cb0600c18ffceccb3edf84b1f9f066a2de4" upstream="androidx-test-uiautomator-release" />
 
   
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="1547b2ac1a03c46bc275c4e62a273ca62969cc2c" upstream="androidx-test-uiautomator-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="2a7a122b5c5b145a9e967b69ed8c3b02f8514f73" upstream="androidx-test-uiautomator-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="bed895aec6ca4c90c05ed777c68cca46f8380795" upstream="androidx-test-uiautomator-release" />
-
   
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="0168585563c3b5a6dbb2e93e126f1be088ba78bb" upstream="androidx-test-uiautomator-release" />
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cbc1b8eda862ba707d62aeb235c8cf9d5664ca13" upstream="androidx-test-uiautomator-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="2976a4d245c1ad0887873f24d9ae7d2ca7939b57" upstream="androidx-test-uiautomator-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7d5d8c7e36eb15d8a5389ca19e3b0aeb1daa1326" upstream="androidx-test-uiautomator-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="ad2a20d9ffe3d0c915a7e32820f202ce5c672136" upstream="androidx-test-uiautomator-release" />
-  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="47c685f6e58e0050f54ea7077fce40bfadb9ce4b" upstream="androidx-test-uiautomator-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="731b3a105888e33081c933c0c08eab296dc16057" upstream="androidx-test-uiautomator-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="cc6cb909f6a38a174361fbc1fd73a41b34959876" upstream="androidx-test-uiautomator-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="b2f7dc9082e0c0c8e2e6e42da2b12d047aa0a664" upstream="androidx-test-uiautomator-release" />
+
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="c98398add8bba54e2e7c261652665fc900a2a630" upstream="androidx-test-uiautomator-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="19b6819df390bb586fcbf69b543421441c782878" upstream="androidx-test-uiautomator-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="f2015165801a4efb7c919e9bf39e8d5a18fb4d0f" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="3141061ee257bd0d6954fca2876b3760d0e1e8ef" upstream="androidx-test-uiautomator-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="bcfbe3a5fc572ea731c08053d83160e677c877da" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="f1cd0298ca46986d4064870fe2759a730ef8f70b" upstream="androidx-test-uiautomator-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="8c0b0dee18fd672f0461484c9dfa35260f10c3b8" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="8a2e0802105f7831681e13bb03af8e6911fd62d1" upstream="androidx-test-uiautomator-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="58c35e83c9694fddff4c4f9b1e2ee52e8030e02e" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="fea3f8f6f9eb81c1eacf15c01ef9bf0e6c68ed1f" upstream="androidx-test-uiautomator-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-test-uiautomator-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="d7421d193136778ce7ade411810369868ea53626" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="1565c5bc7bf8557a4a8943747993103b520f99f1" upstream="androidx-test-uiautomator-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="aeab0237a751944bed722f6bcc665a7e08d669fd" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="0de0ed159f899a25a544b5b959de844b7c494406" upstream="androidx-test-uiautomator-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="notdefault,platform-linux" clone-depth="1" revision="f1e15ee3498c00a329ce89d2758a5542368c209a" upstream="androidx-test-uiautomator-release" />
+
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r25" revision="6f9339fe3d6319e482dd44bb0d44c2d3c1066f9d" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-test-uiautomator-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="e256fb70830c4fb6003f22a2278c2f5de637452f" upstream="androidx-test-uiautomator-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r25" revision="1622e087e1b881a0c7c744091d314662d12f0997" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-test-uiautomator-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="001ed46e3703c78cbc3838adfe4c14ba279f9ff7" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="df0cd542a4f0625a278f69547884a5e59a19a5d9" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="60818e1340b219467bf7c12602338237fd92fe77" upstream="androidx-test-uiautomator-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-test-uiautomator-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="20a281bee4a777cdeb7fec459d4cc0c02776c29a" upstream="androidx-test-uiautomator-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="04aba3ace158d228ef853105f00201448eabbdc0" upstream="androidx-test-uiautomator-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-test-uiautomator-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="7c17ccef006e890c13a76e99801a5a8f63113261" clone-depth="1" upstream="androidx-test-uiautomator-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="6d819c5e7fe0e21e2587c177e8efb980e31a8c0e" upstream="androidx-test-uiautomator-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="2f781e677092f7674ae7489c294fccec18176368" upstream="androidx-test-uiautomator-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d375ebd81518b9f5e41545a20332a2a5a881431b" upstream="androidx-test-uiautomator-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="d64020126685d850ca852210e91c37b5a406d92f" upstream="androidx-test-uiautomator-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  
+  
+  
 </manifest>
