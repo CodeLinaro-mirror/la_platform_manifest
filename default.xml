@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-test-uiautomator-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="c89f48723b7335bb61785ae2aa9ba3170acc6f66" upstream="androidx-test-uiautomator-release" />
+  <project path="build/make" name="platform/build" revision="ac54ba437dda3e89aa678a8ef5c61431b0c6bf72" upstream="androidx-test-uiautomator-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d64020126685d850ca852210e91c37b5a406d92f" upstream="androidx-test-uiautomator-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="17189aed3d0407f465998947a9ea3754571de53b" upstream="androidx-test-uiautomator-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
