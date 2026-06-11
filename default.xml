@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-sqlite-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="bf92dfbf4e3594adbed6f47bde9d6066bdd6648f" upstream="androidx-sqlite-release" />
+  <project path="build/make" name="platform/build" revision="3c7a94e76db24992eab347f64206cbc37d1825f3" upstream="androidx-sqlite-release" />
 
   
   
