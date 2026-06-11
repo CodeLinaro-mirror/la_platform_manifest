@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-test-uiautomator-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="ac54ba437dda3e89aa678a8ef5c61431b0c6bf72" upstream="androidx-test-uiautomator-release" />
+  <project path="build/make" name="platform/build" revision="9f99962339b174b44c3089b918622e29d367ad54" upstream="androidx-test-uiautomator-release" />
 
   
   
