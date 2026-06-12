@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-room3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="a4b1d81c0aec7d5ff705e4971c7f45dde8499141" upstream="androidx-room3-release" />
+  <project path="build/make" name="platform/build" revision="bdd6e02b0530d8180879e309568d3f52daad1ab4" upstream="androidx-room3-release" />
 
   
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-room3-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="b6ba12ad86620d0b96f2fd024dac0e4d67822fa7" upstream="androidx-room3-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="80e798df644f002a3f73ee298bfa208b87e9d947" upstream="androidx-room3-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="7059e09d1e481d3866a2556e02fecb3b686fbd06" upstream="androidx-room3-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="784ff8b9b8b1c7167f277be29feec05a9b1d8ee7" upstream="androidx-room3-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="f280221ab9038788000b6b97082f70c974a38050" upstream="androidx-room3-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-room3-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="640800e451c095d1f2a2542027735e19aa8b8ae4" upstream="androidx-room3-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="575bf0a0558684d96a8887c79b5017f8f900b9c3" upstream="androidx-room3-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
