@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="670f8e5057023c4170a6bd0bae6375be4295c074" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="27d51c270ec5e2517988cda15d99f91edd4b46c2" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -781,7 +781,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" revision="036ce196a0e3677d413da9cf495962ed850e461b" upstream="android13-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" revision="fb046564db0846f07bfd3a1049c6d9a56608b852" upstream="android13-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="fe28f94991b45eb0595067a56a22b29f090f7977" upstream="android13-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="25660456e4f1183976593b156bca8a30825a09aa" groups="pdk" upstream="android13-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="fbe3a42c6f26d3b3d1f8d4a3e592bef7dcace39c" groups="pdk" upstream="android13-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="eccdcc83a5d68001ad01cd0e9100cdddae7f6acd" upstream="android13-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="89092e7fd7d37833bb54be3abc5d252ed9eef6b2" upstream="android13-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="bbd07bd2e60752a665ebc9b0915241f3c1636516" upstream="android13-tests-release" />
