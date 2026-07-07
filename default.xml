@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="f449671abcad0df1f14edd266488ad5ec2481db8" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="2ece9345a4ddb9a557d3a47fa4246f604870d0b6" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -866,7 +866,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="2852f76c208e7957889f93fc397c828eeaf3f2ad" upstream="android13-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="3795dd221857fd0285641e8dd1b5b4a9908bfb59" upstream="android13-tests-release" />
   <project path="kernel/tests" name="kernel/tests" revision="93668c2b0713023209adee0a7bd40c9e7ec7b72d" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="libcore" name="platform/libcore" revision="13ea371b85e150ca61499329df3b0a9b930fb144" groups="pdk" upstream="android13-tests-release" />
+  <project path="libcore" name="platform/libcore" revision="a057b9710e0bcf8dc8e804fa226388627e88c53b" groups="pdk" upstream="android13-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="36714bb795afd3b9135997a6a5b8ba10c24248d9" upstream="android13-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="982a6457a179d6fd542ded535c8f0f6d211290a2" upstream="android13-tests-release" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" revision="1b9917ac0f6c12bb8ce6a7510d97c22d02af94c2" upstream="android13-tests-release" />
