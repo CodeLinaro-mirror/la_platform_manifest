@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-constraintlayout-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="4af0140a4c256d5f6180087145d4864834b5b411" upstream="androidx-constraintlayout-release" />
+  <project path="build/make" name="platform/build" revision="167adb895ce4adcc128f56ec320103d45dd38c43" upstream="androidx-constraintlayout-release" />
 
   
   
