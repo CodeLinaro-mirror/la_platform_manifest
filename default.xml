@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-constraintlayout-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="6850cc8477f1d186cc7e79dc255362f570452b08" upstream="androidx-constraintlayout-release" />
+  <project path="build/make" name="platform/build" revision="9980bc9fb54b64fbbcba15616e08c3161b510af9" upstream="androidx-constraintlayout-release" />
 
   
   
@@ -88,7 +88,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="52a2c9ed6ec96b8b0ddb14e0c5c57399580345c7" upstream="androidx-constraintlayout-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="78f8b2a41ed3f58f9addad07e3f694182a8a441c" upstream="androidx-constraintlayout-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
