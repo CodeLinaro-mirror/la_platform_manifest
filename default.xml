@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="bee87c2e6a2573c43f7b9576a2e9050a7cf19647" upstream="androidx-navigation3-release" />
+  <project path="build/make" name="platform/build" revision="25c30920ebbdc60ae4a9806655786ba98aece293" upstream="androidx-navigation3-release" />
 
   
   
@@ -94,7 +94,7 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-navigation3-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="656ff766ac456b0122f4b35e6103581cbc2b45c1" upstream="androidx-navigation3-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4d77fc6c840d6505008b971863c5efb1ca13d3ba" upstream="androidx-navigation3-release" />
 
   
 
