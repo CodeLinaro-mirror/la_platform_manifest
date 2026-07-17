@@ -1,11 +1,11 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="sparse-15834817-L85200030149046462" remote="aosp" sync-j="4" />
+  <default revision="sparse-15858507-L79800030149848102" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="378e502cfc330e01a62d93390b9362eb1cccb5e6" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="e7020677638238867717dcfa2df8280457831d35" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -952,7 +952,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="3a824846d56bfce4c0812c0859d985849ac59d06" upstream="android14-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="2385962a747a7377b11769ae2b8466913897562e" upstream="android14-tests-release" />
   <project path="kernel/tests" name="kernel/tests" revision="44953bd04bd99a9d52ab042e106606ff8656f9ed" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="libcore" name="platform/libcore" revision="a0641c9b36ed5833c07c3d50091057b361498e26" groups="pdk" upstream="android14-tests-release" />
+  <project path="libcore" name="platform/libcore" revision="8a7763d482c1f388c804fe4d6fcb1a120ab25806" groups="pdk" upstream="android14-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="af5fd77f9cb6b30654e4812b03d0b49495520a06" upstream="android14-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="a1eccc01b8e7e07c553acb426f0601f9876e1f1d" upstream="android14-tests-release" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" revision="eeb832404f6c4b21fdfc32da1423c2eec56d24e3" upstream="android14-tests-release" />
