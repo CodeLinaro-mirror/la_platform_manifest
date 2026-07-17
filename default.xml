@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="a7320e93f71263034eb82235ba34fbde1e9b3d40" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="404835e74190a27ff014b0cf1a58170f234a01e4" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="663640c8f40f944062e79ab587ddc89bdb2baeb2" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="fb4145bc7350962a1f0ef28429096b9533854e54" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -169,7 +169,7 @@
   <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" revision="6f10c933298d622c6baf3cb3b2b1dc106950629a" upstream="android14-tests-release" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" revision="619ab6e124dbd508095cfbc7be812c6e1ff3b697" upstream="android14-tests-release" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" revision="e7184b3daad63d357cfc1594069d3bf5a4361e17" upstream="android14-tests-release" />
-  <project path="external/deqp" name="platform/external/deqp" revision="886e3ded3e3eb3e16ef919a6aebbe20c4d5219b6" groups="pdk-fs" upstream="android14-tests-release" />
+  <project path="external/deqp" name="platform/external/deqp" revision="57976b11eeaf420212e3db52e4e6486017ee6933" groups="pdk-fs" upstream="android14-tests-release" />
   <project path="external/deqp-deps/SPIRV-Headers" name="platform/external/deqp-deps/SPIRV-Headers" revision="63f702d9f6f27cbc1bfbd905d7f41feb4215c8d8" groups="pdk-fs" upstream="android14-tests-release" />
   <project path="external/deqp-deps/SPIRV-Tools" name="platform/external/deqp-deps/SPIRV-Tools" revision="9a1f3fd6689f35e0e10fef7761eb20b46213bda1" groups="pdk-fs" upstream="android14-tests-release" />
   <project path="external/deqp-deps/glslang" name="platform/external/deqp-deps/glslang" revision="f0cb591b26e6ffdf2114a81ec40a5d6b1cf54f0a" groups="pdk-fs" upstream="android14-tests-release" />
@@ -952,7 +952,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="3a824846d56bfce4c0812c0859d985849ac59d06" upstream="android14-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="2385962a747a7377b11769ae2b8466913897562e" upstream="android14-tests-release" />
   <project path="kernel/tests" name="kernel/tests" revision="43acc14559ecacaaa77b773ea26822d07a021b82" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="libcore" name="platform/libcore" revision="11c69084ef2db1a2cf4070183f120fbbadf4e130" groups="pdk" upstream="android14-tests-release" />
+  <project path="libcore" name="platform/libcore" revision="406f81a2b8b3fc91084a733afda704defd8fb121" groups="pdk" upstream="android14-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="af5fd77f9cb6b30654e4812b03d0b49495520a06" upstream="android14-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="a1eccc01b8e7e07c553acb426f0601f9876e1f1d" upstream="android14-tests-release" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" revision="eeb832404f6c4b21fdfc32da1423c2eec56d24e3" upstream="android14-tests-release" />
