@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="f49faba429eb6a117e737a4ffc1e1fcd3165596d" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="fc2d9588c61a1123ca7892cfa84128cbf4064533" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -172,7 +172,7 @@
   <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" revision="b3335415832a6f6fa3b11cbe54ed457fe22d1764" upstream="android15-tests-release" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" revision="4f5c519516c05b0651e20c9969bc9f721b60f9ab" upstream="android15-tests-release" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" revision="114732119e9f077470199bdfa7c701ab3978f74f" upstream="android15-tests-release" />
-  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="a094a703664acc1793a0209b7b298846172510f9" upstream="android15-tests-release" />
+  <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" revision="2b2616f1fd92eec67b50f2546529ef098fdeca67" upstream="android15-tests-release" />
   <project path="external/deqp-deps/SPIRV-Headers" name="platform/external/deqp-deps/SPIRV-Headers" groups="pdk-fs" revision="ab2feddadd8446869c646fc2f6b4ab3c9fb687c4" upstream="android15-tests-release" />
   <project path="external/deqp-deps/SPIRV-Tools" name="platform/external/deqp-deps/SPIRV-Tools" groups="pdk-fs" revision="4b9bc6beaedbc072bc73397b435ee9baf63b947a" upstream="android15-tests-release" />
   <project path="external/deqp-deps/glslang" name="platform/external/deqp-deps/glslang" groups="pdk-fs" revision="31206728b4a8969aa24170f9b2baef95262c67c8" upstream="android15-tests-release" />
@@ -1062,7 +1062,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="c1b6f17450d64bb1c368b48aae97055563e5043e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="8686f19c255c36095c0dcf087901a5a8f7a00750" upstream="android15-tests-release" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" revision="3dd94c09fe58c7a7bbf573437d0e26e53b2563dd" upstream="android15-tests-release" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="5b10fd8272e820589bd3cdf19489f9c4cbbc8bf9" upstream="android15-tests-release" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="5a088dbda7d03fa6de5d61f6b77c80d9056e63ac" upstream="android15-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="3ca43dfe2bf4613852df0303531fa8ecf4b7063c" upstream="android15-tests-release" />
   <project path="packages/apps/AvatarPicker" name="platform/packages/apps/AvatarPicker" groups="pdk-fs" revision="9a0155909de48a274fa7517107e01f1991eb2ba0" upstream="android15-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="8d2edabe83a6b622617037e9a913ba8ac5a0b5fa" upstream="android15-tests-release" />
