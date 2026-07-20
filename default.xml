@@ -1,45 +1,45 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-webkit-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7e480fe5e29cf0ada21edfea90e664ddcc3f0b1e" upstream="androidx-webkit-release" />
+  <project path="build/make" name="platform/build" revision="9c82b7cb816efbbac78f934f9ea4cd03268cc13a" upstream="androidx-webkit-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="84aed547af8a3e32a363e9ffd53b7bd30d37122c" upstream="androidx-webkit-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="39c784a3d01772da7940ac535b237ad16a3c8516" upstream="androidx-webkit-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="37371ec98bf0cf3cf72331f72d16a9e574b94093" upstream="androidx-webkit-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="b5a171672b04f4e8eea391ac8fba3385f558fa4e" upstream="androidx-webkit-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="e62bf69f8b85d606a7dcaa51c8ad1053962b1028" upstream="androidx-webkit-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="a406d640d4826fb689b8952593ef60980077bf99" upstream="androidx-webkit-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="169febcc3facd34c2a93511717b139cd3a31f2e9" upstream="androidx-webkit-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="d28e6415098fa34c2632a24c14215c06144e71de" upstream="androidx-webkit-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="618cb3c71d369dd374acbcc3f30bc8babe4949dc" upstream="androidx-webkit-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="a1ac851c43efc4c6885f209107bbe6bf77c254d7" upstream="androidx-webkit-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="6d9f3ab90ed831565b8ee480be283be69f6cf208" upstream="androidx-webkit-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="0a04f65cb4df5f24fa2aed1e6afea5c7abee1596" upstream="androidx-webkit-release" />
   <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="1e887983b6ce619a6a30f7f5481668d8b421d644" upstream="androidx-webkit-release" />
 
   
-  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="f99160638e155737e013e899ec8c1c151b7b65ce" upstream="androidx-webkit-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="a94a5ef1b709b2b0c3760d544264eda6fb6a235c" upstream="androidx-webkit-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="b10a84127411058cb2ef40901b851a6082d051cc" upstream="androidx-webkit-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="e6044904d7bc4a23eb85fa1e63badf13f99d17c8" upstream="androidx-webkit-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="1ba0462ec11cf3478396524c8283930c845e5a11" upstream="androidx-webkit-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4ef3d9e0650588a05ce305fca216edaf2e24b40f" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="dc5395b0481dcc697fdbd0fdefb6e9847e24a82c" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="b715ad132626efae359cc1eef21b58a3a6b5bfa3" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="696b3a573f93f6d14df6d230936e12f055569846" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="9852191bfb3745bf634695a555683ae61795706c" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="898ae31bbe2f776c494bbb70a8a7fc8a0b5cf095" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="89411c9f061b0a2c040b3638018ae27a3ea99be1" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="ec5fc5f10505e0a14be54b6331ceb7e9cab30fbd" upstream="androidx-webkit-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="986f4dfaf967aa21309e0ec483682a95f96c60e7" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="d7b5b9695f8df96863269115d7dff86ef86e8f4e" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="46869ca70cd21ec4f267b59adeb81cd9b6cb0d42" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="1109bee6901cb0d5dacd6cbd44176e60f57e1920" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="c3e714e6072944e68d2e23291cbfac33a346ebd4" upstream="androidx-webkit-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="08d5f6cd2a7d938bf30a87ecde85aeedf445fdb0" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="027c29fb8d3d35061633c3cef14367feac4038f8" upstream="androidx-webkit-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="72b4852f2b668520ae9387ac6031180fb36c5d90" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="b07601684359ecd36bd52cb21db83ba8d9d1ec6b" upstream="androidx-webkit-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="4217b5b03b736f1556db0f656f66d272eb93fcd7" upstream="androidx-webkit-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="ac6d678ffe89e02a8e4ba316049fa44f9fe0650d" upstream="androidx-webkit-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="43ee7d7177c2375cd5b9d468ae46d9754e1ee14d" upstream="androidx-webkit-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="283b9a0e4ccf376dd662395ac3546756224ae8e2" upstream="androidx-webkit-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="442cf05da147aba743da8ff9f39bb470cd862433" upstream="androidx-webkit-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8e075fd667177208c378ac95a7aa6e0d87741d0d" upstream="androidx-webkit-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="bc01a434a597da27518ffecbdc01b84853244966" upstream="androidx-webkit-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="401658ea1691b8e80604be22b85fab6cdcb4246d" upstream="androidx-webkit-release" />
@@ -48,13 +48,13 @@
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="fd2395fbb6e766c5d9e4f0cf4552059abdadce15" upstream="androidx-webkit-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="e9ab27436918ea1149fed3b92f91d854cfb0774b" upstream="androidx-webkit-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="0379141385d059642c0cd4a648b58892b4c476c9" upstream="androidx-webkit-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="43682f56a6f4d04d8d0733cad3fec2c094d34114" upstream="androidx-webkit-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="df26567c72540a0c2039fce12eb3bcb84cf700e8" upstream="androidx-webkit-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="6774effd199f504fbb6151bfe322893d22a2b29f" upstream="androidx-webkit-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
@@ -90,16 +90,16 @@
 
   
   
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="175b87e06c6b7d46dcce7ae3525476af4f7cb592" upstream="androidx-webkit-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="e002d2f6f8c4e68019193ee26c442bb0782529ad" upstream="androidx-webkit-release" />
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-webkit-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d8e45af62a0d2bb2d099d76d391016db3eb722c0" upstream="androidx-webkit-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="a1a87d7c196b34663a7c7e52a1ccea0dcdc24ea8" upstream="androidx-webkit-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5744fa6296a0f6147952e836b3d92dd87ff7d4dd" upstream="androidx-webkit-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="678a668bbdc36a8cba0176b1551cb64d90e12427" upstream="androidx-webkit-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
