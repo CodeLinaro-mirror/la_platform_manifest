@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="cdcc4b2ba3b879c563de7cbbb860e334a8bece33" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="649d7edccf5973146d1a130663e506e984b5bfb2" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -29,7 +29,7 @@
   <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="c2788cef581c2f93ed83ba8b7042973b29aea8f7" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="6579c8462ade5719f27ba9498f1dcaa1fb6912f1" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
@@ -1220,7 +1220,7 @@
   <project path="test/vts" name="platform/test/vts" revision="2cb869994e52d1fe1263950b15c7cc1dbad92094" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="4cf94915bfa6d6840d46050f6f0e3cdf340a422c" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="5853ef29f11c36d193654f580670f2689c7a5d20" groups="vts,pdk" upstream="android14-tests-release" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="9ceb120d6390f0b4f7fa3525732814767503a6b4" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="5de6b992ca4a80b381c8a5dced4debceb8034035" groups="vts,projectarch,pdk" upstream="android14-tests-release" />
@@ -1236,7 +1236,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" revision="d30d58cc26280aa97b5c5499c4d712a59f3a8852" groups="pdk" upstream="android14-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="bee28ce92a9f75365b91a900caf29192295fc491" upstream="android14-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="5819393ca04902c8fea8f07062d7e38f76aa36c5" upstream="android14-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="8a2e9c0befaca5454a15f79f6da93b745d573336" groups="pdk,tools" upstream="android14-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="def6b9f5633db605a4f40deb0766ece7656f6e5e" groups="pdk,tools" upstream="android14-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" revision="ae4452780bda9de852cff261badd399708da031f" upstream="android14-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="401b6b1e1a23ac90d71ff5b739e8381178efdda0" upstream="android14-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="34305064144cbca787310c753c85d72afdcc1713" upstream="android14-tests-release" />
