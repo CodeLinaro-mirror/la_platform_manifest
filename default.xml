@@ -3,94 +3,93 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
-  <default revision="emu-main-dev"
+  <default revision="emu-main-next"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build/make" name="platform/build"/>
-  <project path="tools/buildSrc" name="platform/tools/buildSrc"/>
-  <project path="external/libslirp" name="trusty/external/qemu-libslirp"/>
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp"/>
-  <project path="external/adt-infra" name="platform/external/adt-infra"/>
-  <project path="external/mobly-bundled-snippets" name="platform/external/mobly-bundled-snippets"/>
-  <project path="external/angle" name="platform/external/angle"/>
-  <project path="external/astc-codec" name="platform/external/astc-codec"/>
-  <project path="external/boringssl" name="platform/external/boringssl" clone-depth="1"/>
-  <project path="external/cares" name="platform/external/c-ares"/>
-  <project path="external/crashpad" name="platform/external/crashpad" clone-depth="1"/>
-  <project path="build/bazel" name="platform/build/bazel">
-    <linkfile src="toplevel.bazelrc" dest=".bazelrc"/>
-    <linkfile src="toplevel.bazelversion" dest=".bazelversion"/>
+
+  <!-- Qemu Dependencies -->
+  <project path="third_party/dtc" name="platform/external/dtc" clone-depth="1"  />
+  <project path="third_party/libpng" name="platform/external/libpng" clone-depth="1"  />
+  <project path="third_party/mesa3d" name="platform/external/mesa3d" />
+  <project path="third_party/pixman" name="platform/external/pixman" clone-depth="1"  />
+  <project path="third_party/qemu" name="platform/external/qemu" />
+  <project path="third_party/keycodemapdb" name="trusty/external/qemu-keycodemapdb"  clone-depth="1" />
+  <project path="third_party/libslirp" name="trusty/external/qemu-libslirp" clone-depth="1"  />
+  <!-- Qemu Rutabaga -->
+
+  <project path="third_party/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <!-- GFXstream -->
+  <project path="hardware/google/aemu" name="platform/hardware/google/aemu" />
+  <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" />
+  <project path="third_party/libdrm" name="platform/external/libdrm" clone-depth="1"  />
+  <project path="third_party/wayland" name="platform/external/wayland" clone-depth="1"  />
+  <project path="third_party/wayland-protocols" name="platform/external/wayland-protocols" clone-depth="1"  />
+
+  <!-- Rutubaga rust dependencies -->
+  <project path="third_party/rust/android-crates-io" name="platform/external/rust/android-crates-io" clone-depth="1" />
+  <project path="third_party/rust/crates/pica" name="platform/external/rust/pica" clone-depth="1" />
+  <project path="third_party/rust/rutabaga_gfx" name="platform/external/rust/rutabaga_gfx" clone-depth="1"  />
+  <!-- Android Emulator shared library plugin -->
+  <project path="hardware/generic/goldfish" name="platform/hardware/generic/goldfish"  >
+      <!-- VS Code Workspace -->
+      <linkfile src="development/.vscode" dest=".vscode" />
+      <!-- Dev environment setup -->
+      <linkfile src="development/GLOBAL-PREUPLOAD.cfg" dest="GLOBAL-PREUPLOAD.cfg" />
+      <linkfile src="development/mise.toml" dest="mise.toml" />
+      <!-- Gemini cli -->
+      <linkfile src=".skills" dest=".gemini/skills" />
   </project>
-  <project path="third_party/pkg-config" name="platform/external/pkg-config" clone-depth="1"/>
-  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" groups="notdefault,platform-darwin"/>
-  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux"/>
-  <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows"/>
-  <project path="external/curl" name="platform/external/curl"/>
-  <project path="external/dtc" name="platform/external/dtc"/>
-  <project path="external/deqp" name="platform/external/deqp"/>
-  <project path="external/fmtlib" name="platform/external/fmtlib"/>
-  <project path="external/gfxstream-protocols" name="platform/external/gfxstream-protocols"/>
-  <project path="external/googletest" name="platform/external/googletest"/>
-  <project path="external/google-benchmark" name="platform/external/google-benchmark"/>
-  <project path="external/google-breakpad" name="platform/external/google-breakpad"/>
-  <project path="external/grpc" name="platform/external/grpc-grpc"/>
-  <project path="external/libusb" name="platform/external/libusb"/>
-  <project path="external/libpng" name="platform/external/libpng"/>
-  <project path="external/libxml2" name="platform/external/libxml2"/>
-  <project path="external/lz4" name="platform/external/lz4"/>
-  <project path="external/protobuf" name="platform/external/protobuf"/>
-  <project path="external/perfetto" name="platform/external/perfetto"/>
-  <project path="external/qemu" name="platform/external/qemu">
-    <copyfile src="android/vscode/emu.code-workspace" dest="emu.code-workspace"/>
-    <linkfile src="toplevel.MODULE.bazel" dest="MODULE.bazel"/>
-    <linkfile src="toplevel.MODULE.bazel.lock" dest="MODULE.bazel.lock"/>
+  <!-- Crash reporting infrastructure -->
+  <project path="third_party/google-breakpad" name="platform/external/google-breakpad" clone-depth="1" />
+  <project path="third_party/crashpad" name="platform/external/crashpad" clone-depth="1"  />
+  <!-- Media and dependencies -->
+  <project path="third_party/ffmpeg" name="platform/external/ffmpeg" clone-depth="1" />
+  <project path="third_party/libsrtp2" name="platform/external/libsrtp2" clone-depth="1" />
+  <project path="third_party/libvpx" name="platform/external/libvpx" clone-depth="1"  />
+  <project path="third_party/libyuv" name="platform/external/libyuv" clone-depth="1"  />
+  <project path="third_party/vulkan-headers" name="platform/external/vulkan-headers" clone-depth="1" />
+  <!-- Netsim and Rootcanal -->
+  <project path="tools/netsim" name="platform/tools/netsim" clone-depth="1" />
+  <project path="tools/rootcanal" name="platform/tools/rootcanal" clone-depth="1" />
+  <!-- Java JDK, we will use the one maintained by android studio -->
+  <project path="prebuilts/studio/jdk" name="platform/prebuilts/studio/jdk" clone-depth="1" />
+  <!-- Minimal android sdk -->
+  <project path="prebuilts/android" name="platform/prebuilts/android-emulator-build/system-images"  clone-depth="1"  />
+  <!-- Toolchain and build related definitions -->
+  <project path="build/bazel" name="platform/build/bazel"  >
+    <linkfile src="toplevel.MODULE.bazel" dest="MODULE.bazel" />
+    <linkfile src="toplevel.MODULE.bazel.lock" dest="MODULE.bazel.lock" />
+    <linkfile src="toplevel.bazelrc" dest=".bazelrc" />
+    <linkfile src="toplevel.bazelversion" dest=".bazelversion" />
   </project>
-  <project path="external/regex-re2" name="platform/external/regex-re2"/>
-  <project path="external/glib" name="platform/external/bluetooth/glib"/>
-  <project path="external/tinyobjloader" name="platform/external/tinyobjloader"/>
-  <project path="external/virglrenderer" name="platform/external/virglrenderer"/>
-  <project path="external/nasm" name="platform/external/nasm"/>
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8"/>
-  <project path="external/zlib" name="platform/external/zlib"/>
-  <project path="hardware/google/aemu" name="platform/hardware/google/aemu" groups="pdk"/>
-  <project path="hardware/google/gfxstream" name="platform/hardware/google/gfxstream" groups="pdk"/>
-  <project path="prebuilts/android-emulator-build/archive" name="platform/prebuilts/android-emulator-build/archive" clone-depth="1"/>
-  <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1"/>
-  <project path="prebuilts/android-emulator-build/mesa" name="platform/prebuilts/android-emulator-build/mesa" clone-depth="1"/>
-  <project path="prebuilts/android-emulator-build/mesa-deps" name="platform/prebuilts/android-emulator-build/mesa-deps" clone-depth="1"/>
-  <project path="prebuilts/android-emulator-build/qemu-android-deps" name="platform/prebuilts/android-emulator-build/qemu-android-deps" clone-depth="1"/>
-  <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt" clone-depth="1"/>
-  <project name="device/google/cuttlefish" path="device/google/cuttlefish"/>
-  <project path="tools/netsim" name="platform/tools/netsim"/>
-  <project path="tools/rootcanal" name="platform/tools/rootcanal"/>
-  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="notdefault,platform-linux"/>
-  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" groups="notdefault,platform-linux"/>
+  <project path="third_party/meson" name="trusty/external/qemu-meson"  />
+  <project path="prebuilts/android-emulator-build/common" name="platform/prebuilts/android-emulator-build/common" clone-depth="1" />
+  <project path="prebuilts/android-emulator-build/qt" name="platform/prebuilts/android-emulator-build/qt"  clone-depth="1" />
+  <project path="tools/buildSrc" name="platform/tools/buildSrc"  />
+  <project path="tools/analytics-library" name="platform/tools/analytics-library" />
+  <!-- Repo hooks -->
+
+  <!-- Note that for all the toolchains below we create a symlink to the toolchain of interest in prebuilts/tools
+     this will allow our IDE's to find the current toolchain under prebuilts/tools/... regardless of the platform
+     as we are using platform selection to make sure there is no overlap
+  -->
+  <!-- Linux only toolchain dependencies -->
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux"  />
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="notdefault,platform-linux" />
+  <project path="prebuilts/cmake/linux-x86" name="platform/prebuilts/cmake/linux-x86" clone-depth="1" groups="notdefault,platform-linux"  />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="notdefault,platform-linux"/>
-  <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="notdefault,platform-linux"/>
   <project path="prebuilts/python/linux-x86" name="platform/prebuilts/python/linux-x86" clone-depth="1" groups="notdefault,platform-linux"/>
-  <project path="prebuilts/ninja/windows-x86" name="platform/prebuilts/ninja/windows-x86" clone-depth="1" groups="notdefault,platform-windows"/>
+  <!-- Windows only toolchain dependencies -->
+  <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows"  />
   <project path="prebuilts/clang/host/windows-x86" name="platform/prebuilts/clang/host/windows-x86" clone-depth="1" groups="notdefault,platform-windows"/>
-  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" groups="notdefault,platform-windows"/>
+  <project path="prebuilts/cmake/windows-x86" name="platform/prebuilts/cmake/windows-x86" clone-depth="1" groups="notdefault,platform-windows"  />
   <project path="prebuilts/python/windows-x86" name="platform/prebuilts/python/windows-x86" clone-depth="1" groups="notdefault,platform-windows"/>
-  <project path="prebuilts/ninja/darwin-x86" name="platform/prebuilts/ninja/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"/>
-  <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"/>
+  <!-- Darwin (macos) only toolchain dependencies -->
+  <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" groups="notdefault,platform-darwin"  />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"/>
+  <project path="prebuilts/cmake/darwin-x86" name="platform/prebuilts/cmake/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"  />
   <project path="prebuilts/python/darwin-x86" name="platform/prebuilts/python/darwin-x86" clone-depth="1" groups="notdefault,platform-darwin"/>
-  <project path="prebuilts/studio/jdk" name="platform/prebuilts/studio/jdk" clone-depth="1"/>
-  <project path="external/tink" name="platform/external/tink"/>
-  <project path="external/rapidjson" name="platform/external/rapidjson"/>
-  <project path="external/bison" name="platform/external/bison" groups="notdefault,platform-linux"/>
-  <project path="external/flex" name="platform/external/flex" groups="notdefault,platform-linux,platform-darwin"/>
-  <project path="external/m4" name="toolchain/m4" groups="notdefault,platform-linux,platform-darwin"/>
-  <project path="external/webrtc" name="platform/external/webrtc"/>
-  <project path="external/flatbuffers" name="platform/external/flatbuffers"/>
-  <project path="external/mesa3d" name="platform/external/mesa3d"/>
-  <project path="external/moltenvk" name="platform/external/moltenvk"/>
-  <project path="prebuilts/android-emulator-build/system-images" name="platform/prebuilts/android-emulator-build/system-images" clone-depth="1">
-    <linkfile src="android-sdk" dest="prebuilts/android/android-sdk"/>
-  </project>
-  <project path="tools/emulator" name="platform/tools/emulator"/>
 
   <!-- Repo hooks -->
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="developers,tools" revision="main" />
