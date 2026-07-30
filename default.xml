@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-tracing-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="c2ba071d0032cb61259e7c12a0809fe29740688a" upstream="androidx-tracing-release" />
+  <project path="build/make" name="platform/build" revision="ed998420fbe3eeebfe4301fad408c30f14a5540f" upstream="androidx-tracing-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="89bd5662c83d087bc3b991ba59d9b53e24b6754f" upstream="androidx-tracing-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="6ee6b62c3228b222feb14eccbaf9f10719f0f81f" upstream="androidx-tracing-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
