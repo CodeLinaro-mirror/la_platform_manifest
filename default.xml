@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-fragment-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="79172857928acab98230d923f1d5ede423fb58ba" upstream="androidx-fragment-release" />
+  <project path="build/make" name="platform/build" revision="2e7aa8ccfae7048e5228a227b409144050af8ece" upstream="androidx-fragment-release" />
 
   
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-fragment-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="dc14c68ca3fdb17176724fd36a830710e34b10ca" upstream="androidx-fragment-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a3b38476f66e1bada11a3453d2357ccebe364a47" upstream="androidx-fragment-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a9af6fef228cdb6b2caf72e6145d61e0c6b6fa3b" upstream="androidx-fragment-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="784ff8b9b8b1c7167f277be29feec05a9b1d8ee7" upstream="androidx-fragment-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="892ba88837b122c34465dcd7cdccc84439cd4ba3" upstream="androidx-fragment-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="83148557b6843ceb2e55c80e0e46f4f4c6209e3a" upstream="androidx-fragment-release" />
