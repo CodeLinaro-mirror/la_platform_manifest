@@ -1,14 +1,14 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-compose-1.7-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="4cc38ce526d121c9966e0d9b76534fc7f8b89c3c" upstream="androidx-wear-compose-1.7-release" />
+  <project path="build/make" name="platform/build" revision="9f823fd1d4007a0a11a873377ae50c1bb9d60f6a" upstream="androidx-wear-compose-1.7-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-wear-compose-1.7-release" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="cd5d2bfd0eac7020052db93854d92f1aa0b41f1d" upstream="androidx-wear-compose-1.7-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="e61032c5658190df950cc959b3b2535379f20d75" upstream="androidx-wear-compose-1.7-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="a6f89bdf62152923ecbfd8f33f45145261772263" upstream="androidx-wear-compose-1.7-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="b76f074ac1dcc515b82927e9380bbbc49fc9148d" upstream="androidx-wear-compose-1.7-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="2d979c89e22bd23703018c4deeee8acb92763f11" upstream="androidx-wear-compose-1.7-release" />
   <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="6465da54031d2138c693aa65bb44a05b268bea90" upstream="androidx-wear-compose-1.7-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="50738a06c2e18414eb8c456ea4e29673b997442b" upstream="androidx-wear-compose-1.7-release" />
   <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="02d442f86cc5dcdd71418ba9f1170c666850f051" upstream="androidx-wear-compose-1.7-release" />
@@ -23,23 +23,23 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-wear-compose-1.7-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-wear-compose-1.7-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="03b3ec4c99b0fa7c891b6966adebf46aba5934c3" upstream="androidx-wear-compose-1.7-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="4147d9a9ac715d969570eb85e728ea359b56d8c6" upstream="androidx-wear-compose-1.7-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="79b81636fa88d05bea13e623413461daa8cc143e" upstream="androidx-wear-compose-1.7-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="a7e01c70ed664f6882b4f4727a1236764fbcf496" upstream="androidx-wear-compose-1.7-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="c3eeaae29fab16b070e9dc58f4531e4dc470111a" upstream="androidx-wear-compose-1.7-release" />
-  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="2866927733af8d3159bb76d55646e2b26c5d608e" upstream="androidx-wear-compose-1.7-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="d3332fd2a8cc983f1eb6a7b301902bbce7d5c0e3" upstream="androidx-wear-compose-1.7-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-wear-compose-1.7-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="f6a19bb7231db4c6409b5acb61bd315405e4df6d" upstream="androidx-wear-compose-1.7-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="a6a4c322d268fd53ea0b560eab9da7ce6b55e096" upstream="androidx-wear-compose-1.7-release" />
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="236d4ce4781a4a020bb500ba37b0fff182bb9615" upstream="androidx-wear-compose-1.7-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="817a28c04067825ce2b9c73a9a7923b1754a1d22" upstream="androidx-wear-compose-1.7-release" />
   <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="4ab2e7f82b1bebc88ac3830be764f6d75c6f23fa" upstream="androidx-wear-compose-1.7-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="0486cc5b8ce578d9780cd9e4a918e2b0f9cd5713" upstream="androidx-wear-compose-1.7-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="737d468a3467f907d4282d14de9b697b45226c51" upstream="androidx-wear-compose-1.7-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="5ebd0264280e65225f4fdd9e414f041256e1a84e" upstream="androidx-wear-compose-1.7-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="a8428dcc7743afbbc51c201e3a0d60261b11bb6c" upstream="androidx-wear-compose-1.7-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-wear-compose-1.7-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="4e2487e1d7b41765b5d73a9c2720f27b5552d9a4" upstream="androidx-wear-compose-1.7-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="972c0beab8a3a666d1bdc31ec1304a84268245ec" upstream="androidx-wear-compose-1.7-release" />
   <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="c3c068d9a331575369438e39ffa4b34be9033e9b" upstream="androidx-wear-compose-1.7-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-wear-compose-1.7-release" />
@@ -94,12 +94,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-wear-compose-1.7-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="2a7169d0c7d11206c0b078b86f765f08284c52f9" upstream="androidx-wear-compose-1.7-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="9c23042d1cd635b7ba5055d33ef41804ca8246c4" upstream="androidx-wear-compose-1.7-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5ef6a62875239a6eaaac1261328193f1be07aa6b" upstream="androidx-wear-compose-1.7-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="f7366f8899ccaf9e74727c775863f8adcb0d1d04" upstream="androidx-wear-compose-1.7-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
