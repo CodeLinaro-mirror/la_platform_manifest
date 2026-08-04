@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="5819dbff594a151c74b7a8aa8bc98e1d3a0278ac" upstream="androidx-navigation3-release" />
+  <project path="build/make" name="platform/build" revision="ae8ea203d4fd1ce5d229283ea7ecf4bfc26a67eb" upstream="androidx-navigation3-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="5ff1c339d0aff2ca5a06b8ee0de282ba9cd95268" upstream="androidx-navigation3-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="ea1acb535ab2dadc6313234f8c7d93ba0b160235" upstream="androidx-navigation3-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
