@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-car-app-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="7095368beb74de20389fd410eb011961e3ede717" upstream="androidx-car-app-release" />
+  <project path="build/make" name="platform/build" revision="a2040a61d872f5fe2d7ba0a4eaf99172ede2a71d" upstream="androidx-car-app-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="3fee301bae85a3ba981f5a011f975a9c83b4367a" upstream="androidx-car-app-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="eae9dacb0c63a2b6bd7e781577d625ab229bbd8b" upstream="androidx-car-app-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
