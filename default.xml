@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="9767b0d52ce2367d7287bbdd4b7c1e6016994ba3" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="40f5571b4aed827f12ca8279934b536c55481749" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1335,7 +1335,7 @@
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" revision="3afa6cc041ed87336354d8a0c0e483d7523db491" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" revision="1e699172d7b32ab0305a1c5f34b91d12c2bfbdad" upstream="android15-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" revision="2695892568f8fade958ec0ec172df8f295ae4112" upstream="android15-tests-release" />
-  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="a58b36057152e681caf9c22e3552cf781dd02b3f" upstream="android15-tests-release" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" groups="vts,pdk" revision="b43b462b23a089245f4f39ecb52ae6f67732b4af" upstream="android15-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" groups="vts,projectarch,pdk" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" upstream="android15-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,projectarch,pdk" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" upstream="android15-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts,projectarch,pdk" revision="d9405559ddc7116680d112cdc17dedaa0b3a3fa6" upstream="android15-tests-release" />
