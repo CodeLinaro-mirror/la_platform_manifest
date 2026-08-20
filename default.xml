@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="6ebfd00686429effd000934f7ad9b60718d27c93" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="78f227a7ed734c41852b9ce7de291cb1abb02de9" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1051,14 +1051,14 @@
   <project path="kernel/configs" name="kernel/configs" groups="vts,pdk" revision="f1242043084190f8448e3f7744aeef06ebdd1922" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/arm64" name="kernel/prebuilts/6.1/arm64" groups="pdk" clone-depth="1" revision="c5d6772fa475641220afd417ab3ad8fd2c1709fc" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/6.1/x86_64" name="kernel/prebuilts/6.1/x86-64" groups="pdk" clone-depth="1" revision="9b099cdefeeda370742633ff02403d339eed489c" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="d2036b0f9c3262a71ed7c0e52f2381c9aecbceda" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" revision="78849cc95597817a145eff0f0649a92c24eee4bc" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/6.6/arm64" name="kernel/prebuilts/6.6/arm64" groups="pdk" clone-depth="1" revision="967069ea3428c193b422255537ad02c8218c6803" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/6.6/x86_64" name="kernel/prebuilts/6.6/x86-64" groups="pdk" clone-depth="1" revision="753b46df1ba783f2b5728ce55700c53a10de3467" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/mainline/arm64" name="kernel/prebuilts/mainline/arm64" groups="pdk" clone-depth="1" revision="49cdfc22db6be7a55ae951e522d5ecadf6293a90" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/mainline/x86_64" name="kernel/prebuilts/mainline/x86-64" groups="pdk" clone-depth="1" revision="51a4241eb8c63ce034bfcd798d8dff8eaa8325d0" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" groups="pdk" clone-depth="1" revision="dcc5d0ce9c42d232140f9a9d2360d7af68a22c2c" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" groups="pdk" clone-depth="1" revision="ed4ef7d1ab5fd8a9bf8667eefb3e6a8b8d4fd823" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" revision="617b7723c8768f665660727efdee97e40c6e76b6" upstream="android15-tests-release" />
-  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" revision="dca6267ed2ead58e29b12f2c6e90ec0f97117810" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" groups="pdk" clone-depth="1" revision="87fb305104329cd971e621cb5d3da5930505cc69" upstream="android15-tests-release" />
+  <project path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" groups="pdk" clone-depth="1" revision="b026caf0aacb0bce2c51b14d073bd62a81cb98c7" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="c1b6f17450d64bb1c368b48aae97055563e5043e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="8686f19c255c36095c0dcf087901a5a8f7a00750" upstream="android15-tests-release" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" revision="3dd94c09fe58c7a7bbf573437d0e26e53b2563dd" upstream="android15-tests-release" />
