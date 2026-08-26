@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="da015dff47d6f0018f5f7e9440bdb56e17180152" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="5a387ece229fa38067b6c4f5db66c639ee038c32" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -26,10 +26,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" revision="b990d68897e86d016c69dda329640789cbded179" groups="pdk" upstream="android14-tests-release" />
-  <project path="bionic" name="platform/bionic" revision="532617ef0768d09b9362af314af4abc9956fc0fe" groups="pdk" upstream="android14-tests-release" />
+  <project path="bionic" name="platform/bionic" revision="ced2448c04d418f040ac2cdd71dad614eeeb3d9d" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
-  <project path="cts" name="platform/cts" revision="d9707e91c9f061bde8ff87611d6f81d257727df7" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
+  <project path="cts" name="platform/cts" revision="1acecb5988e6a4667ec5125ccf4e8030dc84211c" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" revision="6c0277420f8f448108ef9e85ed86df0eda9d4359" upstream="android14-tests-release" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" revision="c0d9d3fbe0be18982d57fd5e3c0fa59803157c9b" upstream="android14-tests-release" />
   <project path="developers/demos" name="platform/developers/demos" groups="developers" revision="03814c35b8ee0a1284c667556260124d97466b28" upstream="android14-tests-release" />
