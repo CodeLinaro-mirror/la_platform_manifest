@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="071e3178ca68f46bd423fcf1db1104801f0b3aeb" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="b23ddbbdba378c24771c7a716b89c51fc7ce62cb" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -150,7 +150,7 @@
   <project path="external/crosvm" name="platform/external/crosvm" groups="pdk" revision="228a911899dea8b5e9ff39b8313cefacb82d7ef4" upstream="android13-tests-release" />
   <project path="external/curl" name="platform/external/curl" groups="pdk" revision="c1a6289a4a74d5de60bf11ba46041e3256a8fa67" upstream="android13-tests-release" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" revision="ac7b1126339a818a9b84075f443efc3ad69cae11" upstream="android13-tests-release" />
-  <project path="external/deqp" name="platform/external/deqp" revision="81cbf52171f2b3269d4ff82d59f123415d6f622f" groups="pdk-fs" upstream="android13-tests-release" />
+  <project path="external/deqp" name="platform/external/deqp" revision="6f4940cabba8d0690f8d01cb375e7955a5b17b30" groups="pdk-fs" upstream="android13-tests-release" />
   <project path="external/deqp-deps/SPIRV-Headers" name="platform/external/deqp-deps/SPIRV-Headers" revision="567fdaf4e08b0c6cd6887dc2f5753f27b25f6ad5" groups="pdk-fs" upstream="android13-tests-release" />
   <project path="external/deqp-deps/SPIRV-Tools" name="platform/external/deqp-deps/SPIRV-Tools" revision="58fa443749935aa5e97ae544c2e0574835814e0b" groups="pdk-fs" upstream="android13-tests-release" />
   <project path="external/deqp-deps/glslang" name="platform/external/deqp-deps/glslang" revision="85b9de775066e448047534acd9e8de5330aa6fdf" groups="pdk-fs" upstream="android13-tests-release" />
@@ -1159,7 +1159,7 @@
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" revision="9cc30085448aae580f22fbf667b92c26d1d6c1e9" upstream="android13-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="6e63c5f44a5bf539fbe8541e6173612cc3d93900" upstream="android13-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="c6561c031e84f98d0937203393ac8e0c320625ed" upstream="android13-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="36f9b9a7db50e9d47633b3361801b5ff88f0e2c2" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="a6bc4b9a410b0c8c3b05de8c348b3460b2c92c10" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="435b6c5d3d5b713a9fd54ce83d0415aafc147998" upstream="android13-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" revision="6facfdc3ab993fdae0c973e93794ac2e9850cf0c" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   
