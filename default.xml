@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-webkit-release" remote="aosp" />
+  <default revision="sparse-16002132-L25200030178964095" remote="aosp" />
   <project path="build/make" name="platform/build" revision="516befe431fe327daded904e159f30955c71d86c" upstream="androidx-webkit-release" />
 
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="86a006fbdf97644dbc4072bf0ee700e15ce02986" upstream="androidx-webkit-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="546201a7a7553d14ed8ac7d739240b1c6b1b2de3" upstream="androidx-webkit-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
