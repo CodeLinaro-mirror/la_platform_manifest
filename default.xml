@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="9db2ebc084562f2fb7897330c86cb4bc4f77673f" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="3da35182a609255ea03b25520e82ff01621fea1f" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1062,7 +1062,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="c1b6f17450d64bb1c368b48aae97055563e5043e" upstream="android15-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="8686f19c255c36095c0dcf087901a5a8f7a00750" upstream="android15-tests-release" />
   <project path="kernel/tests" name="kernel/tests" groups="vts,pdk" revision="3dd94c09fe58c7a7bbf573437d0e26e53b2563dd" upstream="android15-tests-release" />
-  <project path="libcore" name="platform/libcore" groups="pdk" revision="5a088dbda7d03fa6de5d61f6b77c80d9056e63ac" upstream="android15-tests-release" />
+  <project path="libcore" name="platform/libcore" groups="pdk" revision="c958d52e6729e3acf6134d81bbdf3435f05ec161" upstream="android15-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="3ca43dfe2bf4613852df0303531fa8ecf4b7063c" upstream="android15-tests-release" />
   <project path="packages/apps/AvatarPicker" name="platform/packages/apps/AvatarPicker" groups="pdk-fs" revision="9a0155909de48a274fa7517107e01f1991eb2ba0" upstream="android15-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="8d2edabe83a6b622617037e9a913ba8ac5a0b5fa" upstream="android15-tests-release" />
@@ -1163,7 +1163,7 @@
   <project path="packages/modules/NetworkStack" name="platform/packages/modules/NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="ca6b3b2416fe12446949dacca8e168f672e555ea" upstream="android15-tests-release" />
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" revision="98a45077c133196d9d4686cb558cd75b954097e5" upstream="android15-tests-release" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" revision="29be413cfda32b0dad04b968c5bbc0cdc414997c" upstream="android15-tests-release" />
-  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="ce24c71e246609221dd83939938282b2bc7fe3d2" upstream="android15-tests-release" />
+  <project path="packages/modules/Permission" name="platform/packages/modules/Permission" groups="pdk-cw-fs,pdk-fs" revision="1b7cb7103a14457df2b08a45c7224eae311b59f1" upstream="android15-tests-release" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" revision="7d016e9bac0c043b410e09cea846ed138ed7e66f" upstream="android15-tests-release" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" revision="17171b0168a1a3f69e69bcb7a5d102a5ed91cf71" upstream="android15-tests-release" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" revision="55346cfdcaf32bc038ae868761446cc3babfc40c" upstream="android15-tests-release" />
