@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-xr-arcore-release" remote="aosp" />
+  <default revision="sparse-16025030-L39800030184388081" remote="aosp" />
   <project path="build/make" name="platform/build" revision="5cec870567c6e796c5219e90e812d63c8e6c5d9f" upstream="androidx-xr-arcore-release" />
 
   
@@ -23,7 +23,7 @@
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-xr-arcore-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-arcore-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="33ca875d11c0395919ffff28250b3dd47f7f5f49" upstream="androidx-xr-arcore-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="d7da409d9697e6a596cf55177dba99107ec72110" upstream="androidx-xr-arcore-release" />
   <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="abf48fe6ea5593fef4b985332c085f4e32597979" upstream="androidx-xr-arcore-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="b3db86b831bf7fa350c68798d06c3a856449aba0" upstream="androidx-xr-arcore-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="2e88d85fd0e773c3cafcc3c31450117d337842ae" upstream="androidx-xr-arcore-release" />
@@ -32,7 +32,7 @@
   <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="ed4d84d45926063d503865ab6665b594eb006444" upstream="androidx-xr-arcore-release" />
   <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="f0660cc02566feb71744188fc6de8493356c78b1" upstream="androidx-xr-arcore-release" />
   <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="b6716e8be1231be212a565de913cb027a0c10e47" upstream="androidx-xr-arcore-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="f974c3af44cc5dd169f02bed60a0233fd459d745" upstream="androidx-xr-arcore-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="1d0785e0979bc1e6ce26394c5b5e8454c2f649b9" upstream="androidx-xr-arcore-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="9c825fbab75661b887e67410bc6d6565f80d3f2d" upstream="androidx-xr-arcore-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="202bc806a687681c56d6e7984c075ed8507f28af" upstream="androidx-xr-arcore-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
