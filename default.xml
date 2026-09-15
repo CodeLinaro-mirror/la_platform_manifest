@@ -1,72 +1,73 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-heifwriter-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="f444a0aa5cbd353c6971be42179f68584210bffa" upstream="androidx-heifwriter-release" />
+  <project path="build/make" name="platform/build" revision="8d6def9fa0d2bf07aae22959d81fe96e9b91bca9" upstream="androidx-heifwriter-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-heifwriter-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-heifwriter-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="bc5002da6389eff22ca58946f828cd65894147f0" upstream="androidx-heifwriter-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="cc9d9f443e79ae7ab2e7a22642a6284b1376dc5b" upstream="androidx-heifwriter-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-heifwriter-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="d79980994bf3cab1bbb08849dce708c4bf0d2941" upstream="androidx-heifwriter-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="80b78110406cfb23a0bec7b8e5b381357922a962" upstream="androidx-heifwriter-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="2d97fcf22bb31d33cfad63eabdf060304a987ea2" upstream="androidx-heifwriter-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="954c57eaa6c0ab171653eec32ad60e860772f534" upstream="androidx-heifwriter-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="50738a06c2e18414eb8c456ea4e29673b997442b" upstream="androidx-heifwriter-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="287980c4245f8f3acdb1f0975d0a5c574f23d090" upstream="androidx-heifwriter-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="fb005cde82f785585032954c4985cdcb3a0be5b4" upstream="androidx-heifwriter-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-heifwriter-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="31b5078600a9b38b0d7d7eee6df0836e9d11fa8d" upstream="androidx-heifwriter-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="dbe275184832842f725f18a579a4ddf1529dfcac" upstream="androidx-heifwriter-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="2061154a86868d77ac1c3c0f414954af0072c66c" upstream="androidx-heifwriter-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="5c56d4ccdd3defed538173a0decb670989263ed6" upstream="androidx-heifwriter-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="7a5ae39f7c844cc1a01073b19ed7bb486634b589" upstream="androidx-heifwriter-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="7b8f2549e0b34e40be93f34f00f8ab51ad8bfab8" upstream="androidx-heifwriter-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-heifwriter-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="aeabea9684e911b880e53bc7ce2e80d7a6b36dd1" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e295197e459ac95dc4de2508aa37fc6a63da00c0" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="61f8c95c10e61f430b10d4c9d5449843b8b875eb" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="4dcca2486c95d7d49d4b744c74614b38b0f75ec7" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="d14634d76bf2ee6c8af1dd45f5c271d062b13e6d" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="c56542a62477a155740ef9dcdab39b99d58e5d0e" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="8d98e35b67106be663fa20163144c8dc82feec2d" upstream="androidx-heifwriter-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="1dbe8ec3f17527637dcfd74cc34767c85dc88af5" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="72ec9aaea87b869ed1454db5f6212f109dd48b14" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="1f4d03de31b5d67fe40af8da4b2d3ddbb13f34b0" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="b37290528ed15206ef37db1e57297df359a5fdc1" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="cc6a184d22caab5b572d9f52d30007d51d8280c5" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="446b8d4354586c86e9e29ba50afec48d2f93bd93" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="6c3c3138cca8cfd897ac4d4d5f971e62b2ed36a7" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="1da177c5946ff2e3225ef430933230be449f515a" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="ab92e5eae979d783899489c4c746bcc1645d0aba" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="ffbc06d8f478dcbd21e66a634f445a6c0eb69c64" upstream="androidx-heifwriter-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="323999543ab0fdb27a3433b649e4f7403ab4143e" upstream="androidx-heifwriter-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="5071ea2767ed6406ce808604739059d7bbdac997" upstream="androidx-heifwriter-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-heifwriter-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="3eeb2c33dce78a5083fc9959cbe52c6c056e6d7b" upstream="androidx-heifwriter-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="c3c068d9a331575369438e39ffa4b34be9033e9b" upstream="androidx-heifwriter-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="8c39fea1fa22d351bb64e905d26c75f18198b4ad" upstream="androidx-heifwriter-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="e9d3f532c2205950286e955284d5870b9d089c60" upstream="androidx-heifwriter-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="466b9ecddabab436700784616e988f16faf73083" upstream="androidx-heifwriter-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="da637657c8ff5cbead9264545bf3986dd35db1d4" upstream="androidx-heifwriter-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="a0c8b2c5344278f2a98bef5e2ddfb9a1aec0ba0b" upstream="androidx-heifwriter-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="93ffbb2499cd1fbd5d46bb3ffad02af212254db4" upstream="androidx-heifwriter-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="dd7e5314169aa673366c44fb537eaf52557411e4" upstream="androidx-heifwriter-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-heifwriter-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="fd95756ad5de75797aa3844be03d3d42019965ee" upstream="androidx-heifwriter-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
   <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="ab06103c5895dbc471e6cbfaf199ae1ae13ac03d" upstream="androidx-heifwriter-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="0ed69b4037a5b1ca51d3d30b0d33d7cb4ec1f33d" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="cc44922d9ad8b23580b65d7a866581c91b8f0515" upstream="androidx-heifwriter-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-heifwriter-release" />
 
   
   <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="59e1753c1176223ea51525696f3c3c1f5699199f" upstream="androidx-heifwriter-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="354d4fde9f3640a6421ad38e8b5b6c3f0af19ac8" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f97fbb2b74e503acc551c4bfa98d6655d049e87d" upstream="androidx-heifwriter-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-heifwriter-release" />
 
 
@@ -89,16 +90,16 @@
 
   
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="33f6d84fe86961209f18af6d356590d281913fb8" upstream="androidx-heifwriter-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="0d5dc22d255ae6a33738281b814238045ec7a723" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="a961f2ee19002909011d48e30e1b635be6a6317c" upstream="androidx-heifwriter-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-heifwriter-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="89bca0464ca0206df3f515c8244ff84577c169a9" upstream="androidx-heifwriter-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3f791be5dc61f6cf6388e879f34328e9958cd048" upstream="androidx-heifwriter-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="db5d2549d20116296d94d445a129a8b5dab5380b" upstream="androidx-heifwriter-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="c30bfbbfc543325e4579a94e99a71115215c9c01" upstream="androidx-heifwriter-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
