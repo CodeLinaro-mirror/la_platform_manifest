@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="8bfee271744c4059f7fefca1864e674c88e51965" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="7125a2cdc9a322b8c98956c3c7bbcb8bf1812bde" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
