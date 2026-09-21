@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="2c45497b491caca6f81863e27ced245f1dac1b7a" groups="pdk" upstream="android13-tests-release">
+  <project path="build/make" name="platform/build" revision="149c9e6d74bf09ae1bb6f2510ce38ee67d172361" groups="pdk" upstream="android13-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -781,7 +781,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" revision="036ce196a0e3677d413da9cf495962ed850e461b" upstream="android13-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" revision="fb046564db0846f07bfd3a1049c6d9a56608b852" upstream="android13-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="fe28f94991b45eb0595067a56a22b29f090f7977" upstream="android13-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="fbe3a42c6f26d3b3d1f8d4a3e592bef7dcace39c" groups="pdk" upstream="android13-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="c4cf435c599caf1453f06d15f3dd8e8f853c64d9" groups="pdk" upstream="android13-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="eccdcc83a5d68001ad01cd0e9100cdddae7f6acd" upstream="android13-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="89092e7fd7d37833bb54be3abc5d252ed9eef6b2" upstream="android13-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="bbd07bd2e60752a665ebc9b0915241f3c1636516" upstream="android13-tests-release" />
@@ -866,7 +866,7 @@
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" groups="pdk" clone-depth="1" revision="2852f76c208e7957889f93fc397c828eeaf3f2ad" upstream="android13-tests-release" />
   <project path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" groups="pdk" clone-depth="1" revision="3795dd221857fd0285641e8dd1b5b4a9908bfb59" upstream="android13-tests-release" />
   <project path="kernel/tests" name="kernel/tests" revision="b9495198805b6d4cb5e12bc1c5fbcc597d68e176" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="libcore" name="platform/libcore" revision="14b18b01f46657e970d6b821f207a8aea240a820" groups="pdk" upstream="android13-tests-release" />
+  <project path="libcore" name="platform/libcore" revision="93cb9177745c2102132b0ea9714246a8cbe2f963" groups="pdk" upstream="android13-tests-release" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" revision="36714bb795afd3b9135997a6a5b8ba10c24248d9" upstream="android13-tests-release" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" revision="982a6457a179d6fd542ded535c8f0f6d211290a2" upstream="android13-tests-release" />
   <project path="packages/apps/Browser2" name="platform/packages/apps/Browser2" groups="pdk-fs" revision="1b9917ac0f6c12bb8ce6a7510d97c22d02af94c2" upstream="android13-tests-release" />
@@ -1121,7 +1121,7 @@
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" revision="05a84acaa3841cd1ce9652cb7388f0f489a4b24b" groups="vts,projectarch,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" revision="65d11eb6e0712f660dc1820c020f7778688d2462" groups="vts,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" revision="2695892568f8fade958ec0ec172df8f295ae4112" groups="vts,pdk" upstream="android13-tests-release" />
-  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="5f261ef5e096c452f618e7af62f9df0652120fcb" groups="vts,pdk" upstream="android13-tests-release" />
+  <project path="test/vts-testcase/kernel" name="platform/test/vts-testcase/kernel" revision="9e3f814f551760417fa9cb38288e1e643f3788e3" groups="vts,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" groups="vts,projectarch,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" groups="vts,projectarch,pdk" upstream="android13-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" revision="7a3fc3c73b5ac114fb082b9218b9aae8f66c2d11" groups="vts,projectarch,pdk" upstream="android13-tests-release" />
@@ -1151,7 +1151,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" revision="69989786cefbde82527960a1e100ec9afba46a98" upstream="android13-tests-release" />
   <project path="tools/platform-compat" name="tools/platform-compat" revision="3c001f8283e29a8dac6794d59fb11a6773ab05ff" groups="pdk-cw-fs,pdk-fs,pdk" upstream="android13-tests-release" />
   <project path="tools/ndkports" name="platform/tools/ndkports" groups="pdk" revision="d222aecc153e0016c18bcc1935bfb10a5b26b057" upstream="android13-tests-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" revision="db429253ef35e5599a04d2b795d670262c2649b8" upstream="android13-tests-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" revision="fd6fc0186679bb288f01bcab32938619b1ed102a" upstream="android13-tests-release" />
   <project path="tools/security" name="platform/tools/security" groups="pdk,tools" revision="6b7ca9a4288bf3e348965fbb7052ecb803dc16b2" upstream="android13-tests-release" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" revision="58f06e77e051fff3903adabca7acdaa9dd12ec2d" upstream="android13-tests-release" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" revision="4efc4b8ced6aada322bc43fe0240e460b2202cc0" upstream="android13-tests-release" />
@@ -1159,7 +1159,7 @@
   <project path="tools/test/graphicsbenchmark" name="platform/tools/test/graphicsbenchmark" groups="pdk" revision="9cc30085448aae580f22fbf667b92c26d1d6c1e9" upstream="android13-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="6e63c5f44a5bf539fbe8541e6173612cc3d93900" upstream="android13-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="c6561c031e84f98d0937203393ac8e0c320625ed" upstream="android13-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="27c8ba733e1beed94b8b98304c1157307c639e38" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="e9f6b268fab791a16717773ca2e37774ce4c981e" groups="pdk,tradefed" clone-depth="1" upstream="android13-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="435b6c5d3d5b713a9fd54ce83d0415aafc147998" upstream="android13-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" revision="6facfdc3ab993fdae0c973e93794ac2e9850cf0c" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" upstream="android13-tests-release" />
   
