@@ -1,72 +1,73 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-core-telecom-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="bae82732b457dcf58e407f6292fd5b24d5666561" upstream="androidx-core-telecom-release" />
+  <project path="build/make" name="platform/build" revision="ec1bf69cea51551f9bebded11b8d43044ee66c7a" upstream="androidx-core-telecom-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-core-telecom-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-core-telecom-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="1cfaaa825e404646f66deccaf97fe2f3c767f616" upstream="androidx-core-telecom-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="26d2e16207f6284c4e39cb5abee5b1ff99035d29" upstream="androidx-core-telecom-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-core-telecom-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="91ced4f9f9560c7e7587fd14f1ecd3a90f064368" upstream="androidx-core-telecom-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="771c120ee937d931576ee34ab8f3f49fc5fff0ed" upstream="androidx-core-telecom-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="4707023b0041e08ad435972cdafb22720e6a2553" upstream="androidx-core-telecom-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="a8d19f906fbf3e55727e8549c141853bf38e31dc" upstream="androidx-core-telecom-release" />
   <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="978585dcb764aeb37cd5df33284468c0beedd607" upstream="androidx-core-telecom-release" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="fa6c3f1da2895aaa0a8f4e637b8e17e8dc4c87ce" upstream="androidx-core-telecom-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="d99dea5bb71110a95b531917cb9a9820ddde2cd8" upstream="androidx-core-telecom-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-core-telecom-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="e8d3855098f091c679bb996d262202767039d10f" upstream="androidx-core-telecom-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="70bc05b08d05482d6b55a8b30348d108d9f79136" upstream="androidx-core-telecom-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="62b78a90a5b0cfe62b8de606ce21116ee223ac3b" upstream="androidx-core-telecom-release" />
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="a5b8501b26e4df8787a5738186148b03fce9daba" upstream="androidx-core-telecom-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="3a242b34ddd1c65d82fc591288230e6892ea9ae1" upstream="androidx-core-telecom-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="12358d35edd61051a0bb83f85387030e02f28849" upstream="androidx-core-telecom-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-core-telecom-release" />
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="404392c79d8173a22e1fcc79f472cb93792525a2" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="ebfc91e5d9974f89ab04607ae99f4dd99c31d9d8" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="886459d2647d41793c9e287856bcff6b7bd12aa8" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="25230df142c6b99ce99b9be7a484467ce15e21d2" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="9b9ec79826cb766b795f03ef350ed3a357303580" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="e9805db2a9a658a16691efa4eb3ecf7ff0aea960" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="8d98e35b67106be663fa20163144c8dc82feec2d" upstream="androidx-core-telecom-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="a3142453b9471ed1dad6a9078d5e818e49b05391" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="bd227de80cab4c3868d6cb8f35516058882096e8" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="413368650cd7ed27b8cf663851a02988c9bdebd6" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="48db74b86f788f9681464678ebebe6f2a14a888a" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="64dc28aabe3bf6e95a0fa127d9321c170d531c1e" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="3c612c87b9576a45a2b55db43db82198b63cd382" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="0dbd5fe4649a741382a858ab4cb6d745571110e7" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="82b138705a6b0bbe77dfc9f04c715cf1cb448e9b" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="1d0ba50d9d9c571a8b821c7051a8035f4e6f244b" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="b1f46beaaf2f32b3b76e5d2a67d29d0157356af8" upstream="androidx-core-telecom-release" />
 
   
   
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="d0bb4bdbe41051e7721d8e12c2b58800b898f913" upstream="androidx-core-telecom-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="daedabb267d44b7b0f22230093b3e8a41fe03982" upstream="androidx-core-telecom-release" />
   
   <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-core-telecom-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="fd7d67811c09f99e1fbbb2f9c9de921ddde45e4e" upstream="androidx-core-telecom-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="c3c068d9a331575369438e39ffa4b34be9033e9b" upstream="androidx-core-telecom-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="3b563ecbb5740e5c2dd66024e88629dcbe8dcd11" upstream="androidx-core-telecom-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="8b074b28e7e5c5cf158ad0a9e07d3f3a67315f1d" upstream="androidx-core-telecom-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="91ed7c8b1853c0cde6a129d727e80c2900c6c991" upstream="androidx-core-telecom-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="6ec6be7fa33a96785806ca3cd314da45a1e90673" upstream="androidx-core-telecom-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="61301748d3335bfccc76f70bf58ee98772606e9f" upstream="androidx-core-telecom-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="7f42fe73183eb8b680f3ae74b18c10a32de04f67" upstream="androidx-core-telecom-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="cd4e43b18184deacf2c2c35e4c9d2ca125850ed0" upstream="androidx-core-telecom-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-core-telecom-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="c682aca90270d3eda08943ec41ff98004caaa4ac" upstream="androidx-core-telecom-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="bf72d851960078e8deafa791b87e0506d9e180c4" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="690b33664356830225bd0204e6ed17db4475568c" upstream="androidx-core-telecom-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="fe9b2ad213481f5ef79ac9a8f8b9fcd9252a2d87" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="044fdd29cb24a73c598bdd6268d22f7319fb8f4f" upstream="androidx-core-telecom-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-core-telecom-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ed7d24975665010de83f021fb7226e73950951e2" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="126659b35e182a7c7b2d2c760895cff1a7dc3186" upstream="androidx-core-telecom-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="4ab9c23b9902a251d141c397c1ea44998861f58b" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5b0f01c3ceb56be5b5ba08c5da452654cc941ba5" upstream="androidx-core-telecom-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-core-telecom-release" />
 
 
@@ -89,16 +90,16 @@
 
   
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" clone-depth="1" revision="33f6d84fe86961209f18af6d356590d281913fb8" upstream="androidx-core-telecom-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="0d5dc22d255ae6a33738281b814238045ec7a723" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="4ed4f3a89c8f0f211a58f517a17c388fa7da4632" upstream="androidx-core-telecom-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-core-telecom-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="cfc20d6939a2bb0c6426ed41bbf8904fb5f2a01b" upstream="androidx-core-telecom-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="3abddbbed06547289a4138326be8685ae0af8c59" upstream="androidx-core-telecom-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="40e5626dcdec536576fecb4158c54e929329f682" upstream="androidx-core-telecom-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="d0aef16d5047fadf798d2861eb25abb5eea4cbc6" upstream="androidx-core-telecom-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
