@@ -174,7 +174,9 @@
   <!-- END dependencies -->
 
   <!-- BEGIN target project -->
-  <project path="frameworks/support" name="platform/frameworks/support" />
+  <project path="frameworks/support" name="platform/frameworks/support" >
+    <linkfile src=".agents" dest=".agents" />
+  </project>
   <!-- END target project -->
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
