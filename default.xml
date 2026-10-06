@@ -45,6 +45,7 @@
   <project path="tools/assets" name="assets/android-studio-ux-assets" clone-depth="1" revision="main" />
   <project path="tools/base" name="platform/tools/base">
     <linkfile src="bazel/tools.BUILD.bazel" dest="tools/BUILD.bazel" />
+    <linkfile src="bazel/toplevel.BUILD.bazel" dest="BUILD.bazel" />
     <linkfile src="bazel/toplevel.MODULE.bazel" dest="MODULE.bazel" />
     <linkfile src="bazel/toplevel.MODULE.bazel.lock" dest="MODULE.bazel.lock" />
     <linkfile src="bazel/toplevel.bazelrc" dest=".bazelrc" />
