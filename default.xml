@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-compose-beta-release" remote="aosp" />
+  <default revision="sparse-16593700-L64000030205264399" remote="aosp" />
   <project path="build/make" name="platform/build" revision="68faa09a80b8fa574fda0f53ee57f426053a1456" upstream="androidx-compose-beta-release" />
 
   
@@ -94,12 +94,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-compose-beta-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4a668047d9806e556cb13e262eb326c31cef10bf" upstream="androidx-compose-beta-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="680d3844ab5a0d2d3b41e04fe96ec30cadcae2e7" upstream="androidx-compose-beta-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="559d7c6e906e7ba455d2818294e211c4e246295b" upstream="androidx-compose-beta-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="7f04b54e3b2bcd93dad1e70c34053b12b76e7947" upstream="androidx-compose-beta-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
