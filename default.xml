@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="adaea1c619853a956d95ba75aa6b613857b68536" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="8252bf94b960b1ea0339ba66098609bfc916d83f" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -26,7 +26,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="art" name="platform/art" revision="258998365ac2ca5c154b0fbf55e94b75c2308408" groups="pdk" upstream="android14-tests-release" />
-  <project path="bionic" name="platform/bionic" revision="96350ea241cb13f812c1091f22c47d4b9751a9ba" groups="pdk" upstream="android14-tests-release" />
+  <project path="bionic" name="platform/bionic" revision="23c0c820f36aff787d5d59dd9e7ba482406bf914" groups="pdk" upstream="android14-tests-release" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" revision="2e6ff7bc40063d38fc5478389a47c0fafba20bfd" upstream="android14-tests-release" />
   <project path="bootable/libbootloader" name="platform/bootable/libbootloader" revision="19c0d0b5c76227059f54661da3aa0ff55aabd4ec" groups="vts,pdk" upstream="android14-tests-release" />
   <project path="cts" name="platform/cts" revision="67a353f77270bf735ba5cdfc51dc4d2db6b441f3" groups="cts,pdk-cw-fs,pdk-fs" upstream="android14-tests-release" />
