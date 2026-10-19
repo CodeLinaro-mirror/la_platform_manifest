@@ -1,7 +1,7 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="android14-tests-release" remote="aosp" sync-j="4" />
+  <default revision="sparse-16473800-L86300030208297707" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
   
@@ -878,7 +878,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" revision="2bc182808675818d10e5bd95e03b61bff09cac97" upstream="android14-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" revision="b8fc6c97a76a75b19d9d3293baf9234910c5c929" upstream="android14-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="5bdf5b6c68a0ca97e85f3a7dd07e2dd6229b0e86" upstream="android14-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="49242c2f3ce95bc1cf54f55975b697ed4efa534b" groups="pdk" upstream="android14-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="b57cbc898a4ddc9472b7fbb8335713aab5898849" groups="pdk" upstream="android14-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="2f5f604861da0a1d1cf62d4bcbf77dc5b45b6b40" upstream="android14-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="5637503c1d9246e8cc579bf8bc3af968c7bbece6" upstream="android14-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="32748ddb39cf99296ff35d374b15f04b4522e85c" upstream="android14-tests-release" />
