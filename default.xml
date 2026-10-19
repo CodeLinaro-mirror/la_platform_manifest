@@ -5,7 +5,7 @@
 
   <contactinfo bugurl="go/repo-bug" />
   
-  <project path="build/make" name="platform/build" revision="8252bf94b960b1ea0339ba66098609bfc916d83f" groups="pdk" upstream="android14-tests-release">
+  <project path="build/make" name="platform/build" revision="cf1cc68fdcdf90bc9df08f75fcba14a0a78ab8ae" groups="pdk" upstream="android14-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -878,7 +878,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk" revision="2bc182808675818d10e5bd95e03b61bff09cac97" upstream="android14-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel" revision="b8fc6c97a76a75b19d9d3293baf9234910c5c929" upstream="android14-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="5bdf5b6c68a0ca97e85f3a7dd07e2dd6229b0e86" upstream="android14-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="49242c2f3ce95bc1cf54f55975b697ed4efa534b" groups="pdk" upstream="android14-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" revision="d374fb33ece7cab02db17500d92849dcc9f21ab9" groups="pdk" upstream="android14-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="2f5f604861da0a1d1cf62d4bcbf77dc5b45b6b40" upstream="android14-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="5637503c1d9246e8cc579bf8bc3af968c7bbece6" upstream="android14-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="32748ddb39cf99296ff35d374b15f04b4522e85c" upstream="android14-tests-release" />
@@ -1236,7 +1236,7 @@
   <project path="tools/asuite" name="platform/tools/asuite" revision="d30d58cc26280aa97b5c5499c4d712a59f3a8852" groups="pdk" upstream="android14-tests-release" />
   <project path="tools/carrier_settings" name="platform/tools/carrier_settings" groups="tools" revision="bee28ce92a9f75365b91a900caf29192295fc491" upstream="android14-tests-release" />
   <project path="tools/currysrc" name="platform/tools/currysrc" groups="pdk" revision="5819393ca04902c8fea8f07062d7e38f76aa36c5" upstream="android14-tests-release" />
-  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="e8a99b8c4b83b881451b899c82408decca842037" groups="pdk,tools" upstream="android14-tests-release" />
+  <project path="tools/deviceinfra/prebuilts" name="platform/tools/deviceinfra/prebuilts" revision="93f088d71dfa00f4a1f40c7a3167c7ecfe65bd85" groups="pdk,tools" upstream="android14-tests-release" />
   <project path="tools/dexter" name="platform/tools/dexter" groups="tools,pdk-fs" revision="ae4452780bda9de852cff261badd399708da031f" upstream="android14-tests-release" />
   <project path="tools/doc_generation" name="platform/tools/doc_generation" groups="tools,pdk" revision="401b6b1e1a23ac90d71ff5b739e8381178efdda0" upstream="android14-tests-release" />
   <project path="tools/external_updater" name="platform/tools/external_updater" groups="tools" revision="34305064144cbca787310c753c85d72afdcc1713" upstream="android14-tests-release" />
@@ -1253,7 +1253,7 @@
   <project path="tools/test/mobly_extensions" name="platform/tools/test/mobly_extensions" groups="pdk" revision="871d8de65b50510e3c0001764f33529d5d5f5dca" upstream="android14-tests-release" />
   <project path="tools/test/mobly_snippets" name="platform/tools/test/mobly_snippets" groups="pdk" revision="6ea45c1608f8b7b255f323c2da807cd6681cc6cb" upstream="android14-tests-release" />
   <project path="tools/test/openhst" name="platform/tools/test/openhst" groups="tools" revision="9b5b8bd306d3d4aa61d6e1ffa4dc6f19fd4e412e" upstream="android14-tests-release" />
-  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="5303bae4079c01b23a01b618520de5c53ee0a3c4" groups="pdk,tradefed" clone-depth="1" upstream="android14-tests-release" />
+  <project path="tools/tradefederation/prebuilts" name="platform/tools/tradefederation/prebuilts" revision="fad657f4ab4e52efdc3c12f9364044b761bf0d16" groups="pdk,tradefed" clone-depth="1" upstream="android14-tests-release" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" revision="bbc410a8f74311eab22c3497b591eed89e9a4eda" upstream="android14-tests-release" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" revision="53a3443be6cb92b68ca7c0c3a52c372f123e6211" upstream="android14-tests-release" />
   
