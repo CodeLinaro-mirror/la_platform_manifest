@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-arcore-pre-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="4864639a6f792a7dd730157631888936b93cc6b4" upstream="androidx-xr-arcore-pre-release" />
+  <project path="build/make" name="platform/build" revision="5f94719f8cd8d898e859fc7ebf068908dfa74484" upstream="androidx-xr-arcore-pre-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="dcd36387a217dbc6835a89e5ffbc212bacf5dcdb" upstream="androidx-xr-arcore-pre-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="924a3f16cfa342b656de91316523572adfe81f66" upstream="androidx-xr-arcore-pre-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
