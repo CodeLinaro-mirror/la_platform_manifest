@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-heifwriter-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="f9ee12f159cb5a98260f04b5907783aad2048213" upstream="androidx-heifwriter-release" />
+  <project path="build/make" name="platform/build" revision="f8b9582434894138ae8cf788d1402dc899c2ab4d" upstream="androidx-heifwriter-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="9224b970b6a1f0f2011c9c19281312f76d5fe6f5" upstream="androidx-heifwriter-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="7ae604df333be6cbdd595ecf7f86407cd4b3cf47" upstream="androidx-heifwriter-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
