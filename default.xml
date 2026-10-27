@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-compose-beta-release" remote="aosp" />
+  <default revision="sparse-16622331-L57300030214726547" remote="aosp" />
   <project path="build/make" name="platform/build" revision="5eaddb0118792d909647469dce3be017bac8ac14" upstream="androidx-compose-beta-release" />
 
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-compose-beta-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="b308a2f39f5bea0b16df2e39921514ae17b2a228" upstream="androidx-compose-beta-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="6c73d2ce5af790b61541ed3f8858f5070c3149ab" upstream="androidx-compose-beta-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c4d78528538378952bfc93631834894a6a422971" upstream="androidx-compose-beta-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="77d4b5c353ddea679878fec64f4d8e5a23242f67" upstream="androidx-compose-beta-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="138c1452769c7db3fc11018316822c7b4bb4ab73" upstream="androidx-compose-beta-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-compose-beta-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="8c4a5fab030e62e6dac58c45f5fff974facf903f" upstream="androidx-compose-beta-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="2f74626e08638c14bd8c07a7e3cb3dff2b2757e0" upstream="androidx-compose-beta-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
