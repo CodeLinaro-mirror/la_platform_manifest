@@ -176,6 +176,7 @@
   <!-- BEGIN target project -->
   <project path="frameworks/support" name="platform/frameworks/support" >
     <linkfile src=".agents" dest=".agents" />
+    <linkfile src="development/branch-config/androidx-main.properties" dest="androidx-branch.properties" />
   </project>
   <!-- END target project -->
 
