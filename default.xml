@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-xr-compose-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="ccde688ccba2c5db9bae7297efd0fd52bbf80c54" upstream="androidx-xr-compose-release" />
+  <project path="build/make" name="platform/build" revision="3a60a43592a83a73fdc801c7219dd3221ee92340" upstream="androidx-xr-compose-release" />
 
   
   
@@ -24,7 +24,7 @@
 
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-xr-compose-release" />
   <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="06e99ccec0970f150f805a6d58f3a7154f094d6d" upstream="androidx-xr-compose-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="e801e69057897573a1de1abcfb6474e1c39cc33c" upstream="androidx-xr-compose-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="0be333a6cc045432abefe306d158cfba18bf87eb" upstream="androidx-xr-compose-release" />
   <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="a6d2cfdfc515b05334fc5404b4345158812e87a9" upstream="androidx-xr-compose-release" />
   <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="2227c1c12461270de442204c01cff1c19298c01a" upstream="androidx-xr-compose-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-xr-compose-release" />
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="59ce3be3e7705484f5cc803aacd7fcd3cf0a8313" upstream="androidx-xr-compose-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="7214c79b2fabf172db3a8338096b2a2ad9e33540" upstream="androidx-xr-compose-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
