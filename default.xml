@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-navigation3-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="0dea5dbe6599035cd3099bfa045d0e1bc2ee20f4" upstream="androidx-navigation3-release" />
+  <project path="build/make" name="platform/build" revision="1165243c9f34a7c942df74c6cc7dfb1f19a8926b" upstream="androidx-navigation3-release" />
 
   
   
@@ -94,12 +94,12 @@
   <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="34ad489a126b45a2bc13a1ff28498ad59d6917ce" upstream="androidx-navigation3-release" />
 
   
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="fdaab78be065726741edec13e662c4733f0cc736" upstream="androidx-navigation3-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="0e99e864af74d48f673d702bbacae9be4459289d" upstream="androidx-navigation3-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="65822252146d26e872acf03dc11bda43f11efa3b" upstream="androidx-navigation3-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="d01c9f6564d5548348e749f4c1b2abe8171d8be8" upstream="androidx-navigation3-release" />
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
