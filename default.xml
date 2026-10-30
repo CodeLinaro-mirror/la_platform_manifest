@@ -1,7 +1,7 @@
 <manifest>
 
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="sparse-16475094-L44800030201034377" remote="aosp" sync-j="4" />
+  <default revision="sparse-16545931-L45300030216736508" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
   <project path="build/make" name="platform/build" groups="pdk" revision="b894b7949f4bcd371c6533de0d61a96a52a3b3a2" upstream="android15-tests-release">
@@ -1173,7 +1173,7 @@
   <project path="packages/modules/Telephony" name="platform/packages/modules/Telephony" groups="pdk-cw-fs,pdk-fs" revision="8f1bc4e3284d27525c41c1064019473574d8378a" upstream="android15-tests-release" />
   <project path="packages/modules/ThreadNetwork" name="platform/packages/modules/ThreadNetwork" groups="pdk-cw-fs,pdk-fs" revision="bae2b4ee03cdfe81d0a09a96cd7ee9c21103a492" upstream="android15-tests-release" />
   <project path="packages/modules/Uwb" name="platform/packages/modules/Uwb" groups="pdk-cw-fs,pdk-fs" revision="7674843e45aef3fbc153d85e24e583e8882fd9db" upstream="android15-tests-release" />
-  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="a54e0c9c7a86d0d8143b05ed58adc4fc83bd4ec2" upstream="android15-tests-release" />
+  <project path="packages/modules/Virtualization" name="platform/packages/modules/Virtualization" groups="pdk" revision="a6ac3f665933784e7e98faca0a0c8ff2878af1d2" upstream="android15-tests-release" />
   <project path="packages/modules/vndk" name="platform/packages/modules/vndk" groups="pdk-cw-fs,pdk-fs" revision="766b26d7f85de5722c4bc5cfa9d3fb9000559dd0" upstream="android15-tests-release" />
   <project path="packages/modules/Wifi" name="platform/packages/modules/Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" revision="fae7abd59e5bdd49578e7919829d484ca10773c0" upstream="android15-tests-release" />
   <project path="packages/providers/BlockedNumberProvider" name="platform/packages/providers/BlockedNumberProvider" groups="pdk-fs" revision="0702d4c670a94e23ea207fda3ca35b5849ce1116" upstream="android15-tests-release" />
