@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-appfunctions-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="2f6fd37bef0b41a638e6809f11212b51c60c21e9" upstream="androidx-appfunctions-release" />
+  <project path="build/make" name="platform/build" revision="ce5c076a6762fff6be94b239cc2e262c6bc1cf11" upstream="androidx-appfunctions-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="3a5a6c1812a9d0857c55d3a4e737157d9aa4c452" upstream="androidx-appfunctions-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="695eabffd8060f9778aa2c081502c4b86af4e69d" upstream="androidx-appfunctions-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
