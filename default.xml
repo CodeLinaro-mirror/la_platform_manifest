@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-xr-compose-release" remote="aosp" />
+  <default revision="sparse-16733149-L89300030219930998" remote="aosp" />
   <project path="build/make" name="platform/build" revision="3a60a43592a83a73fdc801c7219dd3221ee92340" upstream="androidx-xr-compose-release" />
 
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="7214c79b2fabf172db3a8338096b2a2ad9e33540" upstream="androidx-xr-compose-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="833377d7ed02c9c50f39ff08dfcbe8583ca1ff0f" upstream="androidx-xr-compose-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
