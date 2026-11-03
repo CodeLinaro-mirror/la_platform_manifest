@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="refs/tags/studio-2026.2.1" remote="aosp" sync-j="4"/>
-  <superproject name="platform/superproject" remote="aosp" revision="studio-2026.2.1"/>
+  <default revision="refs/tags/studio-2026.2.2" remote="aosp" sync-j="4"/>
+  <superproject name="platform/superproject" remote="aosp" revision="studio-2026.2.2"/>
   <contactinfo bugurl="go/repo-bug"/>
   <project path="build/bazel" name="platform/build/bazel"/>
   <project path="external/android/system/logging" name="platform/system/logging" clone-depth="1"/>
@@ -34,7 +34,6 @@
   <project path="prebuilts/studio/layoutlib" name="platform/prebuilts/studio/layoutlib" clone-depth="1"/>
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1"/>
   <project path="tools/adt/idea" name="platform/tools/adt/idea"/>
-  <project path="tools/gpu-profiler/idea" name="platform/tools/gpu-profiler/idea"/>
   <project path="tools/vendor/ggml-org/llama.cpp" name="platform/external/ggml-org/llama.cpp"/>
   <project path="tools/analytics-library" name="platform/tools/analytics-library"/>
   <project path="tools/apksig" name="platform/tools/apksig"/>
@@ -74,6 +73,5 @@
   <project path="tools/repohooks" name="platform/tools/repohooks"/>
   <project path="tools/studio/google/cloud/testing" name="platform/tools/studio/google/cloud/testing"/>
   <project path="tools/vendor/modelcontextprotocol/kotlin-sdk" name="platform/external/modelcontextprotocol/kotlin-sdk"/>
-  <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1"/>
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload"/>
 </manifest>
