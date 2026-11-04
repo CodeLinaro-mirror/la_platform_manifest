@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/"/>
-  <default revision="refs/tags/studio-2026.2.2" remote="aosp" sync-j="4"/>
-  <superproject name="platform/superproject" remote="aosp" revision="studio-2026.2.2"/>
+  <default revision="refs/tags/studio-2026.2.3-alpha01" remote="aosp" sync-j="4"/>
+  <superproject name="platform/superproject" remote="aosp" revision="studio-2026.2.3-alpha01"/>
   <contactinfo bugurl="go/repo-bug"/>
   <project path="build/bazel" name="platform/build/bazel"/>
   <project path="external/android/system/logging" name="platform/system/logging" clone-depth="1"/>
@@ -19,6 +19,7 @@
   <project path="external/python/absl-py" name="platform/external/python/absl-py"/>
   <project path="external/gradle-profiler" name="platform/external/gradle-profiler"/>
   <project path="frameworks/layoutlib" name="platform/frameworks/layoutlib" clone-depth="1" groups="notdefault,layoutlib"/>
+  <project path="hardware/google/aemu" name="platform/hardware/google/aemu" />
   <project path="prebuilts/bazel/darwin-x86_64" name="platform/prebuilts/bazel/darwin-x86_64" clone-depth="1" groups="notdefault,platform-darwin"/>
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="notdefault,platform-linux"/>
   <project path="prebuilts/bazel/windows-x86_64" name="platform/prebuilts/bazel/windows-x86_64" clone-depth="1" groups="notdefault,platform-windows"/>
