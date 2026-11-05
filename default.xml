@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-mediarouter-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="05f17eb62cc9b05e36e95ecc8405e7c8b91fa52a" upstream="androidx-mediarouter-release" />
+  <project path="build/make" name="platform/build" revision="d15873214e09b02aecfd0f14b23c93559d2a5e4e" upstream="androidx-mediarouter-release" />
 
   
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="e7acfcdd3943d18048f5066e2931068397c4bbfa" upstream="androidx-mediarouter-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="89cb022d69fdba98938d496c46c19b6c238df3b9" upstream="androidx-mediarouter-release">
     <linkfile src=".agents" dest=".agents" />
   </project>
   
