@@ -11,9 +11,8 @@
   <superproject name="platform/superproject" remote="aosp" revision="car-app-host-main" />
   <contactinfo bugurl="go/repo-bug" />
 
-  <!-- Car App Host and shared AAOS unbundled libraries -->
+  <!-- Car App Host -->
   <project path="packages/apps/Car/Templates" name="platform/packages/apps/Car/Templates" groups="car-apps-gradle" revision="car-app-host-main" />
-  <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="car-apps-gradle" revision="mirror-car-apps-aosp-release" />
 
   <!-- Android SDK, JDK, and Gradle prebuilts -->
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="car-apps-gradle" revision="android16-release" clone-depth="1" />
