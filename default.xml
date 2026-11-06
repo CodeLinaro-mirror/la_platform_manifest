@@ -8,6 +8,9 @@
            remote="aosp"
            sync-j="4" />
 
+  <superproject name="platform/superproject" remote="aosp" revision="car-app-host-main" />
+  <contactinfo bugurl="go/repo-bug" />
+
   <!-- Car App Host and shared AAOS unbundled libraries -->
   <project path="packages/apps/Car/Templates" name="platform/packages/apps/Car/Templates" groups="car-apps-gradle" revision="car-app-host-main" />
   <project path="packages/apps/Car/libs" name="platform/packages/apps/Car/libs" groups="car-apps-gradle" revision="mirror-car-apps-aosp-release" />
