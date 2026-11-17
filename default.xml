@@ -1,102 +1,109 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-dynamicanimation-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="40f06e68803f944703b7f2e43be978841a0129e7" upstream="androidx-dynamicanimation-release" />
+  <project path="build/make" name="platform/build" revision="4a2e612cc6e638dbee639055871d5871bb5c9c1f" upstream="androidx-dynamicanimation-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-dynamicanimation-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="61449a7b7148cdfc6296dfa86ba2933ee11b4143" upstream="androidx-dynamicanimation-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="6a6a688c0f6fc70a2b33379d799f55cd86342c8b" upstream="androidx-dynamicanimation-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="967750b8d5056a283cbdb99cbef26e022854cc2e" upstream="androidx-dynamicanimation-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-dynamicanimation-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-dynamicanimation-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="3e32fa7dff1afaba7937dc786b26d024f47e9dd4" upstream="androidx-dynamicanimation-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="4ed5d1b7f77eb72ebc4e8a3dc1dbeb0f13dbd8bf" upstream="androidx-dynamicanimation-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="7335e06d07fb7acc8945a93f8e844246f00dc557" upstream="androidx-dynamicanimation-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="4a97d80bfe2519e9763d3586e4a33ad4d06063f8" upstream="androidx-dynamicanimation-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="e53c58cd0ce92ee541a87cfc1e4f9155e5dc3544" upstream="androidx-dynamicanimation-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="0e16e115f35d0f204cbe98ed0b7bb3c91fe56f86" upstream="androidx-dynamicanimation-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-dynamicanimation-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="d2a760cd742e89cf827e16242c7cb5567f6f64be" upstream="androidx-dynamicanimation-release" />
 
   
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="d162df5fa617eeaf4ae232bf81052098fe6decb1" upstream="androidx-dynamicanimation-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="a048e2a2abaf31ba77409ddcf46c8c865513d76e" upstream="androidx-dynamicanimation-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="86247a72669929edbd86661120af269b264c5744" upstream="androidx-dynamicanimation-release" />
 
   
   <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="24a7e90629553667d2c1f5f748e5c5242790f7e5" upstream="androidx-dynamicanimation-release" />
+
+  <project path="prebuilts/androidx/android-cli" name="platform/prebuilts/androidx/android-cli" clone-depth="1" revision="2fcdc23f503bfdfcd42000c5c4a00c84d4a62ef6" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="7cff543c79391eeffdc73932106c62a93ea883a0" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="3dafac44ea361ce8a4ee465a31be5266cfe2c03d" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="e1bcabe93671d108e8d3807961a79e4b23295fb0" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="cafdab73a0054934e17e2673de067f3bc1bea26e" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="66bab918e6f1f0f200c2c1cb0d3efc0d4793fe06" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="02b5cc5d485d57eda74e645fb0bfb583fbd89063" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="c87bca1c04ccc97281df484ef354226b4ede1469" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="30ca4d3845714e915a72dcd79304a2229dbc02cd" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e385220a50d6c8909820335e3d7993fbba229169" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="4f079529d90a0f0583371cfa4104a3e88ced91c3" upstream="androidx-dynamicanimation-release" />
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="a778f7d62e4c2f984021e504ae51f007b2985742" upstream="androidx-dynamicanimation-release" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-dynamicanimation-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="d3d5594b83b6c4844ff9e3ecdd6a9162e67036d9" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="ca5eb18f984b28bca644148a1484c0ebf881eccd" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="3959fbb60f5585990fef4e0c7c19890b4e86018a" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="c7fd5bff3de56d418c4ba199fa11e8d453c1921a" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="c82f7ad7993194b036cb677c39594bddeaa17790" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="8c25ec6265402173d68db1d2a1e4ff82388fdb41" upstream="androidx-dynamicanimation-release" />
 
   
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="cf98c774bbb4d744834587b7c6cd3ab2e2bfd708" upstream="androidx-dynamicanimation-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="575271d724defe87a9141e519ee9bd668d108d68" upstream="androidx-dynamicanimation-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="741d638b8414c0611355ca7fc1db177f51946f01" upstream="androidx-dynamicanimation-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="0f983e51f4a4147f5434d6632aa6e80c4e16ee15" upstream="androidx-dynamicanimation-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="92bca082e1129c0f1cdf34e8709bd7ea263e968b" upstream="androidx-dynamicanimation-release" />
   
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="1daaa7bedd3ad4db0e369d9c7ab7e002da465895" upstream="androidx-dynamicanimation-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="fc8621867a4bf0780ec070585878dc3026607f06" upstream="androidx-dynamicanimation-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="d9a4fad0f1bb32cd84c83670a9bcdbad2dd9a482" upstream="androidx-dynamicanimation-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="aa3e7587391320a167634518739c408e08c66221" upstream="androidx-dynamicanimation-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="a1d59a9a9f6eb7b00a04c183901f3ac788891530" upstream="androidx-dynamicanimation-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="c9b2252724de04c35f6eccc6f26f937e96495146" upstream="androidx-dynamicanimation-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="299e3a1c64506a958c4c487377a9c196b69e3edb" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="df72d4a9a7bb78f6af1112c12b73fe4065061632" upstream="androidx-dynamicanimation-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="99e8c2687dffa3b1073b8bf3899f363ec737e4cb" upstream="androidx-dynamicanimation-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="7540faf0c99f587e09526916f2663bc0342c0724" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="2a5eb13642368b086b89f88044c833e447f81f12" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="b20a481fa8e4c6886536f090e688bdcd8b51135f" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="9804d82efd1cded56974af6b9ae777be1c38b939" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-dynamicanimation-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5d7b781b0367b83e6249396cbd4f9fab0a5313f0" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e7dd021ad92400d97853b261d77d6e48f8c2a1ce" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="ba0f1a9419bf13c00c029208e3c728d72dc17862" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="3bc5e7fc6d34a2ab73e888891d03eca308598823" upstream="androidx-dynamicanimation-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-dynamicanimation-release" />
 
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="7aea7e9880110799088cd1de509886871078306f" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" clone-depth="1" groups="notdefault,platform-darwin" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-dynamicanimation-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="5bee7476abca3c2636af60438fb140dcd14c8674" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="5bee7476abca3c2636af60438fb140dcd14c8674" upstream="androidx-dynamicanimation-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="e57c88d59d7d8408a32b16425158fd2aa64e2b3e" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" clone-depth="1" groups="notdefault,platform-linux" revision="546fb9b75afc8c183c111dcf825a8a3505a64179" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="e57c88d59d7d8408a32b16425158fd2aa64e2b3e" upstream="androidx-dynamicanimation-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8b6456a781f2f178fade96e3d8d9234e73e9f817" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-dynamicanimation-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="8b6456a781f2f178fade96e3d8d9234e73e9f817" upstream="androidx-dynamicanimation-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="33c45a5bbd238238d46c8a16f9132a2ccb937431" upstream="androidx-dynamicanimation-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="84847764ced186312db3a1378135018059ce94de" upstream="androidx-dynamicanimation-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="f6e0a88cff84fd57741fc671208ba0326f036c8e" clone-depth="1" upstream="androidx-dynamicanimation-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="77bd0ffbcfea66347895e9e8417dc2de23e34479" clone-depth="1" upstream="androidx-dynamicanimation-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d6a5dda4d7b0da30103dd93493624f43c67bb726" upstream="androidx-dynamicanimation-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d7b7cd7889937b2e201033611b3ce181e1a8be31" upstream="androidx-dynamicanimation-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="d5923c378c00b537f3421786eb3a50e6f6868386" upstream="androidx-dynamicanimation-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="f23d1c22069704a752baa844aa5fb07878710b0c" upstream="androidx-dynamicanimation-release">
+    <linkfile src=".agents" dest=".agents" />
+    <linkfile src="development/branch-config/androidx-main.properties" dest="androidx-branch.properties" />
+  </project>
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
