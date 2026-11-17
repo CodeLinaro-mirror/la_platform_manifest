@@ -120,7 +120,7 @@
   <!-- NDK dependencies -->
   <!-- Config: shallow -->
   <project
-    path="prebuilts/fullsdk-darwin/ndk-bundle"
+    path="prebuilts/fullsdk-darwin/ndk/27.0.12077973"
     name="toolchain/prebuilts/ndk-darwin/r27"
     clone-depth="1"
     groups="notdefault,platform-darwin" />
@@ -139,7 +139,7 @@
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
   <project
-    path="prebuilts/fullsdk-linux/ndk-bundle"
+    path="prebuilts/fullsdk-linux/ndk/27.0.12077973"
     name="toolchain/prebuilts/ndk/r27"
     clone-depth="1"
     groups="notdefault,platform-linux" />
