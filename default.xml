@@ -1,6 +1,6 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
-  <default revision="androidx-biometric-release" remote="aosp" />
+  <default revision="sparse-16848682-L69900030233478695" remote="aosp" />
   <project path="build/make" name="platform/build" revision="4a7a7d4e4e5a368e9ec83f441247d01785628901" upstream="androidx-biometric-release" />
 
   
@@ -99,7 +99,7 @@
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="48b8e5b3109d82ad02584296c3c634d8f9b8ed3b" upstream="androidx-biometric-release">
+  <project path="frameworks/support" name="platform/frameworks/support" revision="880556f80ad41a5d86e80c06042fcb77ae23fe8b" upstream="androidx-biometric-release">
     <linkfile src=".agents" dest=".agents" />
     <linkfile src="development/branch-config/androidx-main.properties" dest="androidx-branch.properties" />
   </project>
