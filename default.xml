@@ -1,170 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
-  <default revision="androidx-jetpad-test-release"
-           remote="aosp" />
-  <superproject name="platform/superproject" remote="aosp"/>
-  <!-- BEGIN dependencies -->
-  <project path="build/make" name="platform/build" />
-  <!-- External dependencies -->
-  <!-- Config: shallow -->
-  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" />
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" />
-  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" />
-  <!-- External Compose Hero Benchmark Targets -->
-  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1"/>
-  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1"/>
-  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
-  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" />
-  <project path="prebuilts/androidx/android-cli" name="platform/prebuilts/androidx/android-cli" clone-depth="1" />
-  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" />
-  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" />
-  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" />
-  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" />
-  <!-- Tools dependencies -->
-  <!-- Config: shallow + metalava-main revision -->
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1"  />
-  <!-- Config: shallow -->
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" />
-  <!-- The contents of external/protobuf must be kept in sync with the contents of prebuilts/protobuf -->
-  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" />
-  <!-- Gradle dependencies -->
-  <!-- Config: shallow -->
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" />
-  <!-- SDK dependencies -->
-  <project
-    path="prebuilts/fullsdk-darwin/platforms"
-    name="platform/prebuilts/fullsdk/platforms"
-    clone-depth="1">
+  <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
+  <default revision="androidx-jetpad-test-release" remote="aosp" />
+  <project path="build/make" name="platform/build" revision="2cdc1b53938bd3b9f99e4bf2355d3aa7e60d34a4" upstream="androidx-jetpad-test-release" />
+  
+  
+  <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-jetpad-test-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="ef66b33fb8225d651bfd26d9bce2937ef3c3117e" upstream="androidx-jetpad-test-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="04a567eb83eab13cbd78555c97ba369882b940e2" upstream="androidx-jetpad-test-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="04e8dd62c6d675cca7a3a8924a1e1c3416bf72cc" upstream="androidx-jetpad-test-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="98af9af085a5bb14fc34370dfbc3d456c99f070c" upstream="androidx-jetpad-test-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="e6f9b59fce24094c961cfa0f88c145424f2bb709" upstream="androidx-jetpad-test-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="81768f5924003a6c9fc9f1df88d2103794b12605" upstream="androidx-jetpad-test-release" />
+  <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-jetpad-test-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="90d76844684cef40ef378f328a328b13b8893a1a" upstream="androidx-jetpad-test-release" />
+  
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="b09433df23fd78910b14c2615e44f9abbb30ce07" upstream="androidx-jetpad-test-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="86247a72669929edbd86661120af269b264c5744" upstream="androidx-jetpad-test-release" />
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="e6a2faad27dc336df0f1905efbbbb39f7a13460c" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/android-cli" name="platform/prebuilts/androidx/android-cli" clone-depth="1" revision="2fcdc23f503bfdfcd42000c5c4a00c84d4a62ef6" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="ea3f048ece4ae89f179a674f094e5f9a43c5a7d9" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="27aee323e01165abba04b084599d46b1b64eb915" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1d1a64f7c06b627ec507c8fdf064a84932223993" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="1b79426d0e5b21c4876f245161d2071ca6050535" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="02b5cc5d485d57eda74e645fb0bfb583fbd89063" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="3187d69dbb0c81eaf5df0c5789129822dafc297c" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a31ac20fab0238bc728ef077b6815e8e35190b5c" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="a51b7de04a3deb9d4656aebac6c9c8f4984aed9d" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="c82f7ad7993194b036cb677c39594bddeaa17790" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="851350ed865801ed85395ae02c5e08be4365aeac" upstream="androidx-jetpad-test-release" />
+  
+  
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="7ea6454c97e03743938659d432ce6071bfacacfa" upstream="androidx-jetpad-test-release" />
+  
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="1144cbbe07e423c1c563499cc3eb137ebca1cb37" upstream="androidx-jetpad-test-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="1860aacfb4b35573cc4e6d45d554c94f91781ee1" upstream="androidx-jetpad-test-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="016c5a62b4c88ad6e63ee37264bc1f62a71c42c6" upstream="androidx-jetpad-test-release" />
+  
+  <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="52f946c5726d0c104d02e5d6e106f09d961ca2c7" upstream="androidx-jetpad-test-release" />
+  
+  
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="b0ddf9323c3015a084036c1657727b5735db2706" upstream="androidx-jetpad-test-release" />
+  
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="4838887d976d442a58dc3d5a01f375ca5e918917" upstream="androidx-jetpad-test-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project
-    path="prebuilts/fullsdk-darwin/sources"
-    name="platform/prebuilts/fullsdk/sources"
-    clone-depth="1">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="22046174d8b2f2e77a5543cc1aebe906634adb3f" upstream="androidx-jetpad-test-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
-  <!-- darwin specific -->
-  <project
-    path="prebuilts/fullsdk-darwin/build-tools"
-    name="platform/prebuilts/fullsdk-darwin/build-tools"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <project
-    path="prebuilts/fullsdk-darwin/cmdline-tools"
-    name="platform/prebuilts/fullsdk-darwin/cmdline-tools"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <project
-    path="prebuilts/fullsdk-darwin/platform-tools"
-    name="platform/prebuilts/fullsdk-darwin/platform-tools"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <project
-    path="prebuilts/fullsdk-darwin/tools"
-    name="platform/prebuilts/fullsdk-darwin/tools"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <!-- linux specific -->
-  <project
-    path="prebuilts/fullsdk-linux/build-tools"
-    name="platform/prebuilts/fullsdk-linux/build-tools"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <project
-    path="prebuilts/fullsdk-linux/cmdline-tools"
-    name="platform/prebuilts/fullsdk-linux/cmdline-tools"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <project
-    path="prebuilts/fullsdk-linux/platform-tools"
-    name="platform/prebuilts/fullsdk-linux/platform-tools"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <project
-    path="prebuilts/fullsdk-linux/tools"
-    name="platform/prebuilts/fullsdk-linux/tools"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <!-- NDK dependencies -->
-  <!-- Config: shallow -->
-  <project
-    path="prebuilts/fullsdk-darwin/ndk/30.0.16248370"
-    name="toolchain/prebuilts/ndk-darwin/r30"
-    clone-depth="1"
-    groups="notdefault,platform-darwin" />
-  <project
-    path="prebuilts/fullsdk-darwin/cmake"
-    name="platform/prebuilts/cmake/darwin-x86"
-    groups="notdefault,platform-darwin"
-    clone-depth="1">
+  
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="87892325a0b74f99f20b3cb9ca89ebf8ece697fb" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="363dd67470a21f3308919d41d1236bfe6c292f89" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-jetpad-test-release" />
+  
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="e89857208db860dfd63472a60cee0e632c867f7f" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="0507bd1347add97f4931e3f56ce1efea70eec717" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-jetpad-test-release" />
+  
+  
+  <project path="prebuilts/fullsdk-darwin/ndk/30.0.16248370" name="toolchain/prebuilts/ndk-darwin/r30" clone-depth="1" groups="notdefault,platform-darwin" revision="0a1d5ed939c42a7bf50e8a7889b783e55471c65b" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="7aea7e9880110799088cd1de509886871078306f" upstream="androidx-jetpad-test-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project
-      path="prebuilts/fullsdk-darwin/ninja"
-      name="platform/prebuilts/ninja/darwin-x86"
-      groups="notdefault,platform-darwin"
-      clone-depth="1" >
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="5bee7476abca3c2636af60438fb140dcd14c8674" upstream="androidx-jetpad-test-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project
-    path="prebuilts/fullsdk-linux/ndk/30.0.16248370"
-    name="toolchain/prebuilts/ndk/r30"
-    clone-depth="1"
-    groups="notdefault,platform-linux" />
-  <project
-    path="prebuilts/fullsdk-linux/cmake"
-    name="platform/prebuilts/cmake/linux-x86"
-    groups="notdefault,platform-linux"
-    clone-depth="1">
+  <project path="prebuilts/fullsdk-linux/ndk/30.0.16248370" name="toolchain/prebuilts/ndk/r30" clone-depth="1" groups="notdefault,platform-linux" revision="92537cd408ece74f1a3d0fe608932c14221e796e" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="e57c88d59d7d8408a32b16425158fd2aa64e2b3e" upstream="androidx-jetpad-test-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project
-    path="prebuilts/fullsdk-linux/ninja"
-    name="platform/prebuilts/ninja/linux-x86"
-    groups="notdefault,platform-linux"
-    clone-depth="1" >
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="8b6456a781f2f178fade96e3d8d9234e73e9f817" upstream="androidx-jetpad-test-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
-  <!-- JDK dependencies -->
-  <!-- Config: shallow -->
-  <project
-    path="prebuilts/jdk/jdk21"
-    name="platform/prebuilts/jdk/jdk21"
-    clone-depth="1" />
-  <project
-    path="prebuilts/jdk/jdk25"
-    name="platform/prebuilts/jdk/jdk25"
-    clone-depth="1" />
-  <!-- Golden images -->
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" />
-  <!-- END dependencies -->
-  <!-- BEGIN target project -->
-  <project path="frameworks/support" name="platform/frameworks/support" >
+  
+  
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="50e2c7b325241c2fc6a5b01b60faf0ef9b4e9a94" upstream="androidx-jetpad-test-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="84847764ced186312db3a1378135018059ce94de" upstream="androidx-jetpad-test-release" />
+  
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="d7c147ffc39ffaa5e9a045de57d3ff15730cbdb0" upstream="androidx-jetpad-test-release" />
+  
+  
+  <project path="frameworks/support" name="platform/frameworks/support" revision="972fa8eed8662173604092a5baba9c445ec570cb" upstream="androidx-jetpad-test-release">
     <linkfile src=".agents" dest=".agents" />
     <linkfile src="development/branch-config/androidx-main.properties" dest="androidx-branch.properties" />
   </project>
-  <!-- END target project -->
+  
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-  <!-- go/android3p markers -->
-  <!-- third_party_review marker START -->
-  <!-- third_party_review marker END -->
+  
+  
+  
 </manifest>
