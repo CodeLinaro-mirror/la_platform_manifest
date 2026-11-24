@@ -4,7 +4,7 @@
   <default revision="android15-tests-release" remote="aosp" sync-j="4" />
 
   <contactinfo bugurl="go/repo-bug" />
-  <project path="build/make" name="platform/build" groups="pdk" revision="61202d34abfc682fcf2d9285bd377955f9b655dc" upstream="android15-tests-release">
+  <project path="build/make" name="platform/build" groups="pdk" revision="5f359f9c4a8148c0992ea223690a5e46133e3b17" upstream="android15-tests-release">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -1006,7 +1006,7 @@
   <project path="hardware/google/interfaces" name="platform/hardware/google/interfaces" groups="pdk,sysui-studio" revision="f7dccbe58dde265db6fafc6b0a9db36a89c409df" upstream="android15-tests-release" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="generic_fs,pixel,pdk-gs-arm" revision="04119c67b02e819c4346f6672a6114554530e23e" upstream="android15-tests-release" />
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" revision="e8944728cdc0521a7a9b76393f4f204e56b5581a" upstream="android15-tests-release" />
-  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="6f689b7034544242968890ccb819a6afda1d397d" upstream="android15-tests-release" />
+  <project path="hardware/interfaces" name="platform/hardware/interfaces" groups="pdk,sysui-studio" revision="f906ece6241802e68c9fa0f23e275e8b865f4e89" upstream="android15-tests-release" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" revision="02424279a734a0cb64681cf11d5208a917662433" upstream="android15-tests-release" />
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" groups="coral,generic_fs" revision="22e1e4a11c3d5dc3d25747054065e03e680c62d6" upstream="android15-tests-release" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" revision="ab0ac1e9a608aaf8eb43169115e0dd18a8531f2f" upstream="android15-tests-release" />
@@ -1339,7 +1339,7 @@
   <project path="test/vts-testcase/nbu" name="platform/test/vts-testcase/nbu" groups="vts,projectarch,pdk" revision="72a3bd47e665633df281314fd6be8b3e7d642f2a" upstream="android15-tests-release" />
   <project path="test/vts-testcase/performance" name="platform/test/vts-testcase/performance" groups="vts,projectarch,pdk" revision="d4f41f5f11dfa5068e532df4821159861aa5526c" upstream="android15-tests-release" />
   <project path="test/vts-testcase/security" name="platform/test/vts-testcase/security" groups="vts,projectarch,pdk" revision="d9405559ddc7116680d112cdc17dedaa0b3a3fa6" upstream="android15-tests-release" />
-  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" revision="8a7f8a68bd82c0babb53dc96ec3ebf1a38a0ec8e" upstream="android15-tests-release" />
+  <project path="test/vts-testcase/vndk" name="platform/test/vts-testcase/vndk" groups="vts,pdk" revision="30475ee2619d4b8a65c2b37deb9aaaa2fcd4b39c" upstream="android15-tests-release" />
   <project path="test/catbox" name="platform/test/catbox" revision="c41fd1ae250da4d1cb9857003f08373ea46b389e" upstream="android15-tests-release" />
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" clone-depth="1" revision="33ac7cc8999f483302e5f774e3785103c4dee283" upstream="android15-tests-release" />
   <project path="tools/aadevtools" name="platform/tools/aadevtools" groups="pdk" revision="b32fbb6340ee6fe4a25d7b39d84085c084465677" upstream="android15-tests-release" />
