@@ -1,102 +1,109 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-coordinatorlayout-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="13de52548aebd9f91c35bc0acb5dc58cb21e9d0d" upstream="androidx-coordinatorlayout-release" />
+  <project path="build/make" name="platform/build" revision="a1a292ae09964870ed4398242ccab8193665b7c7" upstream="androidx-coordinatorlayout-release" />
 
   
   
   <project path="external/dexter" name="platform/tools/dexter" clone-depth="1" revision="7bc2c8ccf1db5bd95d471f52ecfe732b5722ff61" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="84e391c14eba322ba96f24d86b94b3743d3efe9c" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="157d0b378a0219dc49d0aadc6afb929582bf43d4" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="a0feafb0c59fc480e1ce997a630bf52f701312b5" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="304410e63a5426aa480a450f7386b3e1ff240096" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="ea82b873876703f67948107f0d59691cea51ebd0" upstream="androidx-coordinatorlayout-release" />
-
-  
-  <project path="external/compose-hero-benchmarks/poxedex-compose" name="platform/external/compose-hero-benchmarks/poxedex-compose" clone-depth="1" revision="8e2d50ddccba6a29fb380a33338e12000b665be2" upstream="androidx-coordinatorlayout-release" />
-
-  
-  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="7d9b8460a7c80aa90022fb18beb9647c656029f8" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="554ec2c1ece82dcbe358592caf4c86a11ea49e62" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="eb46791a6513bd2575f4f08136ff8d14c0c689bc" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="1fde89600134f0f989eaf1a304cdb3c48357a597" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="fc3fd63751b5b6e9e24827dc99d6235c5a54015b" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="ab673acc5e2c598b4ec3c47e071a8f710b8b5c74" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="030b2eff8e57632803f41d58bdcfe4f2f1a6e5eb" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="e385220a50d6c8909820335e3d7993fbba229169" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="62b26e4bdc0c1d972bac87cabec3cbae6e6dcf8f" upstream="androidx-coordinatorlayout-release" />
-  
-  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="5bcfe68ed57d4507f6ccc037e588e8ca779f4088" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" clone-depth="1" revision="93049dd70979c8baaab75728d898001fa9f3dec2" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/webview_support_interfaces" name="platform/external/webview_support_interfaces" clone-depth="1" revision="70cbaf24a761193cc38a1134860d09299167c2f7" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/icing" name="platform/external/icing" clone-depth="1" revision="58a65dc3ecec665bea9e1a06ebc8520ec95fbcb7" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/icu" name="platform/external/icu" clone-depth="1" revision="9f93378a842fefa930d71e9ab723629d084a0dfa" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/sqlite" name="platform/external/sqlite" clone-depth="1" revision="16354a8dc0e6b351113d3114d311435a4c3da3f2" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/abseil-cpp" name="platform/external/abseil-cpp" clone-depth="1" revision="2c14bf0c3330ac12220d7f8a9fc5946813c32b08" upstream="androidx-coordinatorlayout-release" />
   <project path="external/ink-stroke-modeler" name="platform/external/ink-stroke-modeler" clone-depth="1" revision="6cc88454220223252d5e7cb22fc46518b5595a0e" upstream="androidx-coordinatorlayout-release" />
-  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="53775d06528db0ebac9b6eaf51b2b3815d6dbe4d" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/libyuv" name="platform/external/libyuv" clone-depth="1" revision="8eb7593c5d9f8cdebae467f0df5dbd30d47477b1" upstream="androidx-coordinatorlayout-release" />
+
+  
+  <project path="external/compose-hero-benchmarks/pokedex-compose" name="platform/external/compose-hero-benchmarks/pokedex-compose" clone-depth="1" revision="bfec5715258032acee316d1a9e79856541da1e5e" upstream="androidx-coordinatorlayout-release" />
+  <project path="external/compose-hero-benchmarks/pokedex-views" name="platform/external/compose-hero-benchmarks/pokedex-views" clone-depth="1" revision="86247a72669929edbd86661120af269b264c5744" upstream="androidx-coordinatorlayout-release" />
+
+  
+  <project path="external/protobuf" name="platform/external/protobuf" clone-depth="1" revision="74bff3d1e9919ffe67945f769fe8f0c5669f6c81" upstream="androidx-coordinatorlayout-release" />
+
+  <project path="prebuilts/androidx/android-cli" name="platform/prebuilts/androidx/android-cli" clone-depth="1" revision="2fcdc23f503bfdfcd42000c5c4a00c84d4a62ef6" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/chrome-for-testing" name="platform/prebuilts/androidx/chrome-for-testing" clone-depth="1" revision="14a6c2a74783cbc998bae16ecf185c8dcc11632a" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/external" name="platform/prebuilts/androidx/external" clone-depth="1" revision="173c8f55f9148adce542019035efb494681d3e92" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/internal" name="platform/prebuilts/androidx/internal" clone-depth="1" revision="c21ec7d927ffe50fa17734c13f9958a6dadd3bd0" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/javascript-for-kotlin" name="platform/prebuilts/androidx/javascript-for-kotlin" clone-depth="1" revision="60480755c253290e65abaa49363abf12297979ee" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/credentials" name="platform/prebuilts/androidx/credentials" clone-depth="1" revision="02b5cc5d485d57eda74e645fb0bfb583fbd89063" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/exoplayer" name="platform/prebuilts/androidx/exoplayer" clone-depth="1" revision="8759893b15627e09a76140ae550f478c782d3387" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/ink" name="platform/prebuilts/androidx/ink" clone-depth="1" revision="4e9b651e593ae738d3322dd949019c426f56f12c" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/traceprocessor" name="platform/prebuilts/androidx/traceprocessor" clone-depth="1" revision="a265423506ce97088cbca805e23efd2c5a9ea6e8" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/konan" name="platform/prebuilts/androidx/konan" clone-depth="1" revision="d726cbf8940103f0d63004ac8e4a876fe50c2539" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/webgpu" name="platform/prebuilts/androidx/webgpu" clone-depth="1" revision="c82f7ad7993194b036cb677c39594bddeaa17790" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/androidx/xr" name="platform/prebuilts/androidx/xr" clone-depth="1" revision="f3f288787ae4534eea57a047f45f81ea935923c0" upstream="androidx-coordinatorlayout-release" />
 
   
   
-  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="bc95e25d24424938ddc9135b8475eedf1fe4bca7" upstream="androidx-coordinatorlayout-release" />
-  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="46d435b3e9436fdff8ebeab9e30cf2f792d15f76" upstream="androidx-coordinatorlayout-release" />
-  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="cff7a4e6a85879d83d03049ce8c9a2b6482d4691" upstream="androidx-coordinatorlayout-release" />
-  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="c50b7c8555cef2fd4d3dda3522160b47376ff074" upstream="androidx-coordinatorlayout-release" />
+  <project path="tools/metalava" name="platform/tools/metalava" clone-depth="1" revision="c158e28b0903a79d6854df1a68c765a9144d2a52" upstream="androidx-coordinatorlayout-release" />
   
+  <project path="prebuilts/checkstyle" name="platform/prebuilts/checkstyle" clone-depth="1" revision="c563f4f3a59a3228a13c4a50f8377140ab36641c" upstream="androidx-coordinatorlayout-release" />
+  <project path="tools/repohooks" name="platform/tools/repohooks" clone-depth="1" revision="e809138f02c7dbc07cf4e25e6e2659fe8e83b439" upstream="androidx-coordinatorlayout-release" />
+  <project path="tools/fetch_artifact" name="tools/fetch_artifact" clone-depth="1" revision="7710d48254b1d9550cd7e54180b90d55516e5619" upstream="androidx-coordinatorlayout-release" />
   
   <project path="prebuilts/protobuf" name="platform/prebuilts/protobuf" clone-depth="1" revision="1032661b632ef1325de4c4829008dab8571c346e" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="645a7339a4d59d46aa57f89dd70eeed02d88cacc" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" revision="b6ad4bc1cddd031e2e9d919211e98a6112a764a5" upstream="androidx-coordinatorlayout-release" />
 
 
   
   
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="98250ef7a79bd82df5ba9da86907241303cbc7a1" upstream="androidx-coordinatorlayout-release" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" clone-depth="1" revision="9469b643d3bd835dc12faaa4dc3bd14433ae344e" upstream="androidx-coordinatorlayout-release" />
 
   
-  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="299e3a1c64506a958c4c487377a9c196b69e3edb" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-darwin/platforms" name="platform/prebuilts/fullsdk/platforms" clone-depth="1" revision="9730dd9304bc541780fc71661b99c43071ab8175" upstream="androidx-coordinatorlayout-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/platforms" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="dc3f885ebe8ddc75bd9cf2d567eef4d1ed433a09" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-darwin/sources" name="platform/prebuilts/fullsdk/sources" clone-depth="1" revision="ad935ea2d8728ceedf30fcc904cdd1c46e230cd2" upstream="androidx-coordinatorlayout-release">
     <linkfile src="." dest="prebuilts/fullsdk-linux/sources" />
   </project>
 
   
-  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="7540faf0c99f587e09526916f2663bc0342c0724" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-darwin/build-tools" name="platform/prebuilts/fullsdk-darwin/build-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="ccf795de4d76b97e9ec135f52ba20ac988055adf" upstream="androidx-coordinatorlayout-release" />
   <project path="prebuilts/fullsdk-darwin/cmdline-tools" name="platform/prebuilts/fullsdk-darwin/cmdline-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="259b6a33db4ae6e34ce4121c79b48b222f9815ff" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="ac30e5a581a966d4bdcd744651ed91651f92b913" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-darwin/platform-tools" name="platform/prebuilts/fullsdk-darwin/platform-tools" clone-depth="1" groups="notdefault,platform-darwin" revision="a6d6ac1a36e829309bf826b71b6726a6daf5684f" upstream="androidx-coordinatorlayout-release" />
   <project path="prebuilts/fullsdk-darwin/tools" name="platform/prebuilts/fullsdk-darwin/tools" clone-depth="1" groups="notdefault,platform-darwin" revision="204b8813ffedef10214a4afe04c843f1ee9e4fe7" upstream="androidx-coordinatorlayout-release" />
 
   
-  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="5d7b781b0367b83e6249396cbd4f9fab0a5313f0" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-linux/build-tools" name="platform/prebuilts/fullsdk-linux/build-tools" clone-depth="1" groups="notdefault,platform-linux" revision="fd91fadef5bd0c50fc90b4388fa8e435a3b3cc74" upstream="androidx-coordinatorlayout-release" />
   <project path="prebuilts/fullsdk-linux/cmdline-tools" name="platform/prebuilts/fullsdk-linux/cmdline-tools" clone-depth="1" groups="notdefault,platform-linux" revision="066e40b1aba006cf95698c9d34a5c50ff992f5d8" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="6338bc478d338ffdb60b87ab0e4712f3a3473e9c" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-linux/platform-tools" name="platform/prebuilts/fullsdk-linux/platform-tools" clone-depth="1" groups="notdefault,platform-linux" revision="f5a994e0bcb77cfda1202e8213b070379c18cd91" upstream="androidx-coordinatorlayout-release" />
   <project path="prebuilts/fullsdk-linux/tools" name="platform/prebuilts/fullsdk-linux/tools" clone-depth="1" groups="notdefault,platform-linux" revision="2d5e66a40bd1e6d43ee458efea6f1dd5d5166a59" upstream="androidx-coordinatorlayout-release" />
 
 
   
   
-  <project path="prebuilts/fullsdk-darwin/ndk-bundle" name="toolchain/prebuilts/ndk-darwin/r27" revision="ca75344ceaacb4e90888371aa3b640d8f4fbcfa8" clone-depth="1" groups="notdefault,platform-darwin" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" revision="16315cd63cedc05a2769cafb93beb461036e0a27" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-darwin/ndk/30.0.16248370" name="toolchain/prebuilts/ndk-darwin/r30" clone-depth="1" groups="notdefault,platform-darwin" revision="0a1d5ed939c42a7bf50e8a7889b783e55471c65b" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-darwin/cmake" name="platform/prebuilts/cmake/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="16315cd63cedc05a2769cafb93beb461036e0a27" upstream="androidx-coordinatorlayout-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" revision="f321e197944c19d273cec788b9a3e8ca94331248" groups="notdefault,platform-darwin" clone-depth="1" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-darwin/ninja" name="platform/prebuilts/ninja/darwin-x86" groups="notdefault,platform-darwin" clone-depth="1" revision="22ae7330c856ff8cd7227aaa386a17a4dec52f4d" upstream="androidx-coordinatorlayout-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-darwin/native-build-tools/bin/ninja" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ndk-bundle" name="toolchain/prebuilts/ndk/r27" revision="77eba0d553f8f58557f99fa98f327eb5f46e0c8c" clone-depth="1" groups="notdefault,platform-linux" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" revision="3948a21e58e6d06b49ee670f91dbcbc8908777e8" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-linux/ndk/30.0.16248370" name="toolchain/prebuilts/ndk/r30" clone-depth="1" groups="notdefault,platform-linux" revision="92537cd408ece74f1a3d0fe608932c14221e796e" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/fullsdk-linux/cmake" name="platform/prebuilts/cmake/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="3948a21e58e6d06b49ee670f91dbcbc8908777e8" upstream="androidx-coordinatorlayout-release">
     <linkfile src="bin/cmake" dest="prebuilts/fullsdk-linux/native-build-tools/bin/cmake" />
   </project>
-  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" revision="8a10824f74fe0e22af9bf314a837f5b70e2bb67f" groups="notdefault,platform-linux" clone-depth="1" upstream="androidx-coordinatorlayout-release">
+  <project path="prebuilts/fullsdk-linux/ninja" name="platform/prebuilts/ninja/linux-x86" groups="notdefault,platform-linux" clone-depth="1" revision="4287af3255c9f54837e5b2063d039a1363328d89" upstream="androidx-coordinatorlayout-release">
     <linkfile src="ninja" dest="prebuilts/fullsdk-linux/native-build-tools/bin/ninja" />
   </project>
+
   
   
+  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" clone-depth="1" revision="18a77dbfd8c02e7230f6f01d2783601cae5fb851" upstream="androidx-coordinatorlayout-release" />
+  <project path="prebuilts/jdk/jdk25" name="platform/prebuilts/jdk/jdk25" clone-depth="1" revision="84847764ced186312db3a1378135018059ce94de" upstream="androidx-coordinatorlayout-release" />
+
   
-  <project path="prebuilts/jdk/jdk17" name="platform/prebuilts/jdk/jdk17" revision="f6e0a88cff84fd57741fc671208ba0326f036c8e" clone-depth="1" upstream="androidx-coordinatorlayout-release" />
-  <project path="prebuilts/jdk/jdk21" name="platform/prebuilts/jdk/jdk21" revision="74744435645bc33cfbeb3187d1550ded2f61a55f" clone-depth="1" upstream="androidx-coordinatorlayout-release" />
-  
-  
-  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="4cddb5c3e5ed2d606406202729b8394511fc9e87" upstream="androidx-coordinatorlayout-release" />
+  <project path="golden" name="platform/frameworks/support-golden" clone-depth="1" revision="9f9228766718ec5e9cce6e559fcf5420bb9563d1" upstream="androidx-coordinatorlayout-release" />
 
   
 
   
-  <project path="frameworks/support" name="platform/frameworks/support" revision="c75bdbab8bebc2c00788ed8427172c46b9463345" upstream="androidx-coordinatorlayout-release" />
+  <project path="frameworks/support" name="platform/frameworks/support" revision="a886bee01ce1e0f9dc37ffadfc1ec714afe432d6" upstream="androidx-coordinatorlayout-release">
+    <linkfile src=".agents" dest=".agents" />
+    <linkfile src="development/branch-config/androidx-main.properties" dest="androidx-branch.properties" />
+  </project>
   
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
