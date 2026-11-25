@@ -1,7 +1,7 @@
 <manifest>
   <remote name="aosp" fetch=".." review="https://android-review.googlesource.com/" />
   <default revision="androidx-wear-wear-ongoing-release" remote="aosp" />
-  <project path="build/make" name="platform/build" revision="a4c26fe4b24597fb42e85b52ae68ab03928cdedc" upstream="androidx-wear-wear-ongoing-release" />
+  <project path="build/make" name="platform/build" revision="733170cbde3dfda1f329c57f2f2f68be5e3b1158" upstream="androidx-wear-wear-ongoing-release" />
 
   
   
